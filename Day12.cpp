@@ -25,4 +25,21 @@ int main() {
     for(int i=2; i<=n; i++)
         dp[i] = dp[i-1]+dp[i-2];
     cout<<dp[n];
+    /* When allowed to climb any number from a set of positive integers X
+    vector<int> set;
+    int set_size, temp;
+    for(int i=0;i<set_size;i++) {
+        cin>>temp;
+        set.push_back(temp);
+    }
+  
+    for(int i=2;i<=n;i++) {
+        dp[i] = 0;
+        for(int j=0;j<set_size && set[j]<=i;j++) {
+            dp[i] += dp[i-set[j]]
+        }
+    }
+    cout<<dp[n];
+    */
 }
+
