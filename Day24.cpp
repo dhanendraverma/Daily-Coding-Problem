@@ -11,7 +11,7 @@ single-threaded program, so there is no need for actual locks or mutexes. Each m
 the tree.
 ***************************************************************************************************************************************/
 
-1.Ime complexity = is_lock - O(1)
+1.Time complexity = is_lock - O(1)
                   lock - O(m+h)
                   unlock - O(m+h)
 class BinaryTreeLock{
@@ -60,4 +60,58 @@ class BinaryTreeLock{
 			return false;
 	}
 }
-}
+
+
+2.Time complexity = is_lock - O(1)
+                  lock - O(h)
+                  unlock - O(h)
+
+public class BinaryTreeWithLock {
+	struct BinaryTreeNode {
+		int val;
+		boolean locked = false;
+		BinaryTreeNode parent;
+		BinaryTreeNode leftChild;
+		BinaryTreeNode rightChild;
+		int lockedDescendantCount = 0;
+    }
+    
+    bool is_locked(BinaryTreeNode node){
+    	return node.locked;
+    }
+    
+    bool lock(BinaryTreeNode node){
+    	if(!lockunlock(node))
+    		return false;
+    	node.locked = true;
+    	BinaryTreeNode parentNode = node.parent;
+    	while(parentNode!=NULL){
+    		parentNode.lockedDescendantCount += 1;
+    		parentNode = parentNode.parent;
+    	}
+    	return true;
+    }
+
+	 bool unlock(BinaryTreeNode node){
+    	if(!lockunlock(node))
+    		return false;
+    	node.locked = false;
+    	BinaryTreeNode parentNode = node.parent;
+    	while(parentNode!=NULL){
+    		parentNode.lockedDescendantCount -= 1;
+    		parentNode = parentNode.parent;
+    	}
+    	return true;
+    }
+    
+    bool lockunlock(node){
+    	if(node.lockedDescendantCount>0)
+    		return false;
+    	
+    	BinaryTreeNode parentNode = node.parent;
+    	while(parentNode!=NULL){
+    		if(parentNode.locked)
+    			return false;
+    		prentNode = parentNode.parent;
+    	}
+    }
