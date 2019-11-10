@@ -18,9 +18,7 @@ class LinkedList{
 					next = NULL;
 				}
 		};
-		
 		node* head;
-		
 		node* deleteNode(int nodenum){
 			node *first = head;
 			node *second = head;
