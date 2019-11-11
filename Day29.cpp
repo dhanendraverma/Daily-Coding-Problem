@@ -10,8 +10,8 @@ characters. You can assume the string to be decoded is valid.
 using namespace std;
 
 string encoding(string str){
-	int ltrCnt = 1;
 	string encoded = "";
+	int ltrCnt = 1;
 	char prev = str[0];
 	for(int i=1;i<str.length();i++){
 		if(str[i]==prev)
