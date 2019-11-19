@@ -1,4 +1,4 @@
-/****************************************************************************************************************************************
+""/****************************************************************************************************************************************
 This problem was asked by Google.
 Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the 
 non-duplicated integer.
@@ -14,9 +14,10 @@ using namespace std;
 int non_duplicate(vector<int> numbers){
 	int one=0,two=0,common_bits;
 	for(int i=0;i<numbers.size();i++){
-		two = two|(one & numbers[i]);
-		one = one^numbers[i];
-		common_bits = ~(one&two);
+		two = two|(one & numbers[i]);  //if seeing second time "two" gets the bits of current element
+		one = one^numbers[i]; //if seeing the first or third time "one" has the bits of current element
+		common_bits = ~(one&two); //unset the common bits between "one" and "two", which happens when element is appearing third
+					//time
 		one&=common_bits;
 		two&=common_bits;
 	}
