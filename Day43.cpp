@@ -22,10 +22,16 @@ class Stack{
 		struct Node* head=NULL;
 		int mx = INT_MIN;
 		void push(int key){
-			mx = max(mx,key);
-	
 			Node* newnode = new Node();
-			newnode->data = key;
+			if(head==NULL)
+				mx = key;
+			if(key>mx){
+				newnode->data = 2*key - mx;
+				mx = key;
+			}
+			else
+				newnode->data = key;
+			cout<<mx<<" "<<newnode->data<<endl;
 			newnode->next = head;
 			head = newnode;
 			
@@ -38,15 +44,14 @@ class Stack{
 		 	head = head->next;
 		 	int key = temp->data;
 		 	free(temp);
-		 	if(key==mx){
-		 		mx = INT_MIN;
-		 		Node* temp = head;
-		 		while(temp){
-		 			mx = max(mx,temp->data);
-		 			// cout<<"mx"<<mx<<endl;
-		 			temp = temp->next;
-		 		}
+		 	if(key>mx)
+		 	{
+		 		int temp  = mx;
+		 		mx = 2*mx-key;
+		 		return temp;
+		 		
 		 	}
+		 		
 		 	return key;
 			
 		}
