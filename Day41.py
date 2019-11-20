@@ -1,4 +1,4 @@
-/****************************************************************************************************************************************
+"""
 This problem was asked by Facebook.
 Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute 
 the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically
@@ -9,7 +9,7 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list 
 ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically
 smaller.
-*****************************************************************************************************************************************/
+"""
 
 
 def getItinerary(flights, currentItinerary):
