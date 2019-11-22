@@ -4,7 +4,6 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 enqueue, which inserts an element into the queue, and dequeue, which removes it.
 ***************************************************************************************************************************************/
 
-
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -35,7 +34,6 @@ class Queue{
 
 
 int main() {
-	stack<int> s1,s2;
 	Queue Q;
 	Q.enQueue(2);
 	Q.enQueue(5);
