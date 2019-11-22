@@ -13,7 +13,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog" and 
 using namespace std;
 
 bool word_break(string str,int k,vector<string>& ans){
-	int cnt=0,prev=0,i;
+	int cnt=0,prev=0,i=0;
 	bool flag = false;
 	while(true){
 		while(cnt<=k){
@@ -26,6 +26,8 @@ bool word_break(string str,int k,vector<string>& ans){
 				i = cnt+prev;
 			cnt++;
 		}
+		 if(prev==i+1 && cnt==11 )
+			return false;
 		if(flag){
 			ans.push_back(str.substr(prev,cnt));
 			break;
