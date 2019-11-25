@@ -24,11 +24,13 @@ Should return null, since we have an infinite loop.
 using namespace std;
 
 int dfs(string s,vector<int>& freq,vector<vector<int>>& adj,vector<bool> isZeroIn, int u){
-	int temp_ans = ++freq[s[u]-'A'];
+	int temp_ans = ++freq[s[u]-'A']; //increase the frequency of the current node letter and recur for all of its adjacent till dept
+					//so max length path can be traversed
 	for(auto v:adj[u])
 		temp_ans = max(temp_ans,dfs(s,freq,adj,isZeroIn,v));
 	--freq[s[u]-'A'];
-	isZeroIn[u] = false;
+	isZeroIn[u] = false; //we might explore again the same path from the any other end in recursion call and keep looping so make 
+			//explored vertex false
 	return temp_ans;
 }
 
@@ -41,14 +43,15 @@ void build_graph(vector<vector<int>> edges,vector<vector<int>>& adj,vector<bool>
 
 int longest_path(string s, vector<vector<int>> edges){
 	int n = s.length();
-	vector<vector<int>> adj_list(n);
-	vector<bool> isZeroIn(n,true);
-	build_graph(edges,adj_list,isZeroIn);
+	vector<vector<int>> adj_list(n); 
+	vector<bool> isZeroIn(n,true);//helps in keeping track of cycles in graph
+	build_graph(edges,adj_list,isZeroIn); //creating adj list representation so that dfs can be easily performed 
 	int ans = 0;
-	vector<int> freq(26,0);
+	vector<int> freq(26,0); //remember the frequency of each letter in the current path being explored
 	for(int i=0;i<n;i++){
-		if(isZeroIn[i])
-			ans = max(ans,dfs(s,freq,adj_list,isZeroIn,i));
+		if(isZeroIn[i]) //if any node has incoming edge it can be part of cycle also there can be longer path wich starts from
+				//it's precedence which has in degree of 0
+			ans = max(ans,dfs(s,freq,adj_list,isZeroIn,i)); //consider all the starting point one by one and return maximum.
 	}
 	return ans;
 }
