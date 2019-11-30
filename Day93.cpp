@@ -9,7 +9,7 @@ run using different edge cases.**/
 #include <iostream>
 #include <climits>
 using namespace std;
-//a strcuture to store and pas information in recursion calls
+//a strcuture to store and pass information in recursion calls
 class Info{
 	public:
 	int mn;
@@ -47,7 +47,7 @@ Info findLargestBST(Node* node, int& ans){
 	Info r = findLargestBST(node->right, ans);
 	Info ret; //a inforation to be returned
   //if left & right subtree root under the current node are BST and current node's value is such that by joining it with the left and
-  //right substree prserves the BST property then subtree under current node would be BST for sure
+  //right substree preserves the BST property then the subtree under current node would be BST for sure
 	if(l.isBST && r.isBST && l.mx<node->data && r.mn>node->data){
 		ret.mn = min(l.mn,node->data);
 		ret.mx = max(r.mx,node->data);
@@ -57,7 +57,7 @@ Info findLargestBST(Node* node, int& ans){
 	}
   //if current node doesn't makes BST then reset to check if tree above this is BST
 	ret.isBST = false;
-	ret.size = 1;
+	ret.size = max(l.size,r.size);
 	return ret;
 }
 
