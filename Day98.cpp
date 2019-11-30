@@ -17,18 +17,18 @@ using namespace std;
 
 vector<vector<int>> dir = {{0,1},{0,-1},{1,0},{-1,0}};
 
-bool search(vector<vector<char>>& board, string word, int row, int col,int k){
-	if(k==word.length()-1)
-		return true;
+bool search(vector<vector<char>>& board, string word, int row, int col,int k, int preRow, int preCol){
 	if(word[k]!=board[row][col])
 		return false;
+	if(k==word.length()-1)
+		return true;
 	int n_row,n_col;
 	for(int i=0;i<4;i++){
 		n_row = row+dir[i][0];
 		n_col = col+dir[i][1];
-		if(n_row<0 || n_row>=board.size() || n_col<0 || n_col>=board[n_row].size())
+		if(n_row<0 || n_row>=board.size() || n_col<0 || n_col>=board[n_row].size() || (n_row==preRow && n_col==preCol))
 			continue;
-		if(search(board,word,n_row,n_col,k+1))
+		if(search(board,word,n_row,n_col,k+1,row,col))
 			return true;
 	}
 	return false;
@@ -36,8 +36,8 @@ bool search(vector<vector<char>>& board, string word, int row, int col,int k){
 
 bool WordExist(vector<vector<char>>& board, string word){
 	for(int i=0;i<board.size();i++){
-		for(int j=0;j<board[i].size();i++){
-			if(search(board,word,i,j,0))
+		for(int j=0;j<board[i].size();j++){
+			if(search(board,word,i,j,0,-1,-1))
 				return true;
 		}
 	}
@@ -50,7 +50,7 @@ int main() {
 								  {'S','F','C','S'},
 								  {'A','D','E','E'}};
 	cout<<WordExist(board,"ABCCED");
-	// cout<<WordExist(board,"SEE");
+	cout<<WordExist(board,"SEE");
 	cout<<WordExist(board,"ABCB");
 	return 0;
 }
