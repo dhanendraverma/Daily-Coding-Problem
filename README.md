@@ -35,5 +35,5 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 [a, b] < [c, d]
 If a < c OR a==c AND b < d.
 
-[Solution]((https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day101.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day101.cpp)
 - - - -
