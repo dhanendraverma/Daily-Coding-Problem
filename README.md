@@ -65,3 +65,16 @@ Given an integer list where each number represents the number of hops you can ma
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
+- - - -
+### Day 107 ###
+This problem was asked by Microsoft.
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day107.cpp)
