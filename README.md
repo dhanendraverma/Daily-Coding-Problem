@@ -43,3 +43,11 @@ Given a list of integers and a number K, return which contiguous elements of the
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day102.cpp)
+- - - -
+### Problem 103 ###
+This problem was asked by Square.
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+If there is no substring containing all the characters in the set, return null.
+
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day103.cpp)
