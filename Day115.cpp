@@ -70,6 +70,6 @@ int main() {
     S->right     = new Node('6');  
     S->left     = new Node('4');  
     S->left->right = new Node('5');
-      cout<<isSubtree(T,S);
-	return 0;
+    cout<<isSubtree(T,S);
+    return 0;
 }
