@@ -23,11 +23,10 @@ using namespace std;
 class TrieNode{
 	public:
 	int frequency;
-	TrieNode *children[MAX];
+	vector<TrieNode*> children;
 	TrieNode(){
 		this->frequency = 1;
-		for(int i=0;i<256;i++)
-			this->children[i] = NULL;
+		children = vector<TrieNode*>(MAX,NULL);
 	}
 };
 
