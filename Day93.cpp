@@ -45,9 +45,9 @@ Info findLargestBST(Node* node, int& ans){
 	
 	Info l = findLargestBST(node->left, ans); //solution is building up in bottom up manner to consider both childs before the node
 	Info r = findLargestBST(node->right, ans);
-	Info ret; //a inforation to be returned
-  //if left & right subtree root under the current node are BST and current node's value is such that by joining it with the left and
-  //right substree preserves the BST property then the subtree under current node would be BST for sure
+	Info ret; //Information to be returned
+  //if left & right subtree under the current node are BST and current node's value is such that by joining it with the left and
+  //right substree it preserves the BST property then the subtree under current node would be BST for sure
 	if(l.isBST && r.isBST && l.mx<node->data && r.mn>node->data){
 		ret.mn = min(l.mn,node->data);
 		ret.mx = max(r.mx,node->data);
@@ -55,8 +55,8 @@ Info findLargestBST(Node* node, int& ans){
 		ans = max(ans,ret.size); //if current built tree has size more than the encoutered before then update the answer.
 		return ret;
 	}
-  //if current node doesn't makes BST then reset to check if tree above this is BST
-	ret.isBST = false;
+  //if current node doesn't makes BST then return maximum size BST between left and right
+	ret.BST = false;
 	ret.size = max(l.size,r.size);
 	return ret;
 }
