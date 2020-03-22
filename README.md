@@ -492,7 +492,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is
 lexicographically smaller.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day41.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day41.py)
 - - - -
 
 #### Problem 42
@@ -627,7 +627,7 @@ also remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day52.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day52.py)
 - - - -
 
 #### Problem 53
@@ -702,7 +702,7 @@ For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return tru
 15, 10} and {20, 35}, which both add up to 55. Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't
 split it up into two subsets that add up to the same sum.
 
-[Solution](solutions/problem_060.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day60.cpp)
 - - - -
 
 #### Problem 61
@@ -711,7 +711,7 @@ Implement integer exponentiation. That is, implement the pow(x, y) function, whe
 Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
 
-[Solution](solutions/problem_061.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day61.cpp)
 - - - -
 
 #### Problem 62
@@ -723,7 +723,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 * Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
-[Solution](solutions/problem_062.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day62.cpp)
 - - - -
 
 #### Problem 63
@@ -740,7 +740,7 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS',
 you should return true, since it's the last row.
 
-[Solution](solutions/problem_063.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day63.cpp)
 - - - -
 
 #### Problem 64
@@ -748,7 +748,7 @@ This problem was asked by Google.
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
-[Solution](solutions/problem_064.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day64.cpp)
 - - - -
 
 #### Problem 65
@@ -766,7 +766,7 @@ You should print out the following:
 1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12
 ```
 
-[Solution](solutions/problem_065.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day65.cpp)
 - - - -
 
 #### Problem 66
@@ -775,7 +775,7 @@ Assume you have access to a function toss_biased() which returns 0 or 1 with a p
 100 or 100-0). You do not know the bias of the coin.
 Write a function to simulate an unbiased coin toss.
 
-[Solution](solutions/problem_066.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day66.cpp)
 - - - -
 
 #### Problem 67
@@ -787,7 +787,7 @@ should also remove the least frequently used item. If there is a tie, then the l
 * `get(key)`: gets the value at key. If no such key exists, return null. 
 Each operation should run in O(1) time.
 
-[Solution](solutions/problem_067.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day67.cpp)
 - - - -
 
 #### Problem 68
@@ -813,7 +813,7 @@ The board would look like this:
 ```
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-[Solution](solutions/problem_068.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day68.cpp)
 - - - -
 
 #### Problem 69
@@ -822,7 +822,7 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
 You can assume the list has at least three integers.
 
-[Solution](solutions/problem_069.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day69.cpp)
 - - - -
 
 #### Problem 70
@@ -830,7 +830,7 @@ A number is considered perfect if its digits sum up to exactly 10.
 Given a positive integer n, return the n-th perfect number.
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-[Solution](solutions/problem_070.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day70.cpp)
 - - - -
 
 #### Problem 71
@@ -839,7 +839,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive) with un
 rand5() that returns an integer from 1 to 5 (inclusive).
 (repeated question - Problem 45)
 
-[Solution](solutions/problem_071.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day71.cpp)
 - - - -
 
 #### Problem 72
@@ -867,14 +867,14 @@ A
 ```
 Should return null, since we have an infinite loop.
 
-[Solution](solutions/problem_072.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day72.cpp)
 - - - -
 
 #### Problem 73
 This problem was asked by Google.
 Given the head of a singly linked list, reverse it in-place.
 
-[Solution](solutions/problem_073.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day73.cp)
 - - - -
 
 #### Problem 74
@@ -895,7 +895,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-[Solution](solutions/problem_074.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day74.cp)
 - - - -
 
 #### Problem 75
@@ -905,7 +905,7 @@ necessarily have to be contiguous.
 For example, given the array `[0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]`, the longest increasing subsequence has
 length 6: it is `0, 2, 6, 9, 11, 15`.
 
-[Solution](solutions/problem_075.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day75.cp)
 - - - -
 
 #### Problem 76
@@ -939,7 +939,7 @@ tsr
 ```
 Your function should return 3, since we would need to remove all the columns to order it.
 
-[Solution](solutions/problem_076.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day76.cpp)
 - - - -
 
 #### Problem 77
@@ -949,14 +949,14 @@ merged.
 The input list is not necessarily ordered in any way.
 For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1, 3), (4, 10), (20, 25)]`.
 
-[Solution](solutions/problem_077.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day77.cpp)
 - - - -
 
 #### Problem 78
 This problem was asked recently by Google.
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-[Solution](solutions/problem_078.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day78.cpp)
 - - - -
 
 #### Problem 79
@@ -967,7 +967,7 @@ Given an array of integers, write a function to determine whether the array coul
 decreasing.
 Given the array `[10, 5, 1]`, you should return false, since we can't modify any one element to get a non-decreasing array.
 
-[Solution](solutions/problem_079.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day79.cpp)
 - - - -
 
 #### Problem 80
@@ -981,7 +981,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-[Solution](solutions/problem_080.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day80.cpp)
 - - - -
 
 #### Problem 81
@@ -991,7 +991,7 @@ represent. You can assume each valid number in the mapping is a single digit.
 For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` should return `['ad', 'ae', 'af', 'bd', 'be',
 'bf', 'cd', 'ce', 'cf']`.
 
-[Solution](solutions/problem_081.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day81.cp)
 - - - -
 
 #### Problem 82
@@ -999,7 +999,7 @@ This problem was asked Microsoft.
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
 
-[Solution](solutions/problem_082.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day82.cp)
 - - - -
 
 #### Problem 83
@@ -1022,7 +1022,7 @@ should become:
   f e  d
 ```
 
-[Solution](solutions/problem_083.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day83.cp)
 - - - -
 
 #### Problem 84
@@ -1039,7 +1039,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Solution](solutions/problem_084.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day84.cp)
 - - - -
 
 #### Problem 85
@@ -1047,7 +1047,7 @@ This problem was asked by Facebook.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You
 can assume b can only be 1 or 0.
 
-[Solution](solutions/problem_085.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day85.cp)
 - - - -
 
 #### Problem 86
@@ -1057,7 +1057,7 @@ valid (i.e. each open parenthesis is eventually closed).
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must
 remove all of them.
 
-[Solution](solutions/problem_086.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day86.cp)
 - - - -
 
 #### Problem 87
@@ -1080,14 +1080,14 @@ A N B
 ```
 is considered valid.
 
-[Solution](solutions/problem_087.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day87.cp)
 - - - -
 
 #### Problem 88
 This question was asked by ContextLogic.
 Implement division of two positive integers without using the division, multiplication, or modulus operators.Return the quotient as an integer, ignoring the remainder.
 
-[Solution](solutions/problem_088.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day88.cp)
 - - - -
 
 #### Problem 89
@@ -1096,7 +1096,7 @@ Determine whether a tree is a valid binary search tree.
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child
 must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
-[Solution](solutions/problem_089.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day89.cp)
 - - - -
 
 #### Problem 90
@@ -1104,7 +1104,7 @@ This question was asked by Google.
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in
 (uniform).
 
-[Solution](solutions/problem_090.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day90.cp)
 - - - -
 
 #### Problem 91
@@ -1119,7 +1119,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](solutions/problem_091.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day91.cp)
 - - - -
 
 #### Problem 92
@@ -1130,7 +1130,7 @@ Return null if there is no such ordering.
 For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100',
 'CSC200', 'CSCS300']`.
 
-[Solution](solutions/problem_092.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day92.cp)
 - - - -
 
 #### Problem 93
@@ -1138,7 +1138,7 @@ This problem was asked by Apple.
 Given a tree, find the largest tree/subtree that is a BST.
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Solution](solutions/problem_093.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day93.cp)
 - - - -
 
 #### Problem 94
@@ -1146,7 +1146,7 @@ This problem was asked by Google.
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and
 does not need to go through the root.
 
-[Solution](solutions/problem_094.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day94.cp)
 - - - -
 
 #### Problem 95
@@ -1157,7 +1157,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 should return `[1,2,3]`.
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Solution](solutions/problem_095.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day95.cp)
 - - - -
 
 #### Problem 96
@@ -1165,7 +1165,7 @@ This problem was asked by Microsoft.
 Given a number in the form of a list of digits, return all possible permutations.
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-[Solution](solutions/problem_096.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day96.cp)
 - - - -
 
 #### Problem 97
