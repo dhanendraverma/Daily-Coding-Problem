@@ -1104,7 +1104,7 @@ This question was asked by Google.
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in
 (uniform).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day90.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day90.py)
 - - - -
 
 #### Problem 91
@@ -1119,7 +1119,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day91.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day91.py)
 - - - -
 
 #### Problem 92
@@ -1138,7 +1138,7 @@ This problem was asked by Apple.
 Given a tree, find the largest tree/subtree that is a BST.
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day93.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day93.cpp)
 - - - -
 
 #### Problem 94
@@ -1146,7 +1146,7 @@ This problem was asked by Google.
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and
 does not need to go through the root.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day94.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day94.cpp)
 - - - -
 
 #### Problem 95
@@ -1157,7 +1157,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 should return `[1,2,3]`.
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day95.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day95.cpp)
 - - - -
 
 #### Problem 96
@@ -1165,7 +1165,7 @@ This problem was asked by Microsoft.
 Given a number in the form of a list of digits, return all possible permutations.
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day96.cp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day96.cpp)
 - - - -
 
 #### Problem 97
@@ -1214,7 +1214,7 @@ For example, given the following board:
 ```
 `exists(board, "ABCCED")` returns true, `exists(board, "SEE")` returns true, `exists(board, "ABCB")` returns false.
 
-[Solution]https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day98.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day98.cpp)
 - - - -
 
 #### Problem 99
