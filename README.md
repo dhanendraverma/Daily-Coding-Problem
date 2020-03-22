@@ -197,8 +197,8 @@ level sub-directory subsubdir1. subdir2 contains a second-level sub-directory su
 We are interested in finding the longest (number of characters) absolute path to a file within our file system. 
 For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is
 32 (notincluding the double quotes).
-Given a string representing the file system in the above format, return the length of the longest absolute path to a file in
-the abstracted file system. If there is no file in the system, return 0.
+<br>Given a string representing the file system in the above format, return the length of the longest absolute path to a file
+in the abstracted file system. If there is no file in the system, return 0.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day17.cpp)
 - - - -
@@ -207,7 +207,7 @@ the abstracted file system. If there is no file in the system, return 0.
 This problem was asked by Google.
 Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray
 of length k.
-For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
+<br>For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7, 8, 8], since:
 ```
 10 = max(10, 5, 2)
 7 = max(5, 2, 7)
