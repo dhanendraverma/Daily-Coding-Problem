@@ -1,10 +1,8 @@
 # Daily-Coding-Problem
 
-# Daily Coding Problem
-
 Solutions to problems sent by dailycodingproblem.com
 
----
+- - - -
 
 #### Problem 1
 
@@ -15,7 +13,7 @@ Bonus: Can you do this in one pass?
 
 [Solution](solutions/problem_001.py)
 
----
+- - - -
 
 #### Problem 2
 
@@ -29,7 +27,7 @@ Follow-up: what if you can't use division?
 
 [Solution](solutions/problem_002.py)
 
----
+- - - -
 
 #### Problem 3
 
@@ -39,7 +37,7 @@ Given the root to a binary tree, implement serialize(root), which serializes the
 
 [Solution](solutions/problem_003.py)
 
----
+- - - -
 
 #### Problem 4
 
@@ -53,7 +51,7 @@ You can modify the input array in-place.
 
 [Solution](solutions/problem_004.py)
 
----
+- - - -
 
 #### Problem 5
 
@@ -70,7 +68,7 @@ Implement car and cdr.
 
 [Solution](solutions/problem_005.py)
 
----
+- - - -
 
 #### Problem 6
 
@@ -82,7 +80,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 [Solution](solutions/problem_006.py)
 
----
+- - - -
 
 #### Problem 7
 
@@ -96,7 +94,7 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 
 [Solution](solutions/problem_007.py)
 
----
+- - - -
 
 #### Problem 8
 
@@ -120,7 +118,7 @@ For example, the following tree has 5 unival subtrees:
 
 [Solution](solutions/problem_008.py)
 
----
+- - - -
 
 #### Problem 9
 
@@ -132,7 +130,7 @@ For example, [2, 4, 6, 8] should return 12, since we pick 4 and 8. [5, 1, 1, 5] 
 
 [Solution](solutions/problem_009.py)
 
----
+- - - -
 
 #### Problem 10
 
@@ -142,7 +140,7 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 
 [Solution](solutions/problem_010.py)
 
----
+- - - -
 
 #### Problem 11
 
@@ -156,7 +154,7 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 
 [Solution](solutions/problem_011.py)
 
----
+- - - -
 
 #### Problem 12
 
@@ -178,7 +176,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 [Solution](solutions/problem_012.py)
 
----
+- - - -
 
 #### Problem 13
 
@@ -190,7 +188,7 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct 
 
 [Solution](solutions/problem_013.py)
 
----
+- - - -
 
 #### Problem 14
 
@@ -202,7 +200,7 @@ Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
 [Solution](solutions/problem_014.py)
 
----
+- - - -
 
 #### Problem 15
 
@@ -212,7 +210,7 @@ Given a stream of elements too large to store in memory, pick a random element f
 
 [Solution](solutions/problem_015.py)
 
----
+- - - -
 
 #### Problem 16
 
@@ -226,7 +224,7 @@ You should be as efficient with time and space as possible.
 
 [Solution](solutions/problem_016.py)
 
----
+- - - -
 
 #### Problem 17
 
@@ -265,7 +263,7 @@ Given a string representing the file system in the above format, return the leng
 
 [Solution](solutions/problem_017.py)
 
----
+- - - -
 
 #### Problem 18
 
@@ -286,7 +284,7 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 
 [Solution](solutions/problem_018.py)
 
----
+- - - -
 
 #### Problem 19
 
@@ -298,7 +296,7 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 
 [Solution](solutions/problem_019.py)
 
----
+- - - -
 
 #### Problem 20
 
@@ -314,7 +312,7 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 [Solution](solutions/problem_020.py)
 
----
+- - - -
 
 #### Problem 21
 
@@ -326,7 +324,7 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 [Solution](solutions/problem_021.py)
 
----
+- - - -
 
 #### Problem 22
 
@@ -340,7 +338,7 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 
 [Solution](solutions/problem_022.py)
 
----
+- - - -
 
 #### Problem 23
 
@@ -363,7 +361,7 @@ and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number
 
 [Solution](solutions/problem_023.py)
 
----
+- - - -
 
 #### Problem 24
 
@@ -380,7 +378,7 @@ You may augment the node to add parent pointers or any other property you would 
 
 [Solution](solutions/problem_024.py)
 
----
+- - - -
 
 #### Problem 25
 
@@ -398,7 +396,7 @@ Given the regular expression `".*at"` and the string "chat", your function shoul
 
 [Solution](solutions/problem_025.py)
 
----
+- - - -
 
 #### Problem 26
 
@@ -412,7 +410,7 @@ Do this in constant space and in one pass.
 
 [Solution](solutions/problem_026.py)
 
----
+- - - -
 
 #### Problem 27
 
@@ -426,7 +424,7 @@ Given the string "([)]" or "((()", you should return false.
 
 [Solution](solutions/problem_027.py)
 
----
+- - - -
 
 #### Problem 28
 
@@ -448,7 +446,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 
 [Solution](solutions/problem_028.py)
 
----
+- - - -
 
 #### Problem 29
 
@@ -461,7 +459,7 @@ Implement run-length encoding and decoding. You can assume the string to be enco
 
 [Solution](solutions/problem_029.py)
 
----
+- - - -
 
 #### Problem 30
 
@@ -475,7 +473,7 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 [Solution](solutions/problem_030.py)
 
----
+- - - -
 
 #### Problem 31
 
@@ -487,7 +485,7 @@ Given two strings, compute the edit distance between them.
 
 [Solution](solutions/problem_031.py)
 
----
+- - - -
 
 #### Problem 32
 
@@ -499,7 +497,7 @@ There are no transaction costs and you can trade fractional quantities.
 
 [Solution](solutions/problem_032.py)
 
----
+- - - -
 
 #### Problem 33
 
@@ -523,7 +521,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 
 [Solution](solutions/problem_033.py)
 
----
+- - - -
 
 #### Problem 34
 
@@ -537,7 +535,7 @@ As another example, given the string "google", you should return "elgoogle".
 
 [Solution](solutions/problem_034.py)
 
----
+- - - -
 
 #### Problem 35
 
@@ -551,7 +549,7 @@ For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should beco
 
 [Solution](solutions/problem_035.py)
 
----
+- - - -
 
 #### Problem 36
 
@@ -561,7 +559,7 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 [Solution](solutions/problem_036.py)
 
----
+- - - -
 
 #### Problem 37
 
@@ -575,7 +573,7 @@ You may also use a list or array to represent a set.
 
 [Solution](solutions/problem_037.py)
 
----
+- - - -
 
 #### Problem 38
 
@@ -585,7 +583,7 @@ You have an N by N board. Write a function that, given N, returns the number of 
 
 [Solution](solutions/problem_038.py)
 
----
+- - - -
 
 #### Problem 39
 
@@ -605,7 +603,7 @@ You can represent a live cell with an asterisk `*` and a dead cell with a dot `.
 
 [Solution](solutions/problem_039.py)
 
----
+- - - -
 
 #### Problem 40
 
@@ -619,7 +617,7 @@ Do this in $O(N)$ time and $O(1)$ space.
 
 [Solution](solutions/problem_040.py)
 
----
+- - - -
 
 #### Problem 41
 
@@ -635,7 +633,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 
 [Solution](solutions/problem_041.py)
 
----
+- - - -
 
 #### Problem 42
 
@@ -649,7 +647,7 @@ For example, given `S = [12, 1, 61, 5, 9, 2]` and `k = 24`, return [12, 9, 2, 1]
 
 [Solution](solutions/problem_042.py)
 
----
+- - - -
 
 #### Problem 43
 
@@ -665,7 +663,7 @@ Each method should run in constant time.
 
 [Solution](solutions/problem_043.py)
 
----
+- - - -
 
 #### Problem 44
 
@@ -681,7 +679,7 @@ For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has th
 
 [Solution](solutions/problem_044.py)
 
----
+- - - -
 
 #### Problem 45
 
@@ -691,7 +689,7 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 
 [Solution](solutions/problem_045.py)
 
----
+- - - -
 
 #### Problem 46
 
@@ -703,7 +701,7 @@ For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The long
 
 [Solution](solutions/problem_046.py)
 
----
+- - - -
 
 #### Problem 47
 
@@ -715,7 +713,7 @@ For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could bu
 
 [Solution](solutions/problem_047.py)
 
----
+- - - -
 
 #### Problem 48
 
@@ -747,7 +745,7 @@ d  e f  g
 
 [Solution](solutions/problem_048.py)
 
----
+- - - -
 
 #### Problem 49
 
@@ -763,7 +761,7 @@ Do this in O(N) time.
 
 [Solution](solutions/problem_049.py)
 
----
+- - - -
 
 #### Problem 50
 
@@ -787,7 +785,7 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 
 [Solution](solutions/problem_050.py)
 
----
+- - - -
 
 #### Problem 51
 
@@ -801,7 +799,7 @@ Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
 [Solution](solutions/problem_051.py)
 
----
+- - - -
 
 #### Problem 52
 
@@ -815,7 +813,7 @@ Each operation should run in O(1) time.
 
 [Solution](solutions/problem_052.py)
 
----
+- - - -
 
 #### Problem 53
 
@@ -825,7 +823,7 @@ Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, fir
 
 [Solution](solutions/problem_053.py)
 
----
+- - - -
 
 #### Problem 54
 
@@ -837,7 +835,7 @@ Implement an efficient sudoku solver.
 
 [Solution](solutions/problem_054.py)
 
----
+- - - -
 
 #### Problem 55
 
@@ -852,7 +850,7 @@ Hint: What if we enter the same URL twice?
 
 [Solution](solutions/problem_055.py)
 
----
+- - - -
 
 #### Problem 56
 
@@ -862,7 +860,7 @@ Given an undirected graph represented as an adjacency matrix and an integer k, w
 
 [Solution](solutions/problem_056.py)
 
----
+- - - -
 
 #### Problem 57
 
@@ -876,7 +874,7 @@ For example, given the string "the quick brown fox jumps over the lazy dog" and 
 
 [Solution](solutions/problem_057.py)
 
----
+- - - -
 
 #### Problem 58
 
@@ -892,7 +890,7 @@ You can assume all the integers in the array are unique.
 
 [Solution](solutions/problem_058.py)
 
----
+- - - -
 
 #### Problem 59
 
@@ -902,7 +900,7 @@ Implement a file syncing algorithm for two computers over a low-bandwidth networ
 
 [Solution](solutions/problem_059.py)
 
----
+- - - -
 
 #### Problem 60
 
@@ -916,7 +914,7 @@ Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't sp
 
 [Solution](solutions/problem_060.py)
 
----
+- - - -
 
 #### Problem 61
 
@@ -930,7 +928,7 @@ For example, pow(2, 10) should return 1024.
 
 [Solution](solutions/problem_061.py)
 
----
+- - - -
 
 #### Problem 62
 
@@ -946,7 +944,7 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
 [Solution](solutions/problem_062.py)
 
----
+- - - -
 
 #### Problem 63
 
@@ -967,7 +965,7 @@ and the target word 'FOAM', you should return true, since it's the leftmost colu
 
 [Solution](solutions/problem_063.py)
 
----
+- - - -
 
 #### Problem 64
 
@@ -979,7 +977,7 @@ Given N, write a function to return the number of knight's tours on an N by N ch
 
 [Solution](solutions/problem_064.py)
 
----
+- - - -
 
 #### Problem 65
 
@@ -1003,7 +1001,7 @@ You should print out the following:
 
 [Solution](solutions/problem_065.py)
 
----
+- - - -
 
 #### Problem 66
 
@@ -1015,7 +1013,7 @@ Write a function to simulate an unbiased coin toss.
 
 [Solution](solutions/problem_066.py)
 
----
+- - - -
 
 #### Problem 67
 
@@ -1030,7 +1028,7 @@ Each operation should run in O(1) time.
 
 [Solution](solutions/problem_067.py)
 
----
+- - - -
 
 #### Problem 68
 
@@ -1062,7 +1060,7 @@ You should return 2, since bishops 1 and 3 attack each other, as well as bishops
 
 [Solution](solutions/problem_068.py)
 
----
+- - - -
 
 #### Problem 69
 
@@ -1076,7 +1074,7 @@ You can assume the list has at least three integers.
 
 [Solution](solutions/problem_069.py)
 
----
+- - - -
 
 #### Problem 70
 
@@ -1088,7 +1086,7 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 
 [Solution](solutions/problem_070.py)
 
----
+- - - -
 
 #### Problem 71
 
@@ -1100,7 +1098,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive) with un
 
 [Solution](solutions/problem_071.py)
 
----
+- - - -
 
 #### Problem 72
 
@@ -1134,7 +1132,7 @@ Should return null, since we have an infinite loop.
 
 [Solution](solutions/problem_072.py)
 
----
+- - - -
 
 #### Problem 73
 
@@ -1144,7 +1142,7 @@ Given the head of a singly linked list, reverse it in-place.
 
 [Solution](solutions/problem_073.py)
 
----
+- - - -
 
 #### Problem 74
 
@@ -1169,7 +1167,7 @@ And there are 4 12's in the table.
 
 [Solution](solutions/problem_074.py)
 
----
+- - - -
 
 #### Problem 75
 
@@ -1181,7 +1179,7 @@ For example, given the array `[0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7,
 
 [Solution](solutions/problem_075.py)
 
----
+- - - -
 
 #### Problem 76
 
@@ -1227,7 +1225,7 @@ Your function should return 3, since we would need to remove all the columns to 
 
 [Solution](solutions/problem_076.py)
 
----
+- - - -
 
 #### Problem 77
 
@@ -1241,7 +1239,7 @@ For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1
 
 [Solution](solutions/problem_077.py)
 
----
+- - - -
 
 #### Problem 78
 
@@ -1251,7 +1249,7 @@ Given k sorted singly linked lists, write a function to merge all the lists into
 
 [Solution](solutions/problem_078.py)
 
----
+- - - -
 
 #### Problem 79
 
@@ -1265,7 +1263,7 @@ Given the array `[10, 5, 1]`, you should return false, since we can't modify any
 
 [Solution](solutions/problem_079.py)
 
----
+- - - -
 
 #### Problem 80
 
@@ -1283,7 +1281,7 @@ d
 
 [Solution](solutions/problem_080.py)
 
----
+- - - -
 
 #### Problem 81
 
@@ -1295,7 +1293,7 @@ For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` shou
 
 [Solution](solutions/problem_081.py)
 
----
+- - - -
 
 #### Problem 82
 
@@ -1307,7 +1305,7 @@ For example, given a file with the content "Hello world", three read7() returns 
 
 [Solution](solutions/problem_082.py)
 
----
+- - - -
 
 #### Problem 83
 
@@ -1335,7 +1333,7 @@ should become:
 
 [Solution](solutions/problem_083.py)
 
----
+- - - -
 
 #### Problem 84
 
@@ -1356,7 +1354,7 @@ For example, this matrix has 4 islands.
 
 [Solution](solutions/problem_084.py)
 
----
+- - - -
 
 #### Problem 85
 
@@ -1366,7 +1364,7 @@ Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, usi
 
 [Solution](solutions/problem_085.py)
 
----
+- - - -
 
 #### Problem 86
 
@@ -1378,7 +1376,7 @@ For example, given the string "()())()", you should return 1. Given the string "
 
 [Solution](solutions/problem_086.py)
 
----
+- - - -
 
 #### Problem 87
 
@@ -1411,7 +1409,7 @@ is considered valid.
 
 [Solution](solutions/problem_087.py)
 
----
+- - - -
 
 #### Problem 88
 
@@ -1421,7 +1419,7 @@ Implement division of two positive integers without using the division, multipli
 
 [Solution](solutions/problem_088.py)
 
----
+- - - -
 
 #### Problem 89
 
@@ -1433,7 +1431,7 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 
 [Solution](solutions/problem_089.py)
 
----
+- - - -
 
 #### Problem 90
 
@@ -1443,7 +1441,7 @@ Given an integer n and a list of integers l, write a function that randomly gene
 
 [Solution](solutions/problem_090.py)
 
----
+- - - -
 
 #### Problem 91
 
@@ -1462,7 +1460,7 @@ for f in functions:
 
 [Solution](solutions/problem_091.py)
 
----
+- - - -
 
 #### Problem 92
 
@@ -1476,7 +1474,7 @@ For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC1
 
 [Solution](solutions/problem_092.py)
 
----
+- - - -
 
 #### Problem 93
 
@@ -1488,7 +1486,7 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 [Solution](solutions/problem_093.py)
 
----
+- - - -
 
 #### Problem 94
 
@@ -1498,7 +1496,7 @@ Given a binary tree of integers, find the maximum path sum between two nodes. Th
 
 [Solution](solutions/problem_094.py)
 
----
+- - - -
 
 #### Problem 95
 
@@ -1512,7 +1510,7 @@ Can you perform the operation without allocating extra memory (disregarding the 
 
 [Solution](solutions/problem_095.py)
 
----
+- - - -
 
 #### Problem 96
 
@@ -1523,15 +1521,11 @@ Given a number in the form of a list of digits, return all possible permutations
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
 [Solution](solutions/problem_096.py)
-
----
+- - - -
 
 #### Problem 97
-
 This problem was asked by Stripe.
-
 Write a map implementation with a get function that lets you retrieve the value of a key at a particular time.
-
 It should contain the following methods:
 ```
     set(key, value, time): # sets key to value for t = time.
@@ -1539,7 +1533,6 @@ It should contain the following methods:
 ```
 
 The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
-
 Consider the following examples:
 
 ```
@@ -1557,18 +1550,13 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-[Solution](solutions/problem_097.py)
-
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day97.cpp)
 - - - -
 
 #### Problem 98
-
 This problem was asked by Coursera.
-
 Given a 2D board of characters and a word, find if the word exists in the grid.
-
 The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
-
 For example, given the following board:
 ```
 [
@@ -1579,18 +1567,14 @@ For example, given the following board:
 ```
 `exists(board, "ABCCED")` returns true, `exists(board, "SEE")` returns true, `exists(board, "ABCB")` returns false.
 
-[Solution](solutions/problem_098.py)
+[Solution]https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day98.cpp)
 
 - - - -
 
 #### Problem 99
-
 This problem was asked by Microsoft.
-
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
-
 For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
-
 Your algorithm should run in O(n) complexity.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day99.cpp)
