@@ -1,6 +1,6 @@
 # Daily-Coding-Problem
 
-Solutions to problems sent by dailycodingproblem.com
+Solutions in cpp/python to problems from the daily mailer of the [DailyCodingProblem](https://www.dailycodingproblem.com)
 
 - - - -
 #### Problem 1
