@@ -42,8 +42,8 @@ You can modify the input array in-place.
 
 #### Problem 5
 This problem was asked by Jane Street.
-cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example,
-car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. 
+For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
 Given this implementation of cons:
 ```python
 def cons(a, b):
@@ -79,7 +79,6 @@ This problem was asked by Google.
 A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
 Given the root to a binary tree, count the number of unival subtrees.
 For example, the following tree has 5 unival subtrees:
-
 ```
    0
   / \
@@ -194,9 +193,9 @@ dir
 ```
 The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second
 level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
-We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example,
-in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not
-including the double quotes).
+We are interested in finding the longest (number of characters) absolute path to a file within our file system. 
+For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is
+32 (notincluding the double quotes).
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in
 the abstracted file system. If there is no file in the system, return 0.
 
@@ -351,7 +350,8 @@ should return the following:
 #### Problem 29
 This problem was asked by Amazon.
 Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive
-characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+characters as a single count and character.
+For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of
 alphabetic characters. You can assume the string to be decoded is valid.
 
@@ -543,7 +543,8 @@ rand7() that returns an integer from 1 to 7 (inclusive).
 #### Problem 46
 This problem was asked by Amazon.
 Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return
-any one.For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+any one.
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
 [Solution](solutions/problem_046.py)
 - - - -
@@ -699,10 +700,10 @@ computers are mostly the same?
 
 #### Problem 60
 This problem was asked by Facebook.
-Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same. For example,
-given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and
-{20, 35}, which both add up to 55. Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up
-into two subsets that add up to the same sum.
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same. 
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10,
+15, 10} and {20, 35}, which both add up to 55. Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't
+split it up into two subsets that add up to the same sum.
 
 [Solution](solutions/problem_060.py)
 - - - -
@@ -991,7 +992,6 @@ d
 This problem was asked by Yelp.
 Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could
 represent. You can assume each valid number in the mapping is a single digit.
-
 For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` should return `['ad', 'ae', 'af', 'bd', 'be',
 'bf', 'cd', 'ce', 'cf']`.
 
@@ -1056,7 +1056,8 @@ can assume b can only be 1 or 0.
 
 #### Problem 86
 This problem was asked by Google.
-Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string
+valid (i.e. each open parenthesis is eventually closed).
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must
 remove all of them.
 
@@ -1088,7 +1089,7 @@ is considered valid.
 
 #### Problem 88
 This question was asked by ContextLogic.
-Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
+Implement division of two positive integers without using the division, multiplication, or modulus operators.Return the quotient as an integer, ignoring the remainder.
 
 [Solution](solutions/problem_088.py)
 - - - -
@@ -1127,9 +1128,11 @@ for f in functions:
 
 #### Problem 92
 This problem was asked by Airbnb.
-We're given a hashmap with a key courseId and value a list of courseIds, which represents that the prerequsite of courseId is courseIds. Return a sorted ordering of courses such that we can finish all courses.
+We're given a hashmap with a key courseId and value a list of courseIds, which represents that the prerequsite of courseId is
+courseIds. Return a sorted ordering of courses such that we can finish all courses.
 Return null if there is no such ordering.
-For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100', 'CSC200', 'CSCS300']`.
+For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100',
+'CSC200', 'CSCS300']`.
 
 [Solution](solutions/problem_092.py)
 - - - -
@@ -1144,15 +1147,18 @@ Given a tree, return the size of the largest tree/subtree that is a BST.
 
 #### Problem 94
 This problem was asked by Google.
-Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
+Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and
+does not need to go through the root.
 
 [Solution](solutions/problem_094.py)
 - - - -
 
 #### Problem 95
 This problem was asked by Palantir.
-Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
-For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]` should return `[1,2,3]`.
+Given a number represented by a list of digits, find the next greater permutation of a number, in terms of lexicographic
+ordering. If there is not greater permutation possible, return the permutation with the lowest value/ordering.
+For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` should return `[2,1,3]`. The list `[3,2,1]`
+should return `[1,2,3]`.
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
 [Solution](solutions/problem_095.py)
@@ -1175,9 +1181,10 @@ It should contain the following methods:
     get(key, time): # gets the key at t = time.
 ```
 
-The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the most recent time.
+The map should work like this. If we set a key at a particular time, it will maintain that value forever or until it gets set
+at a later time. In other words, when we get a key at a time, it should return the value that was set for that key set at the
+most recent time.
 Consider the following examples:
-
 ```
 d.set(1, 1, 0) # set key 1 to value 1 at time 0
 d.set(1, 2, 2) # set key 1 to value 2 at time 2
@@ -1199,7 +1206,8 @@ d.get(1, 0) # get key 1 at time 0 should be 2
 #### Problem 98
 This problem was asked by Coursera.
 Given a 2D board of characters and a word, find if the word exists in the grid.
-The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or
+vertically neighboring. The same letter cell may not be used more than once.
 For example, given the following board:
 ```
 [
@@ -1236,7 +1244,8 @@ You are in an infinite 2D grid where you can move in any of the 8 directions:
     (x-1,y+1),
     (x+1,y-1)
  ```
-You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in which you can achieve it. You start from the first point.
+You are given a sequence of points and the order in which you need to cover the points. Give the minimum number of steps in
+which you can achieve it. You start from the first point.
 Example:
 Input: [(0, 0), (1, 1), (1, 2)]
 Output: 2
@@ -1287,7 +1296,8 @@ For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
 
 ### Day 106 ###
 This problem was asked by Pinterest.
-Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the
+last index starting at index 0.
 For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
