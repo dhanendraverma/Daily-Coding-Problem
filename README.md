@@ -456,8 +456,7 @@ queens can be placed on the board without threatening each other, i.e. no two qu
 
 #### Problem 39
 This problem was asked by Dropbox.
-Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive,
-and at each tick, the following rules apply:
+Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
 Any live cell with less than two live neighbours dies.
 Any live cell with two or three live neighbours remains living.
 Any live cell with more than three live neighbours dies.
