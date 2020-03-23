@@ -1277,7 +1277,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2
 ### Day 103 ###
 This problem was asked by Square.
 Given a string and a set of characters, return the shortest substring containing all the characters in the set.
-For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+<br>For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day103.cpp)
@@ -1295,7 +1295,7 @@ For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
 This problem was asked by Pinterest.
 Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the
 last index starting at index 0.
-For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
+<br>For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
 - - - -
@@ -1317,7 +1317,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
 #### Problem 108
 This problem was asked by Google.
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
-For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+<br>For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
 [Solution](solutions/problem_108.py)
 - - - -
@@ -1325,7 +1325,7 @@ For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B 
 #### Problem 109
 This problem was asked by Cisco.
 Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
-For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
+<br>For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 Bonus: Can you do this in one line?
 
 [Solution](solutions/problem_109.py)
@@ -1334,7 +1334,7 @@ Bonus: Can you do this in one line?
 #### Problem 110
 This problem was asked by Facebook.
 Given a binary tree, return all paths from the root to leaves.
-For example, given the tree
+<br>For example, given the tree
 ```
    1
   / \
@@ -1350,7 +1350,7 @@ it should return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 #### Problem 111
 This problem was asked by Google.
 Given a word W and a string S, find all starting indices in S which are anagrams of W.
-For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+<br>For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
 [Solution](solutions/problem_111.py)
 - - - -
@@ -1364,16 +1364,16 @@ According to the definition of LCA on Wikipedia: "The lowest common ancestor is 
 - - - -
 
 #### Problem 113
-This problem was asked by Google.
-Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+This problem was asked by Google.Given a string of words delimited by spaces, reverse the words in string. 
+<br>For example, given "hello world here", return "here world hello"
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
 [Solution](solutions/problem_113.py)
 - - - -
 
 #### Problem 114
-This problem was asked by Facebook.
-Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+This problem was asked by Facebook.Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. 
+<br>For example, given "hello/world:here", return "here/world:hello"
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
 [Solution](solutions/problem_114.py)
@@ -1404,7 +1404,7 @@ Given a binary tree, return the level of the tree with minimum sum.
 #### Problem 118
 This problem was asked by Google.
 Given a sorted list of integers, square the elements and give the output in sorted order.
-For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
+<br>For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
 
 [Solution](solutions/problem_118.py)
 - - - -
@@ -1412,7 +1412,7 @@ For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
 #### Problem 119
 This problem was asked by Google.
 Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
-For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+<br>For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
 [Solution](solutions/problem_119.py)
 - - - -
@@ -1427,7 +1427,7 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 #### Problem 121
 This problem was asked by Google.
 Given a string which we can delete at most k, return whether you can make a palindrome.
-For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+<br>For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
 [Solution](solutions/problem_121.py)
 - - - -
@@ -1435,7 +1435,7 @@ For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 
 #### Problem 122
 This question was asked by Zillow.
 You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
-For example, in this matrix
+<br>For example, in this matrix
 ```
 0 3 1 1
 2 0 0 4
@@ -1466,16 +1466,16 @@ And here are examples of non-numbers:
 
 #### Problem 124
 This problem was asked by Microsoft.
-You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
-Write a function that, given $n$, returns the number of rounds you'd expect to play until one coin remains.
+<br>You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+<br>Write a function that, given $n$, returns the number of rounds you'd expect to play until one coin remains.
 
 [Solution](solutions/problem_124.py)
 - - - -
 
 #### Problem 125
 This problem was asked by Google.
-Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
-For example, given the following tree and K of 20
+<br>Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
+<br>For example, given the following tree and K of 20
 ```
     10
    /   \
@@ -1491,15 +1491,16 @@ Return the nodes 5 and 15.
 
 #### Problem 126
 This problem was asked by Facebook.
-Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+<br>Write a function that rotates a list by k elements. 
+<br>For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
 [Solution](solutions/problem_126.py)
 - - - -
 
 #### Problem 127
 This problem was asked by Microsoft.
-Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
-For example, the following linked list:
+<br>Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+<br>For example, the following linked list:
 `1 -> 2 -> 3 -> 4 -> 5`
 is the number `54321`.
 Given two linked lists in this format, return their sum in the same linked list format.
@@ -1515,13 +1516,12 @@ return `124 (99 + 25)` as:
 #### Problem 128
 The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
 All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
-The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
+<br>The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
 * You can only move one disk at a time.
 * A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
 * You cannot place a larger disk on top of a smaller disk.
-Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
-For example, with n = 3, we can do this in 7 moves:
-
+<br>Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
+<br>For example, with n = 3, we can do this in 7 moves:
 * Move 1 to 3
 * Move 1 to 2
 * Move 3 to 2
@@ -1534,29 +1534,30 @@ For example, with n = 3, we can do this in 7 moves:
 - - - -
 
 #### Problem 129
-Given a real number n, find the square root of n. For example, given n = 9, return 3.
+Given a real number n, find the square root of n. 
+<br>For example, given n = 9, return 3.
 
 [Solution](solutions/problem_129.py)
 - - - -
 
 #### Problem 130
 This problem was asked by Facebook.
-Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
-For example, given `k = 2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
+<br>Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
+<br>For example, given `k = 2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
 
 [Solution](solutions/problem_130.py)
 - - - -
 
 #### Problem 131
 This question was asked by Snapchat.
-Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
+<br>Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
 
 [Solution](solutions/problem_131.py)
 - - - -
 
 #### Problem 132
 This question was asked by Riot Games.
-Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+<br>Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
 * `record(timestamp)`: records a hit that happened at timestamp
 * `total()`: returns the total number of hits recorded
 * `range(lower, upper)`: returns the number of hits that occurred between timestamps lower and upper (inclusive)
@@ -1567,7 +1568,7 @@ Follow-up: What if our system has limited memory?
 
 #### Problem 133
 This problem was asked by Amazon.
-Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
+<br>Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
 (NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
 For example, the inorder successor of 22 is 30.
 ```
@@ -1584,8 +1585,7 @@ You can assume each node has a parent pointer.
 
 #### Problem 134
 This problem was asked by Facebook.
-You have a large array with most of the elements as zero.
-Use a more space-efficient data structure, SparseArray, that implements the same interface:
+<br>You have a large array with most of the elements as zero. Use a more space-efficient data structure, SparseArray, that implements the same interface:
 * `init(arr, size)`: initialize with the original large array and size.
 * `set(i, val)`: updates index at i with val.
 * `get(i)`: gets the value at index i.
@@ -1595,8 +1595,8 @@ Use a more space-efficient data structure, SparseArray, that implements the same
 
 #### Problem 135
 This question was asked by Apple.
-Given a binary tree, find a minimum path sum from root to a leaf.
-For example, the minimum path in this tree is `[10, 5, 1, -1]`, which has sum 15.
+<br>Given a binary tree, find a minimum path sum from root to a leaf.
+<br>For example, the minimum path in this tree is `[10, 5, 1, -1]`, which has sum 15.
 ```
   10
  /  \
@@ -1612,15 +1612,14 @@ For example, the minimum path in this tree is `[10, 5, 1, -1]`, which has sum 15
 
 #### Problem 136
 This question was asked by Google.
-Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
-For example, given the following matrix:
+<br>Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+<br>For example, given the following matrix:
 ```
 [[1, 0, 0, 0],
  [1, 0, 1, 1],
  [1, 0, 1, 1],
  [0, 1, 0, 0]]
 ```
-
 Return 4.
 
 [Solution](solutions/problem_136.py)
@@ -1628,8 +1627,7 @@ Return 4.
 
 #### Problem 137
 This problem was asked by Amazon.
-Implement a bit array.
-A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+<br>Implement a bit array. A bit array is a space efficient array that holds a value of 1 or 0 at each index.
 * init(size): initialize the array with size
 * set(i, val): updates index at i with val where val is either 1 or 0.
 * get(i): gets the value at index i.
@@ -1639,17 +1637,15 @@ A bit array is a space efficient array that holds a value of 1 or 0 at each inde
 
 #### Problem 138
 This problem was asked by Google.
-Find the minimum number of coins required to make n cents.
-You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
-For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
+<br>Find the minimum number of coins required to make n cents. You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+<br>For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 
 [Solution](solutions/problem_138.py)
 - - - -
 
 #### Problem 139
 This problem was asked by Google.
-Given an iterator with methods next() and hasNext(), create a wrapper iterator, PeekableInterface, which also implements peek(). peek shows the next element that would be returned on next().
-Here is the interface:
+<br>Given an iterator with methods next() and hasNext(), create a wrapper iterator, PeekableInterface, which also implements peek(). peek shows the next element that would be returned on next(). Here is the interface:
 ```
 class PeekableInterface(object):
     def __init__(self, iterator):
@@ -1670,16 +1666,16 @@ class PeekableInterface(object):
 
 #### Problem 140
 This problem was asked by Facebook.
-Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
-For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return 4 and 8. The order does not matter.
-Follow-up: Can you do this in linear time and constant space?
+<br>Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+<br>For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return 4 and 8. The order does not matter.
+<br>Follow-up: Can you do this in linear time and constant space?
 
 [Solution](solutions/problem_140.py)
 - - - - 
 
 #### Problem 141
 This problem was asked by Microsoft.
-Implement 3 stacks using a single list:
+<br>Implement 3 stacks using a single list:
 ```
 class Stack:
     def __init__(self):
@@ -1697,47 +1693,47 @@ class Stack:
 
 #### Problem 142
 This problem was asked by Google.
-You're given a string consisting solely of `(`, `)`, and `*`. 
+<br>You're given a string consisting solely of `(`, `)`, and `*`. 
 `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
-For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+<br>For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
 [Solution](solutions/problem_142.py)
 - - - -
 
 #### Problem 143
 This problem was asked by Amazon.
-Given a pivot `x`, and a list `lst`, partition the list into three parts.
+<br>Given a pivot `x`, and a list `lst`, partition the list into three parts.
 * The first part contains all elements in `lst` that are less than `x`
 * The second part contains all elements in `lst` that are equal to `x`
 * The third part contains all elements in `lst` that are larger than `x`
 Ordering within a part can be arbitrary.
-For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
+<br>For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
 
 [Solution](solutions/problem_143.py)
 - - - -
 
 #### Problem 144
 This problem was asked by Google.
-Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
-For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
+<br>Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
+<br>For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
 If two distances to larger numbers are equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return `null`.
-Follow-up: If you can preprocess the array, can you do this in constant time?
+<br>Follow-up: If you can preprocess the array, can you do this in constant time?
 
 [Solution](solutions/problem_144.py)
 - - - -
 
 #### Problem 145
 This problem was asked by Google.
-Given the head of a singly linked list, swap every two nodes and return its head.
-For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+<br>Given the head of a singly linked list, swap every two nodes and return its head.
+<br>For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
 [Solution](solutions/problem_145.py)
 - - - -
 
 #### Problem 146
 This question was asked by BufferBox.
-Given a binary tree where all nodes are either 0 or 1, prune the tree so that subtrees containing all 0s are removed.
-For example, given the following tree:
+<br>Given a binary tree where all nodes are either 0 or 1, prune the tree so that subtrees containing all 0s are removed.
+<br>For example, given the following tree:
 ```
    0
   / \
@@ -1768,33 +1764,31 @@ Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst`
 
 #### Problem 148
 This problem was asked by Apple.
-Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
-Given a number of bits `n`, generate a possible gray code for it.
-For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
+<br>Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions. Given a number of bits `n`, generate a possible gray code for it.
+<br>For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
 
 [Solution](solutions/problem_148.py)
 - - - -
 
 #### Problem 149
 This problem was asked by Goldman Sachs.
-Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including i, excluding j).
-For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
-You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+<br>Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including i, excluding j).
+<br>For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`. You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
 [Solution](solutions/problem_149.py)
 - - - -
 
 #### Problem 150
 This problem was asked by LinkedIn.
-Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
-For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
+<br>Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+<br>For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
 
 [Solution](solutions/problem_150.py)
 - - - -
 
 #### Problem 151
-Given a 2-D matrix representing an image, a location of a pixel in the screen and a color C, replace the color of the given pixel and all adjacent same colored pixels with C.
-For example, given the following matrix, and location pixel of `(2, 2)`, and `'G'` for green:
+<br>Given a 2-D matrix representing an image, a location of a pixel in the screen and a color C, replace the color of the given pixel and all adjacent same colored pixels with C.
+<br>For example, given the following matrix, and location pixel of `(2, 2)`, and `'G'` for green:
 ```
 B B W
 W W W
@@ -1814,8 +1808,8 @@ B B B
 
 #### Problem 152
 This problem was asked by Triplebyte.
-You are given `n` numbers as well as `n` probabilities that sum up to `1`. Write a function to generate one of the numbers with its corresponding probability.
-For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` `10%` of the time, `2` `50%` of the time, and `3` and `4` `20%` of the time.
+<br>You are given `n` numbers as well as `n` probabilities that sum up to `1`. Write a function to generate one of the numbers with its corresponding probability.
+<br>For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` `10%` of the time, `2` `50%` of the time, and `3` and `4` `20%` of the time.
 You can generate random numbers between 0 and 1 uniformly.
 
 [Solution](solutions/problem_152.py)
@@ -1823,14 +1817,14 @@ You can generate random numbers between 0 and 1 uniformly.
 
 #### Problem 153
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+<br>For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
 [Solution](solutions/problem_153.py)
 - - - -
 
 #### Problem 154
 This problem was asked by Amazon.
-Implement a stack API using only a heap. A stack implements the following methods:
+<br>Implement a stack API using only a heap. A stack implements the following methods:
 * `push(item)`, which adds an element to the stack
 * `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
 Recall that a heap has the following operations:
@@ -1842,34 +1836,32 @@ Recall that a heap has the following operations:
 
 #### Problem 155
 Given a list of elements, find the majority element, which appears more than half the times `(> floor(len(lst) / 2.0))`.
-You can assume that such an element exists.
-For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
+<br>You can assume that such an element exists.
+<br>For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
 
 [Solution](solutions/problem_155.py)
 - - - -
 
 #### Problem 156
 This problem was asked by Facebook.
-Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
-For example, given n = `13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`.
-Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
+<br>Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
+<br>For example, given n = `13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`. Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
 
 [Solution](solutions/problem_156.py)
 - - - -
 
 #### Problem 157
 This problem was asked by Amazon.
-Given a string, determine whether any permutation of it is a palindrome.
-For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
+<br>Given a string, determine whether any permutation of it is a palindrome.
+<br>For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
 
 [Solution](solutions/problem_157.py)
 - - - -
 
 #### Problem 158
 This problem was asked by Slack.
-You are given an `N * M` matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
-You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
-For example, given the following matrix:
+<br>You are given an `N * M` matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner? You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
+<br>For example, given the following matrix:
 ```
 [[0, 0, 1],
  [0, 0, 1],
@@ -1886,16 +1878,16 @@ The top left corner and bottom right corner will always be `0`.
 
 #### Problem 159
 This problem was asked by Google.
-Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
-For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
+<br>Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
+<br>For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
 
 [Solution](solutions/problem_159.py)
 - - - -
 
 #### Problem 160
 This problem was asked by Uber.
-Given a tree where each edge has a weight, compute the length of the longest path in the tree.
-For example, given the following tree:
+<br>Given a tree where each edge has a weight, compute the length of the longest path in the tree.
+<br>For example, given the following tree:
 ```
    a
   /|\
@@ -1913,15 +1905,15 @@ The path does not have to pass through the root, and each node can have any amou
 
 #### Problem 161
 This problem was asked by Facebook.
-Given a 32-bit integer, return the number with its bits reversed.
-For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+<br>Given a 32-bit integer, return the number with its bits reversed.
+<br>For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
 [Solution](solutions/problem_161.py)
 - - - -
 
 #### Problem 162
 This problem was asked by Square.
-Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+<br>Given a list of words, return the shortest unique prefix of each word. For example, given the list:
 * dog
 * cat
 * apple
@@ -1939,25 +1931,24 @@ Return the list:
 
 #### Problem 163
 This problem was asked by Jane Street.
-Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
-The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
-For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to `((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5`.
-You can assume the given expression is always valid.
+<br>Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it. The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
+<br>For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to `((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5`.
+<br> You can assume the given expression is always valid.
 
 [Solution](solutions/problem_163.py)
 - - - -
 
 #### Problem 164
 This problem was asked by Google.
-You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+<br>You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
 [Solution](solutions/problem_164.py)
 - - - -
 
 #### Problem 165
 This problem was asked by Google.
-Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
-For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
+<br>Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+<br>For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 * There is 1 smaller element to the right of `3`
 * There is 1 smaller element to the right of `4`
 * There are 2 smaller elements to the right of `9`
@@ -1969,19 +1960,18 @@ For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
 
 #### Problem 166
 This problem was asked by Uber.
-Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+<br> Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
 * `next()`: returns the next element in the array of arrays. If there are no more elements, raise an exception.
 * `has_next()`: returns whether or not the iterator still has elements left.
-For example, given the input `[[1, 2], [3], [], [4, 5, 6]]`, calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`.
-Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
+<br>For example, given the input `[[1, 2], [3], [], [4, 5, 6]]`, calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`. Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
 [Solution](solutions/problem_166.py)
 - - - -
 
 #### Problem 167
 This problem was asked by Airbnb.
-Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
-For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
+<br> Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+<br> For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
 [Solution](solutions/problem_167.py)
 - - - -
