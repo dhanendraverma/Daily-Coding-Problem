@@ -1319,7 +1319,7 @@ This problem was asked by Google.
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
 <br>For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-[Solution](solutions/problem_108.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day108.cpp)
 - - - -
 
 #### Problem 109
@@ -1328,7 +1328,7 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 <br>For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 Bonus: Can you do this in one line?
 
-[Solution](solutions/problem_109.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day109.cpp)
 - - - -
 
 #### Problem 110
@@ -1344,7 +1344,7 @@ Given a binary tree, return all paths from the root to leaves.
 ```
 it should return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-[Solution](solutions/problem_110.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day110.cpp)
 - - - -
 
 #### Problem 111
@@ -1352,7 +1352,7 @@ This problem was asked by Google.
 Given a word W and a string S, find all starting indices in S which are anagrams of W.
 <br>For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[Solution](solutions/problem_111.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day111.cpp)
 - - - -
 
 #### Problem 112
@@ -1360,7 +1360,7 @@ This problem was asked by Twitter.
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
 According to the definition of LCA on Wikipedia: "The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself)."
 
-[Solution](solutions/problem_112.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day112.cpp)
 - - - -
 
 #### Problem 113
@@ -1368,7 +1368,7 @@ This problem was asked by Google.Given a string of words delimited by spaces, re
 <br>For example, given "hello world here", return "here world hello"
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-[Solution](solutions/problem_113.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day113.cpp)
 - - - -
 
 #### Problem 114
@@ -1376,14 +1376,14 @@ This problem was asked by Facebook.Given a string and a set of delimiters, rever
 <br>For example, given "hello/world:here", return "here/world:hello"
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[Solution](solutions/problem_114.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day114.cpp)
 - - - -
 
 #### Problem 115
 This problem was asked by Google.
 Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
 
-[Solution](solutions/problem_115.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day115.cpp)
 - - - -
 
 #### Problem 116
@@ -1391,14 +1391,14 @@ This problem was asked by Jane Street.
 Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
 That is, `generate()` should return a tree whose size is unbounded but finite.
 
-[Solution](solutions/problem_116.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day116.cpp)
 - - - -
 
 #### Problem 117
 This problem was asked by Facebook.
 Given a binary tree, return the level of the tree with minimum sum.
 
-[Solution](solutions/problem_117.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day117.cpp)
 - - - -
 
 #### Problem 118
@@ -1406,7 +1406,7 @@ This problem was asked by Google.
 Given a sorted list of integers, square the elements and give the output in sorted order.
 <br>For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
 
-[Solution](solutions/problem_118.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day118.cpp)
 - - - -
 
 #### Problem 119
@@ -1414,14 +1414,14 @@ This problem was asked by Google.
 Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
 <br>For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-[Solution](solutions/problem_119.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day119.cpp)
 - - - -
 
 #### Problem 120
 This problem was asked by Microsoft.
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
 
-[Solution](solutions/problem_120.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day120.cpp)
 - - - -
 
 #### Problem 121
@@ -1429,7 +1429,7 @@ This problem was asked by Google.
 Given a string which we can delete at most k, return whether you can make a palindrome.
 <br>For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-[Solution](solutions/problem_121.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day121.cpp)
 - - - -
 
 #### Problem 122
@@ -1443,7 +1443,7 @@ You are given a 2-d matrix where each cell represents number of coins in that ce
 ```
 The most we can collect is `0 + 2 + 1 + 5 + 3 + 1 = 12` coins.
 
-[Solution](solutions/problem_122.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day122.cpp)
 - - - -
 
 #### Problem 123
@@ -1461,7 +1461,7 @@ And here are examples of non-numbers:
 * "a -2"
 * "-"
 
-[Solution](solutions/problem_123.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day123.cpp)
 - - - -
 
 #### Problem 124
@@ -1469,7 +1469,7 @@ This problem was asked by Microsoft.
 <br>You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 <br>Write a function that, given $n$, returns the number of rounds you'd expect to play until one coin remains.
 
-[Solution](solutions/problem_124.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day124.cpp)
 - - - -
 
 #### Problem 125
@@ -1486,7 +1486,7 @@ This problem was asked by Google.
 
 Return the nodes 5 and 15.
 
-[Solution](solutions/problem_125.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day125.cpp)
 - - - -
 
 #### Problem 126
@@ -1494,7 +1494,7 @@ This problem was asked by Facebook.
 <br>Write a function that rotates a list by k elements. 
 <br>For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-[Solution](solutions/problem_126.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day126.cpp)
 - - - -
 
 #### Problem 127
@@ -1510,7 +1510,7 @@ For example, given
 return `124 (99 + 25)` as:
 `4 -> 2 -> 1`
 
-[Solution](solutions/problem_127.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day127.cpp)
 - - - -
 
 #### Problem 128
@@ -1530,14 +1530,14 @@ All the disks start off on the first rod in a stack. They are ordered by size, w
 * Move 2 to 3
 * Move 1 to 3
 
-[Solution](solutions/problem_128.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day128.cpp)
 - - - -
 
 #### Problem 129
 Given a real number n, find the square root of n. 
 <br>For example, given n = 9, return 3.
 
-[Solution](solutions/problem_129.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day129.cpp)
 - - - -
 
 #### Problem 130
@@ -1545,14 +1545,14 @@ This problem was asked by Facebook.
 <br>Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
 <br>For example, given `k = 2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
 
-[Solution](solutions/problem_130.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day130.cpp)
 - - - -
 
 #### Problem 131
 This question was asked by Snapchat.
 <br>Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
 
-[Solution](solutions/problem_131.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day131.cpp)
 - - - -
 
 #### Problem 132
@@ -1563,7 +1563,7 @@ This question was asked by Riot Games.
 * `range(lower, upper)`: returns the number of hits that occurred between timestamps lower and upper (inclusive)
 Follow-up: What if our system has limited memory?
 
-[Solution](solutions/problem_132.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day132.cpp)
 - - - -
 
 #### Problem 133
@@ -1580,7 +1580,7 @@ For example, the inorder successor of 22 is 30.
 ```
 You can assume each node has a parent pointer.
 
-[Solution](solutions/problem_133.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day133.cpp)
 - - - -
 
 #### Problem 134
@@ -1590,7 +1590,7 @@ This problem was asked by Facebook.
 * `set(i, val)`: updates index at i with val.
 * `get(i)`: gets the value at index i.
 
-[Solution](solutions/problem_134.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day134.cpp)
 - - - -
 
 #### Problem 135
@@ -1607,7 +1607,7 @@ This question was asked by Apple.
      -1
 ```
 
-[Solution](solutions/problem_135.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day135.cppy)
 - - - -
 
 #### Problem 136
@@ -1622,7 +1622,7 @@ This question was asked by Google.
 ```
 Return 4.
 
-[Solution](solutions/problem_136.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day136.cpp)
 - - - -
 
 #### Problem 137
@@ -1632,7 +1632,7 @@ This problem was asked by Amazon.
 * set(i, val): updates index at i with val where val is either 1 or 0.
 * get(i): gets the value at index i.
 
-[Solution](solutions/problem_137.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day137.cpp)
 - - - -
 
 #### Problem 138
@@ -1640,7 +1640,7 @@ This problem was asked by Google.
 <br>Find the minimum number of coins required to make n cents. You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 <br>For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 
-[Solution](solutions/problem_138.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day138.cpp)
 - - - -
 
 #### Problem 139
@@ -1661,7 +1661,7 @@ class PeekableInterface(object):
         pass
 ```
 
-[Solution](solutions/problem_139.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day139.cpp)
 - - - -
 
 #### Problem 140
@@ -1670,7 +1670,7 @@ This problem was asked by Facebook.
 <br>For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return 4 and 8. The order does not matter.
 <br>Follow-up: Can you do this in linear time and constant space?
 
-[Solution](solutions/problem_140.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day140.cpp)
 - - - - 
 
 #### Problem 141
@@ -1688,7 +1688,7 @@ class Stack:
         pass
 ```
 
-[Solution](solutions/problem_141.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day141.cpp)
 - - - -
 
 #### Problem 142
@@ -1697,7 +1697,7 @@ This problem was asked by Google.
 `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
 <br>For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-[Solution](solutions/problem_142.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day142.cpp)
 - - - -
 
 #### Problem 143
@@ -1709,7 +1709,7 @@ This problem was asked by Amazon.
 Ordering within a part can be arbitrary.
 <br>For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
 
-[Solution](solutions/problem_143.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day143.cpp)
 - - - -
 
 #### Problem 144
@@ -1719,7 +1719,7 @@ This problem was asked by Google.
 If two distances to larger numbers are equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return `null`.
 <br>Follow-up: If you can preprocess the array, can you do this in constant time?
 
-[Solution](solutions/problem_144.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day144.cpp)
 - - - -
 
 #### Problem 145
@@ -1727,7 +1727,7 @@ This problem was asked by Google.
 <br>Given the head of a singly linked list, swap every two nodes and return its head.
 <br>For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-[Solution](solutions/problem_145.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day145.cpp)
 - - - -
 
 #### Problem 146
@@ -1753,13 +1753,13 @@ should be pruned to:
 ```
 We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
 
-[Solution](solutions/problem_146.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day146.cpp)
 - - - -
 
 #### Problem 147
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
 
-[Solution](solutions/problem_147.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day147.cpp)
 - - - -
 
 #### Problem 148
@@ -1767,7 +1767,7 @@ This problem was asked by Apple.
 <br>Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions. Given a number of bits `n`, generate a possible gray code for it.
 <br>For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
 
-[Solution](solutions/problem_148.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day148.cpp)
 - - - -
 
 #### Problem 149
@@ -1775,7 +1775,7 @@ This problem was asked by Goldman Sachs.
 <br>Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including i, excluding j).
 <br>For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`. You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-[Solution](solutions/problem_149.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day149.cpp)
 - - - -
 
 #### Problem 150
@@ -1783,7 +1783,7 @@ This problem was asked by LinkedIn.
 <br>Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
 <br>For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
 
-[Solution](solutions/problem_150.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day150.cpp)
 - - - -
 
 #### Problem 151
@@ -1803,7 +1803,7 @@ G G G
 B B B
 ```
 
-[Solution](solutions/problem_151.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day151.cpp)
 - - - -
 
 #### Problem 152
@@ -1812,14 +1812,14 @@ This problem was asked by Triplebyte.
 <br>For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` `10%` of the time, `2` `50%` of the time, and `3` and `4` `20%` of the time.
 You can generate random numbers between 0 and 1 uniformly.
 
-[Solution](solutions/problem_152.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day152.cppy)
 - - - -
 
 #### Problem 153
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 <br>For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-[Solution](solutions/problem_153.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day153.cpp)
 - - - -
 
 #### Problem 154
@@ -1831,7 +1831,7 @@ Recall that a heap has the following operations:
 * `push(item)`, which adds a new key to the heap
 * `pop()`, which removes and returns the max value of the heap
 
-[Solution](solutions/problem_154.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day154.cpp)
 - - - -
 
 #### Problem 155
@@ -1839,7 +1839,7 @@ Given a list of elements, find the majority element, which appears more than hal
 <br>You can assume that such an element exists.
 <br>For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
 
-[Solution](solutions/problem_155.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day156.cpp)
 - - - -
 
 #### Problem 156
@@ -1847,7 +1847,7 @@ This problem was asked by Facebook.
 <br>Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
 <br>For example, given n = `13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`. Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
 
-[Solution](solutions/problem_156.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day156.cpp)
 - - - -
 
 #### Problem 157
@@ -1855,7 +1855,7 @@ This problem was asked by Amazon.
 <br>Given a string, determine whether any permutation of it is a palindrome.
 <br>For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
 
-[Solution](solutions/problem_157.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day157.cpp)
 - - - -
 
 #### Problem 158
@@ -1873,7 +1873,7 @@ Return `2`, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-[Solution](solutions/problem_158.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day158.cpp)
 - - - -
 
 #### Problem 159
@@ -1881,7 +1881,7 @@ This problem was asked by Google.
 <br>Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
 <br>For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
 
-[Solution](solutions/problem_159.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day159.cpp)
 - - - -
 
 #### Problem 160
@@ -1900,7 +1900,7 @@ This problem was asked by Uber.
 and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of `17`.
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[Solution](solutions/problem_160.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day160.cpp)
 - - - -
 
 #### Problem 161
@@ -1908,7 +1908,7 @@ This problem was asked by Facebook.
 <br>Given a 32-bit integer, return the number with its bits reversed.
 <br>For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-[Solution](solutions/problem_161.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day161.cpp)
 - - - -
 
 #### Problem 162
@@ -1926,7 +1926,7 @@ Return the list:
 * apr
 * f
 
-[Solution](solutions/problem_162.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day162.cpp)
 - - - -
 
 #### Problem 163
@@ -1935,14 +1935,14 @@ This problem was asked by Jane Street.
 <br>For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to `((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5`.
 <br> You can assume the given expression is always valid.
 
-[Solution](solutions/problem_163.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day163.cpp)
 - - - -
 
 #### Problem 164
 This problem was asked by Google.
 <br>You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[Solution](solutions/problem_164.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day164.cpp)
 - - - -
 
 #### Problem 165
@@ -1955,7 +1955,7 @@ This problem was asked by Google.
 * There is 1 smaller element to the right of `6`
 * There are no smaller elements to the right of `1`
 
-[Solution](solutions/problem_165.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day165.cpp)
 - - - -
 
 #### Problem 166
@@ -1965,7 +1965,7 @@ This problem was asked by Uber.
 * `has_next()`: returns whether or not the iterator still has elements left.
 <br>For example, given the input `[[1, 2], [3], [], [4, 5, 6]]`, calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`. Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
-[Solution](solutions/problem_166.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day166.cpp)
 - - - -
 
 #### Problem 167
@@ -1973,7 +1973,7 @@ This problem was asked by Airbnb.
 <br> Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 <br> For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
-[Solution](solutions/problem_167.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day167.cppy)
 - - - -
 
 #### Problem 168
@@ -1993,7 +1993,7 @@ you should return:
 ```
 Follow-up: What if you couldn't use any extra space?
 
-[Solution](solutions/problem_168.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day168.cpp)
 - - - -
 
 #### Problem 169
@@ -2001,7 +2001,7 @@ This problem was asked by Google.
 <br>Given a linked list, sort it in `O(n log n)` time and constant space.
 <br>For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-[Solution](solutions/problem_169.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day169.cpp)
 - - - -
 
 #### Problem 170
@@ -2009,7 +2009,7 @@ This problem was asked by Facebook.
 <br>Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
 <br>For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`. Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from dog to cat.
 
-[Solution](solutions/problem_170.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day170.cpp)
 - - - -
 
 #### Problem 171
@@ -2021,7 +2021,7 @@ This problem was asked by Amazon.
 <br>This means that 2 people exited the building. timestamp is in Unix time.
 <br>Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[Solution](solutions/problem_171.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day171.cpp)
 - - - -
 
 #### Problem 172
@@ -2030,7 +2030,7 @@ This problem was asked by Dropbox.
 <br>For example, given `s = "dogcatcatcodecatdog"` and `words = ["cat", "dog"]`, return `[0, 13]`, since `"dogcat"` starts at index `0` and `"catdog"` starts at index `13`.
 <br>Given `s = "barfoobazbitbyte"` and `words = ["dog", "cat"]`, return `[]` since there are no substrings composed of `"dog"` and `"cat"` in `s`.The order of the indices does not matter.
 
-[Solution](solutions/problem_172.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day172.cpp)
 - - - -
 
 #### Problem 173
@@ -2058,7 +2058,7 @@ it should become:
 ```
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[Solution](solutions/problem_173.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day173.cpp)
 - - - -
 
 #### Problem 174
@@ -2068,7 +2068,7 @@ This problem was asked by Microsoft.
 * Parametric polymorphism
 * Subtype polymorphism
 
-[Solution](solutions/problem_174.md)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day174.cpp)
 - - - -
 
 #### Problem 175
@@ -2090,7 +2090,7 @@ This problem was asked by Google.
 ```
 One instance of running this Markov chain might produce `{'a': 3012, 'b': 1656, 'c': 332 }`.
 
-[Solution](solutions/problem_175.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day175.cpp)
 - - - -
 
 #### Problem 176
@@ -2099,7 +2099,7 @@ This problem was asked by Bloomberg.
 <br>For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-[Solution](solutions/problem_176.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day176.cpp)
 - - - -
 
 #### Problem 177
@@ -2108,7 +2108,7 @@ This problem was asked by Airbnb.
 <br>For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
-[Solution](solutions/problem_177.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day177.cpp)
 - - - -
 
 #### Problem 178
@@ -2118,7 +2118,7 @@ This problem was asked by Two Sigma.
 The second game: same, except that the stopping condition is a five followed by a five.
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[Solution](solutions/problem_178.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day178.cpp)
 - - - -
 
 #### Problem 179
@@ -2133,7 +2133,7 @@ This problem was asked by Google.
 2   4   8
 ```
 
-[Solution](solutions/problem_179.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day179.cpp)
 - - - -
 
 #### Problem 180
@@ -2142,7 +2142,7 @@ This problem was asked by Google.
 <br>For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3]`. If the stack is `[1, 2, 3, 4]`, it should become `[1, 4, 2, 3]`.
 <br>Hint: Try working backwards from the end state.
 
-[Solution](solutions/problem_180.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day180.cpp)
 - - - -
 
 #### Problem 181
@@ -2150,7 +2150,7 @@ This problem was asked by Google.
 <br>Given a string, split it into as few strings as possible such that each string is a palindrome.
 <br>For example, given the input string `"racecarannakayak"`, return `["racecar", "anna", "kayak"]`. Given the input string `"abc"`, return `["a", "b", "c"]`.
 
-[Solution](solutions/problem_181.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day181.cpp)
 - - - -
 
 #### Problem 182
@@ -2158,14 +2158,14 @@ This problem was asked by Facebook.
 <br>A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
 <br>Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[Solution](solutions/problem_182.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day182.cpp)
 - - - -
 
 #### Problem 183
 This problem was asked by Twitch.
 <br>Describe what happens when you type a URL into your browser and press Enter.
 
-[Solution](solutions/problem_183.md)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day183.cpp)
 - - - -
 
 #### Problem 184
@@ -2173,7 +2173,7 @@ This problem was asked by Amazon.
 <br>Given n numbers, find the greatest common denominator between them.
 <br>For example, given the numbers `[42, 56, 14]`, return `14`.
 
-[Solution](solutions/problem_184.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day184.cpp)
 - - - -
 
 #### Problem 185
@@ -2195,7 +2195,7 @@ and
 ```
 return `6`.
 
-[Solution](solutions/problem_185.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day185.cpp)
 - - - -
 
 #### Problem 186
@@ -2203,7 +2203,7 @@ This problem was asked by Microsoft.
 <br>Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 <br>For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of `5`, which is the smallest possible difference.
 
-[Solution](solutions/problem_186.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day186.cpp)
 - - - -
 
 #### Problem 187
@@ -2226,7 +2226,7 @@ This problem was asked by Google.
 ```
 return `true` as the first and third rectangle overlap each other.
 
-[Solution](solutions/problem_187.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day187.cpp)
 - - - -
 
 #### Problem 188
@@ -2250,7 +2250,7 @@ for f in functions:
 ```
 How can we make it print out what we apparently want?
 
-[Solution](solutions/problem_188.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day188.cpp)
 - - - -
 
 #### Problem 189
@@ -2258,7 +2258,7 @@ This problem was asked by Google.
 <br>Given an array of elements, return the length of the longest subarray where all its elements are distinct.
 <br>For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
 
-[Solution](solutions/problem_189.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day189.cpp)
 - - - -
 
 #### Problem 190
@@ -2267,7 +2267,7 @@ This problem was asked by Facebook.
 For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
 <br>Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
-[Solution](solutions/problem_190.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day190.cpp)
 - - - -
 
 #### Problem 191
@@ -2276,7 +2276,7 @@ This problem was asked by Stripe.
 <br>For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return `1` as the last interval can be removed and the first two won't overlap.
 <br>The intervals are not necessarily sorted in any order.
 
-[Solution](solutions/problem_191.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day191.cpp)
 - - - -
 
 #### Problem 192
@@ -2285,7 +2285,7 @@ This problem was asked by Google.
 <br>For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
 <br>Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-[Solution](solutions/problem_192.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day192.cpp)
 - - - -
 
 #### Problem 193
@@ -2294,14 +2294,14 @@ This problem was asked by Affirm.
 <br>You must buy before you can sell the stock, but you can make as many transactions as you like.
 <br>For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, since you could buy the stock at `$1`, and sell at `$8`, and then buy it at `$4` and sell it at `$10`. Since we did two transactions, there is a `$4` fee, so we have `7 + 6 = 13` profit minus `$4` of fees.
 
-[Solution](solutions/problem_193.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day193.cpp)
 - - - -
 
 #### Problem 194
 This problem was asked by Facebook.
 Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the line `y = 0` and the other list `q1, q2, ..., qn` on the line `y = 1`. Imagine a set of `n` line segments connecting each point `pi` to `qi`. Write an algorithm to determine how many pairs of the line segments intersect.
 
-[Solution](solutions/problem_194.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day194.cpp)
 - - - -
 
 #### Problem 195
@@ -2309,7 +2309,7 @@ This problem was asked by Google.
 <br>Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
 <br>Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
 
-[Solution](solutions/problem_195.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day195.cpp)
 - - - -
 
 #### Problem 196
@@ -2323,14 +2323,14 @@ This problem was asked by Apple.
 ```
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5.`
 
-[Solution](solutions/problem_196.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day196.cpp)
 - - - -
 
 #### Problem 197
 This problem was asked by Amazon.
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
-[Solution](solutions/problem_197.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day197.cpp)
 - - - -
 
 #### Problem 198
@@ -2338,7 +2338,7 @@ This problem was asked by Google.
 <br>Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset `(i, j)` satisfies either `i % j = 0` or `j % i = 0`.
 <br>For example, given the set `[3, 5, 10, 20, 21]`, you should return `[5, 10, 20]`. Given `[1, 3, 6, 24]`, return `[1, 3, 6, 24]`.
 
-[Solution](solutions/problem_198.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day198.cpp)
 - - - 
 
 #### Problem 199
@@ -2346,7 +2346,7 @@ This problem was asked by Facebook.
 <br>Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 <br>For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
 
-[Solution](solutions/problem_199.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day199.cpp)
 - - - -
 
 #### Problem 200
@@ -2354,7 +2354,7 @@ This problem was asked by Microsoft.
 <br>Let `X` be a set of `n` intervals on the real line. We say that a set of points `P` "stabs" `X` if every interval in `X` contains at least one point in `P`. Compute the smallest set of points that stabs `X`.
 <br>For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
-[Solution](solutions/problem_200.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day200.cpp)
 - - - -
 
 #### Problem 201
@@ -2368,14 +2368,14 @@ This problem was asked by Google.
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, `1 -> 3 -> 5`. The weight of the path is the sum of the entries.
 <br>Write a program that returns the weight of the maximum weight path.
 
-[Solution](solutions/problem_201.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day201.cpp)
 - - - -
 
 #### Problem 202
 This problem was asked by Palantir.
 <br>Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
-[Solution](solutions/problem_202.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day202.cpp)
 - - - -
 
 #### Problem 203
@@ -2383,21 +2383,21 @@ This problem was asked by Uber.
 <br>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in `O(log N)` time. You may assume the array does not contain duplicates.
 <br>For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
-[Solution](solutions/problem_203.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day203.cpp)
 - - - -
 
 #### Problem 204
 This problem was asked by Amazon.
 <br>Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[Solution](solutions/problem_204.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day204.cpp)
 - - - -
 
 #### Problem 205
 This problem was asked by IBM.
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
-[Solution](solutions/problem_205.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day205.cppy)
 - - - -
 
 #### Problem 206
@@ -2405,14 +2405,14 @@ This problem was asked by Twitter.
 <br>A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
 <br>Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
-[Solution](solutions/problem_206.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day206.cpp)
 - - - -
 
 #### Problem 207
 This problem was asked by Dropbox.
 <br>Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
-[Solution](solutions/problem_207.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day207.cpp)
 - - - -
 
 #### Problem 208
@@ -2420,14 +2420,14 @@ This problem was asked by LinkedIn.
 <br>Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
 <br>For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
-[Solution](solutions/problem_208.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day208.cpp)
 - - - -
 
 #### Problem 209
 This problem was asked by YouTube.
 <br>Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
-[Solution](solutions/problem_209.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day209.cpp)
 - - - -
 
 #### Problem 210
@@ -2438,14 +2438,14 @@ This problem was asked by Apple.
 It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
 <br>Bonus: What input `n <= 1000000` gives the longest sequence?
 
-[Solution](solutions/problem_210.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day210.cpp)
 - - - -
 
 #### Problem 211
 This problem was asked by Microsoft.
 <br>Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
-[Solution](solutions/problem_211.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day211.cpp)
 - - - -
 
 #### Problem 212
@@ -2453,7 +2453,7 @@ This problem was asked by Dropbox.
 <br>Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
 <br>Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
-[Solution](solutions/problem_212.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day212.cpp)
 - - - -
 
 #### Problem 213
@@ -2462,7 +2462,7 @@ This problem was asked by Snapchat.
 <br>IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
 <br>For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
 
-[Solution](solutions/problem_213.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day213.cpp)
 - - - -
 
 #### Problem 214
@@ -2470,7 +2470,7 @@ This problem was asked by Stripe.
 <br>Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
 <br>For example, given `156`, you should return `3`.
 
-[Solution](solutions/problem_214.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day214.cpp)
 - - - -
 
 #### Problem 215
@@ -2495,7 +2495,7 @@ The bottom view of a tree, then, consists of the lowest node at each horizontal 
 For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 <br>Given the root to a binary tree, return its bottom view.
 
-[Solution](solutions/problem_215.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day215.cpp)
 - - - -
 
 #### Problem 216
@@ -2516,7 +2516,7 @@ This problem was asked by Facebook.
 In addition, note that the Roman numeral system uses subtractive notation for numbers such as `IV` and `XL`.
 <br>For the input `XIV`, for instance, you should return `14`.
 
-[Solution](solutions/problem_216.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day216.cpp)
 - - - -
 
 #### Problem 217
@@ -2524,14 +2524,14 @@ This problem was asked by Oracle.
 <br>We say a number is sparse if there are no adjacent ones in its binary representation. For example, `21` (`10101`) is sparse, but `22` (`10110`) is not. For a given input `N`, find the smallest sparse number greater than or equal to `N`.
 <br>Do this in faster than `O(N log N)` time.
 
-[Solution](solutions/problem_217.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day217.cpp)
 - - - -
 
 #### Problem 218
 This problem was asked by Yahoo.
 <br>Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
 
-[Solution](solutions/problem_218.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day218.cpp)
 - - - -
 
 #### Problem 219
@@ -2539,7 +2539,7 @@ This problem was asked by Salesforce.
 <br>Connect 4 is a game where opponents take turns dropping red or black discs into a `7 x 6` vertically suspended grid. The game ends either when one player creates a line of four consecutive discs of their color (horizontally, vertically, or diagonally), or when there are no more spots left in the grid.
 <br>Design and implement Connect 4.
 
-[Solution](solutions/problem_219.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day219.cpp)
 - - - - 
 
 #### Problem 220
@@ -2548,14 +2548,14 @@ This problem was asked by Square.
 <br>You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
 <br>Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[Solution](solutions/problem_220.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day220.cpp)
 - - - -
 
 #### Problem 221
 This problem was asked by Zillow.
 <br>Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
-[Solution](solutions/problem_221.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day221.cpp)
 - - - -
 
 #### Problem 222
@@ -2563,14 +2563,14 @@ This problem was asked by Quora.
 <br>Given an absolute pathname that may have `.` or `..` as part of it, return the shortest standardized path.
 <br>For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
-[Solution](solutions/problem_222.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day222.cpp)
 - - - -
 
 #### Problem 223
 This problem was asked by Palantir.
 <br>Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
 
-[Solution](solutions/problem_223.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day223.cpp)
 - - - -
 
 #### Problem 224
@@ -2578,7 +2578,7 @@ This problem was asked by Amazon.
 <br>Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
 <br>For example, for the input `[1, 2, 3, 10]`, you should return `7`. Do this in `O(N)` time.
 
-[Solution](solutions/problem_224.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day224.cpp)
 - - - -
 
 #### Problem 225
@@ -2588,7 +2588,7 @@ This problem was asked by Bloomberg.
 
 Bonus: Find an `O(log N)` solution if `k = 2`.
 
-[Solution](solutions/problem_225.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day225.cpp)
 - - - -
 
 #### Problem 226
@@ -2596,21 +2596,21 @@ This problem was asked by Airbnb.
 <br>You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
 <br>For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
 
-[Solution](solutions/problem_226.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day226.cpp)
 - - - -
 
 #### Problem 227
 This problem was asked by Facebook.
 <br>Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
-[Solution](solutions/problem_227.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day227.cpp)
 - - - -
 
 #### Problem 228
 This problem was asked by Twitter.
 <br>Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
 
-[Solution](solutions/problem_228.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day228.cpp)
 - - - -
 
 #### Problem 229
@@ -2623,7 +2623,7 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
 
-[Solution](solutions/problem_229.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day229.cppy)
 - - - -
 
 #### Problem 230
@@ -2632,7 +2632,7 @@ This problem was asked by Goldman Sachs.
 <br>Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
 <br>For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
 
-[Solution](solutions/problem_230.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day230.cpp)
 - - - -
 
 #### Problem 231
@@ -2640,7 +2640,7 @@ This problem was asked by IBM.
 <br>Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
 <br>For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
 
-[Solution](solutions/problem_231.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day231.cpp)
 - - - -
 
 #### Problem 232
@@ -2657,28 +2657,28 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
-[Solution](solutions/problem_232.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day232.cpp)
 - - - -
 
 #### Problem 233
 This problem was asked by Apple.
 <br>Implement the function `fib(n)`, which returns the nth number in the Fibonacci sequence, using only `O(1)` space.
 
-[Solution](solutions/problem_233.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day233.cpp)
 - - - -
 
 #### Problem 234
 This problem was asked by Microsoft.
 <br>Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
-[Solution](solutions/problem_234.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day234.cpp)
 - - - -
 
 #### Problem 235
 This problem was asked by Facebook.
 <br>Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
-[Solution](solutions/problem_235.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day235.cpp)
 - - - -
 
 #### Problem 236
@@ -2686,7 +2686,7 @@ This problem was asked by Nvidia.
 <br>You are given a list of N points `(x1, y1), (x2, y2), ..., (xN, yN)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point 1 to point 2, point 2 to point 3, and so on, finally looping around to connect point N to point 1.
 <br>Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
 
-[Solution](solutions/problem_236.md)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day236.cpp)
 - - - -
 
 #### Problem 237
@@ -2701,7 +2701,7 @@ This problem was asked by Amazon.
 ```
 Given a k-ary tree, determine whether it is symmetric.
 
-[Solution](solutions/problem_237.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day237.cpp)
 - - - -
 
 #### Problem 238
@@ -2714,7 +2714,7 @@ This problem was asked by MIT.
 <br>For this problem, cards values are counted as follows: each card between 2 and 10 counts as their face value, face cards count as 10, and aces count as 1.
 <br>Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
-[Solution](solutions/problem_238.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day238.cpp)
 - - - -
 
 #### Problem 239
@@ -2725,14 +2725,14 @@ This problem was asked by Uber.
 * It must not connect two keys by jumping over a third key, unless that key has already been used.
 <br>For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not. Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
 
-[Solution](solutions/problem_239.py)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day239.cpp)
 - - - -
 
 #### Problem 240
 This problem was asked by Spotify.
 <br>There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side. What is the minimum number of swaps necessary for this to happen?
 
-[Solution](solutions/problem_240.md)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day240.cpp)
 - - - -
 
 #### Problem 241
