@@ -1978,8 +1978,8 @@ This problem was asked by Airbnb.
 
 #### Problem 168
 This problem was asked by Facebook.
-Given an N by N matrix, rotate it by 90 degrees clockwise.
-For example, given the following matrix:
+<br>Given an N by N matrix, rotate it by 90 degrees clockwise.
+<br>For example, given the following matrix:
 ```
 [[1, 2, 3],
  [4, 5, 6],
@@ -1994,61 +1994,49 @@ you should return:
 Follow-up: What if you couldn't use any extra space?
 
 [Solution](solutions/problem_168.py)
-- - - 
+- - - -
 
 #### Problem 169
 This problem was asked by Google.
-Given a linked list, sort it in `O(n log n)` time and constant space.
-For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+<br>Given a linked list, sort it in `O(n log n)` time and constant space.
+<br>For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
 [Solution](solutions/problem_169.py)
 - - - -
 
 #### Problem 170
 This problem was asked by Facebook.
-Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
-For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`.
-Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from dog to cat.
+<br>Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
+<br>For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`. Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from dog to cat.
 
 [Solution](solutions/problem_170.py)
 - - - -
 
 #### Problem 171
 This problem was asked by Amazon.
-You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
-`{"timestamp": 1526579928, "count": 3, "type": "enter"}`
-This means 3 people entered the building. An exit looks like this:
-`{"timestamp": 1526580382, "count": 2, "type": "exit"}`
-This means that 2 people exited the building. timestamp is in Unix time.
-Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+<br>You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
+<br> `{"timestamp": 1526579928, "count": 3, "type": "enter"}`
+<br>This means 3 people entered the building. An exit looks like this:
+<br> `{"timestamp": 1526580382, "count": 2, "type": "exit"}`
+<br>This means that 2 people exited the building. timestamp is in Unix time.
+<br>Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
 [Solution](solutions/problem_171.py)
 - - - -
 
 #### Problem 172
-
 This problem was asked by Dropbox.
-
-Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
-
-For example, given `s = "dogcatcatcodecatdog"` and `words = ["cat", "dog"]`, return `[0, 13]`, since `"dogcat"` starts at index `0` and `"catdog"` starts at index `13`.
-
-Given `s = "barfoobazbitbyte"` and `words = ["dog", "cat"]`, return `[]` since there are no substrings composed of `"dog"` and `"cat"` in `s`.
-
-The order of the indices does not matter.
+<br>Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
+<br>For example, given `s = "dogcatcatcodecatdog"` and `words = ["cat", "dog"]`, return `[0, 13]`, since `"dogcat"` starts at index `0` and `"catdog"` starts at index `13`.
+<br>Given `s = "barfoobazbitbyte"` and `words = ["dog", "cat"]`, return `[]` since there are no substrings composed of `"dog"` and `"cat"` in `s`.The order of the indices does not matter.
 
 [Solution](solutions/problem_172.py)
-
----
+- - - -
 
 #### Problem 173
-
 This problem was asked by Stripe.
-
-Write a function to flatten a nested dictionary. Namespace the keys with a period.
-
-For example, given the following dictionary:
-
+<br>Write a function to flatten a nested dictionary. Namespace the keys with a period.
+<br>For example, given the following dictionary:
 ```
 {
     "key": 3,
@@ -2060,9 +2048,7 @@ For example, given the following dictionary:
     }
 }
 ```
-
 it should become:
-
 ```
 {
     "key": 3,
@@ -2070,34 +2056,25 @@ it should become:
     "foo.bar.baz": 8
 }
 ```
-
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
 [Solution](solutions/problem_173.py)
-
----
+- - - -
 
 #### Problem 174
-
 This problem was asked by Microsoft.
-
-Describe and give an example of each of the following types of polymorphism:
+<br>Describe and give an example of each of the following types of polymorphism:
 * Ad-hoc polymorphism
 * Parametric polymorphism
 * Subtype polymorphism
 
 [Solution](solutions/problem_174.md)
-
----
+- - - -
 
 #### Problem 175
-
 This problem was asked by Google.
-
-You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
-
-For example, given the starting state `a`, number of steps `5000`, and the following transition probabilities:
-
+<br>You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
+<br>For example, given the starting state `a`, number of steps `5000`, and the following transition probabilities:
 ```
 [
   ('a', 'a', 0.9),
@@ -2114,61 +2091,40 @@ For example, given the starting state `a`, number of steps `5000`, and the follo
 One instance of running this Markov chain might produce `{'a': 3012, 'b': 1656, 'c': 332 }`.
 
 [Solution](solutions/problem_175.py)
-
----
+- - - -
 
 #### Problem 176
-
 This problem was asked by Bloomberg.
-
-Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
-
-For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
-
+<br>Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
+<br>For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
 [Solution](solutions/problem_176.py)
-
----
+- - - -
 
 #### Problem 177
-
 This problem was asked by Airbnb.
-
-Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
-
-For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
-
+<br>Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
+<br>For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
 [Solution](solutions/problem_177.py)
-
----
+- - - -
 
 #### Problem 178
-
 This problem was asked by Two Sigma.
-
-Alice wants to join her school's Probability Student Club. Membership dues are computed via one of two simple probabilistic games.
-
-The first game: roll a die repeatedly. Stop rolling once you get a five followed by a six. Your number of rolls is the amount you pay, in dollars.
-
+<br>Alice wants to join her school's Probability Student Club. Membership dues are computed via one of two simple probabilistic games.
+<br>The first game: roll a die repeatedly. Stop rolling once you get a five followed by a six. Your number of rolls is the amount you pay, in dollars.
 The second game: same, except that the stopping condition is a five followed by a five.
-
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
 [Solution](solutions/problem_178.py)
-
----
+- - - -
 
 #### Problem 179
-
 This problem was asked by Google.
-
-Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
-
-For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
-
+<br> Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+<br> For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
 ```
     5
    / \
@@ -2178,80 +2134,52 @@ For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the fol
 ```
 
 [Solution](solutions/problem_179.py)
-
----
+- - - -
 
 #### Problem 180
-
 This problem was asked by Google.
-
-Given a stack of `N` elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
-
-Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
-
-For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3]`. If the stack is `[1, 2, 3, 4]`, it should become `[1, 4, 2, 3]`.
-
-Hint: Try working backwards from the end state.
+<br>Given a stack of `N` elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place. Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
+<br>For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3]`. If the stack is `[1, 2, 3, 4]`, it should become `[1, 4, 2, 3]`.
+<br>Hint: Try working backwards from the end state.
 
 [Solution](solutions/problem_180.py)
-
----
+- - - -
 
 #### Problem 181
-
 This problem was asked by Google.
-
-Given a string, split it into as few strings as possible such that each string is a palindrome.
-
-For example, given the input string `"racecarannakayak"`, return `["racecar", "anna", "kayak"]`.
-
-Given the input string `"abc"`, return `["a", "b", "c"]`.
+<br>Given a string, split it into as few strings as possible such that each string is a palindrome.
+<br>For example, given the input string `"racecarannakayak"`, return `["racecar", "anna", "kayak"]`. Given the input string `"abc"`, return `["a", "b", "c"]`.
 
 [Solution](solutions/problem_181.py)
-
----
+- - - -
 
 #### Problem 182
-
 This problem was asked by Facebook.
-
-A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
-
-Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+<br>A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+<br>Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
 [Solution](solutions/problem_182.py)
-
----
+- - - -
 
 #### Problem 183
-
 This problem was asked by Twitch.
-
-Describe what happens when you type a URL into your browser and press Enter.
+<br>Describe what happens when you type a URL into your browser and press Enter.
 
 [Solution](solutions/problem_183.md)
-
----
+- - - -
 
 #### Problem 184
-
 This problem was asked by Amazon.
-
-Given n numbers, find the greatest common denominator between them.
-
-For example, given the numbers `[42, 56, 14]`, return `14`.
+<br>Given n numbers, find the greatest common denominator between them.
+<br>For example, given the numbers `[42, 56, 14]`, return `14`.
 
 [Solution](solutions/problem_184.py)
-
----
+- - - -
 
 #### Problem 185
-
 This problem was asked by Google.
-
-Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return `0`.
-
-For example, given the following rectangles:
+<br>Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return `0`.
+<br>For example, given the following rectangles:
 ```
 {
     "top_left": (1, 4),
@@ -2268,28 +2196,20 @@ and
 return `6`.
 
 [Solution](solutions/problem_185.py)
-
----
+- - - -
 
 #### Problem 186
-
 This problem was asked by Microsoft.
-
-Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
-
-For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of `5`, which is the smallest possible difference.
+<br>Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+<br>For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of `5`, which is the smallest possible difference.
 
 [Solution](solutions/problem_186.py)
-
----
+- - - -
 
 #### Problem 187
-
 This problem was asked by Google.
-
-You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
-
-For example, given the following rectangles:
+<br>You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+<br>For example, given the following rectangles:
 ```
 {
     "top_left": (1, 4),
@@ -2304,18 +2224,14 @@ For example, given the following rectangles:
     "dimensions": (4, 3)
 }
 ```
-
 return `true` as the first and third rectangle overlap each other.
 
 [Solution](solutions/problem_187.py)
-
----
+- - - -
 
 #### Problem 188
-
 This problem was asked by Google.
-
-What will this code print out?
+<br>What will this code print out?
 
 ```
 def make_functions():
@@ -2332,340 +2248,230 @@ functions = make_functions()
 for f in functions:
     f()
 ```
-
 How can we make it print out what we apparently want?
 
 [Solution](solutions/problem_188.py)
-
----
+- - - -
 
 #### Problem 189
-
 This problem was asked by Google.
-
-Given an array of elements, return the length of the longest subarray where all its elements are distinct.
-
-For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
+<br>Given an array of elements, return the length of the longest subarray where all its elements are distinct.
+<br>For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
 
 [Solution](solutions/problem_189.py)
-
----
+- - - -
 
 #### Problem 190
-
 This problem was asked by Facebook.
-
-Given a circular array, compute its maximum subarray sum in `O(n)` time.
-
+<br>Given a circular array, compute its maximum subarray sum in `O(n)` time.
 For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
-
-Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
+<br>Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
 [Solution](solutions/problem_190.py)
-
----
+- - - -
 
 #### Problem 191
-
 This problem was asked by Stripe.
-
-Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
-
-Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
-
-For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return `1` as the last interval can be removed and the first two won't overlap.
-
-The intervals are not necessarily sorted in any order.
+<br>Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping. Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
+<br>For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return `1` as the last interval can be removed and the first two won't overlap.
+<br>The intervals are not necessarily sorted in any order.
 
 [Solution](solutions/problem_191.py)
-
----
+- - - -
 
 #### Problem 192
-
 This problem was asked by Google.
-
-You are given an array of nonnegative integers. Let's say you start at the beginning of the array and are trying to advance to the end. You can advance at most, the number of steps that you're currently on. Determine whether you can get to the end of the array.
-
-For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
-
-Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
+<br>You are given an array of nonnegative integers. Let's say you start at the beginning of the array and are trying to advance to the end. You can advance at most, the number of steps that you're currently on. Determine whether you can get to the end of the array.
+<br>For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
+<br>Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
 [Solution](solutions/problem_192.py)
-
----
+- - - -
 
 #### Problem 193
-
 This problem was asked by Affirm.
-
-Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
-
-You must buy before you can sell the stock, but you can make as many transactions as you like.
-
-For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, since you could buy the stock at `$1`, and sell at `$8`, and then buy it at `$4` and sell it at `$10`. Since we did two transactions, there is a `$4` fee, so we have `7 + 6 = 13` profit minus `$4` of fees.
+<br>Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
+<br>You must buy before you can sell the stock, but you can make as many transactions as you like.
+<br>For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, since you could buy the stock at `$1`, and sell at `$8`, and then buy it at `$4` and sell it at `$10`. Since we did two transactions, there is a `$4` fee, so we have `7 + 6 = 13` profit minus `$4` of fees.
 
 [Solution](solutions/problem_193.py)
-
----
+- - - -
 
 #### Problem 194
-
 This problem was asked by Facebook.
-
 Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the line `y = 0` and the other list `q1, q2, ..., qn` on the line `y = 1`. Imagine a set of `n` line segments connecting each point `pi` to `qi`. Write an algorithm to determine how many pairs of the line segments intersect.
 
 [Solution](solutions/problem_194.py)
-
----
+- - - -
 
 #### Problem 195
-
 This problem was asked by Google.
-
-Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
-
-Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
+<br>Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
+<br>Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
 
 [Solution](solutions/problem_195.py)
-
----
+- - - -
 
 #### Problem 196
-
 This problem was asked by Apple.
-
-Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
-
-For example, given the following tree:
-
+<br>Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+<br>For example, given the following tree:
 ```
   5
  / \
 2  -5
 ```
-
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5.`
 
 [Solution](solutions/problem_196.py)
-
----
+- - - -
 
 #### Problem 197
-
 This problem was asked by Amazon.
-
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
 [Solution](solutions/problem_197.py)
-
----
+- - - -
 
 #### Problem 198
-
-
 This problem was asked by Google.
-
-Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset `(i, j)` satisfies either `i % j = 0` or `j % i = 0`.
-
-For example, given the set `[3, 5, 10, 20, 21]`, you should return `[5, 10, 20]`. Given `[1, 3, 6, 24]`, return `[1, 3, 6, 24]`.
+<br>Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset `(i, j)` satisfies either `i % j = 0` or `j % i = 0`.
+<br>For example, given the set `[3, 5, 10, 20, 21]`, you should return `[5, 10, 20]`. Given `[1, 3, 6, 24]`, return `[1, 3, 6, 24]`.
 
 [Solution](solutions/problem_198.py)
-
----
+- - - 
 
 #### Problem 199
-
 This problem was asked by Facebook.
-
-Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
-
-For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
+<br>Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+<br>For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
 
 [Solution](solutions/problem_199.py)
-
----
+- - - -
 
 #### Problem 200
-
 This problem was asked by Microsoft.
-
-Let `X` be a set of `n` intervals on the real line. We say that a set of points `P` "stabs" `X` if every interval in `X` contains at least one point in `P`. Compute the smallest set of points that stabs `X`.
-
-For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
+<br>Let `X` be a set of `n` intervals on the real line. We say that a set of points `P` "stabs" `X` if every interval in `X` contains at least one point in `P`. Compute the smallest set of points that stabs `X`.
+<br>For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
 [Solution](solutions/problem_200.py)
-
----
+- - - -
 
 #### Problem 201
-
 This problem was asked by Google.
-
-You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, `[[1], [2, 3], [1, 5, 1]]` represents the triangle:
-
+<br>You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, `[[1], [2, 3], [1, 5, 1]]` represents the triangle:
 ```
   1
  2 3
 1 5 1
 ```
-
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, `1 -> 3 -> 5`. The weight of the path is the sum of the entries.
-
-Write a program that returns the weight of the maximum weight path.
+<br>Write a program that returns the weight of the maximum weight path.
 
 [Solution](solutions/problem_201.py)
-
----
+- - - -
 
 #### Problem 202
-
 This problem was asked by Palantir.
-
-Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
+<br>Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
 [Solution](solutions/problem_202.py)
-
----
+- - - -
 
 #### Problem 203
-
 This problem was asked by Uber.
-
-Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in `O(log N)` time. You may assume the array does not contain duplicates.
-
-For example, given `[5, 7, 10, 3, 4]`, return `3`.
+<br>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in `O(log N)` time. You may assume the array does not contain duplicates.
+<br>For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
 [Solution](solutions/problem_203.py)
-
----
+- - - -
 
 #### Problem 204
-
 This problem was asked by Amazon.
-
-Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+<br>Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
 [Solution](solutions/problem_204.py)
-
----
+- - - -
 
 #### Problem 205
-
 This problem was asked by IBM.
-
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
 [Solution](solutions/problem_205.py)
-
----
+- - - -
 
 #### Problem 206
-
 This problem was asked by Twitter.
-
-A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
-
-Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+<br>A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+<br>Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
 [Solution](solutions/problem_206.py)
-
----
+- - - -
 
 #### Problem 207
-
 This problem was asked by Dropbox.
-
-Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+<br>Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
 [Solution](solutions/problem_207.py)
-
----
+- - - -
 
 #### Problem 208
-
 This problem was asked by LinkedIn.
-
-Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
-
-For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
+<br>Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
+<br>For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
 [Solution](solutions/problem_208.py)
-
----
+- - - -
 
 #### Problem 209
-
 This problem was asked by YouTube.
-
-Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
+<br>Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
 [Solution](solutions/problem_209.py)
-
----
+- - - -
 
 #### Problem 210
-
 This problem was asked by Apple.
-
-A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+<br>A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
 * If `n` is even, the next number in the sequence is `n / 2`
 * If `n` is odd, the next number in the sequence is `3n + 1`
 It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
-
-Bonus: What input `n <= 1000000` gives the longest sequence?
+<br>Bonus: What input `n <= 1000000` gives the longest sequence?
 
 [Solution](solutions/problem_210.py)
-
----
+- - - -
 
 #### Problem 211
-
 This problem was asked by Microsoft.
-
-Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
+<br>Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
 [Solution](solutions/problem_211.py)
-
----
+- - - -
 
 #### Problem 212
-
 This problem was asked by Dropbox.
-
-Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
-
-Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
+<br>Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+<br>Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
 [Solution](solutions/problem_212.py)
-
----
+- - - -
 
 #### Problem 213
-
 This problem was asked by Snapchat.
-
-Given a string of digits, generate all possible valid IP address combinations.
-
-IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
-
-For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
+<br>Given a string of digits, generate all possible valid IP address combinations.
+<br>IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
+<br>For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
 
 [Solution](solutions/problem_213.py)
-
----
+- - - -
 
 #### Problem 214
-
 This problem was asked by Stripe.
-
-Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
-
-For example, given `156`, you should return `3`.
+<br>Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+<br>For example, given `156`, you should return `3`.
 
 [Solution](solutions/problem_214.py)
-
----
+- - - -
 
 #### Problem 215
 
