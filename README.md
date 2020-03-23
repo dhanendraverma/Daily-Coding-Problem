@@ -1312,3 +1312,3833 @@ Print the nodes in a binary tree level-wise. For example, the following should p
 ```
 
 [Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day107.cpp)
+- - - -
+
+#### Problem 108
+This problem was asked by Google.
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
+
+[Solution](solutions/problem_108.py)
+- - - -
+
+#### Problem 109
+This problem was asked by Cisco.
+Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
+For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
+Bonus: Can you do this in one line?
+
+[Solution](solutions/problem_109.py)
+- - - -
+
+#### Problem 110
+This problem was asked by Facebook.
+Given a binary tree, return all paths from the root to leaves.
+For example, given the tree
+```
+   1
+  / \
+ 2   3
+    / \
+   4   5
+```
+it should return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
+
+[Solution](solutions/problem_110.py)
+- - - -
+
+#### Problem 111
+This problem was asked by Google.
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+[Solution](solutions/problem_111.py)
+- - - -
+
+#### Problem 112
+This problem was asked by Twitter.
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
+According to the definition of LCA on Wikipedia: "The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself)."
+
+[Solution](solutions/problem_112.py)
+- - - -
+
+#### Problem 113
+This problem was asked by Google.
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+[Solution](solutions/problem_113.py)
+- - - -
+
+#### Problem 114
+This problem was asked by Facebook.
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+[Solution](solutions/problem_114.py)
+- - - -
+
+#### Problem 115
+This problem was asked by Google.
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+
+[Solution](solutions/problem_115.py)
+- - - -
+
+#### Problem 116
+This problem was asked by Jane Street.
+Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
+That is, `generate()` should return a tree whose size is unbounded but finite.
+
+[Solution](solutions/problem_116.py)
+- - - -
+
+#### Problem 117
+This problem was asked by Facebook.
+Given a binary tree, return the level of the tree with minimum sum.
+
+[Solution](solutions/problem_117.py)
+- - - -
+
+#### Problem 118
+This problem was asked by Google.
+Given a sorted list of integers, square the elements and give the output in sorted order.
+For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
+
+[Solution](solutions/problem_118.py)
+- - - -
+
+#### Problem 119
+This problem was asked by Google.
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+
+[Solution](solutions/problem_119.py)
+- - - -
+
+#### Problem 120
+This problem was asked by Microsoft.
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
+
+[Solution](solutions/problem_120.py)
+- - - -
+
+#### Problem 121
+This problem was asked by Google.
+Given a string which we can delete at most k, return whether you can make a palindrome.
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+[Solution](solutions/problem_121.py)
+- - - -
+
+#### Problem 122
+This question was asked by Zillow.
+You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at `matrix[0][0]`, and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
+For example, in this matrix
+```
+0 3 1 1
+2 0 0 4
+1 5 3 1
+```
+The most we can collect is `0 + 2 + 1 + 5 + 3 + 1 = 12` coins.
+
+[Solution](solutions/problem_122.py)
+- - - -
+
+#### Problem 123
+This problem was asked by LinkedIn.
+Given a string, return whether it represents a number. Here are the different kinds of numbers:
+* "10", a positive integer
+* "-10", a negative integer
+* "10.1", a positive real number
+* "-10.1", a negative real number
+* "1e5", a number in scientific notation
+
+And here are examples of non-numbers:
+* "a"
+* "x 1"
+* "a -2"
+* "-"
+
+[Solution](solutions/problem_123.py)
+- - - -
+
+#### Problem 124
+This problem was asked by Microsoft.
+You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+Write a function that, given $n$, returns the number of rounds you'd expect to play until one coin remains.
+
+[Solution](solutions/problem_124.py)
+- - - -
+
+#### Problem 125
+This problem was asked by Google.
+Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
+For example, given the following tree and K of 20
+```
+    10
+   /   \
+ 5      15
+       /  \
+     11    15
+```
+
+Return the nodes 5 and 15.
+
+[Solution](solutions/problem_125.py)
+- - - -
+
+#### Problem 126
+This problem was asked by Facebook.
+Write a function that rotates a list by k elements. For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+[Solution](solutions/problem_126.py)
+- - - -
+
+#### Problem 127
+This problem was asked by Microsoft.
+Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+For example, the following linked list:
+`1 -> 2 -> 3 -> 4 -> 5`
+is the number `54321`.
+Given two linked lists in this format, return their sum in the same linked list format.
+For example, given
+`9 -> 9`
+`5 -> 2`
+return `124 (99 + 25)` as:
+`4 -> 2 -> 1`
+
+[Solution](solutions/problem_127.py)
+- - - -
+
+#### Problem 128
+The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
+All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
+The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
+* You can only move one disk at a time.
+* A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
+* You cannot place a larger disk on top of a smaller disk.
+Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
+For example, with n = 3, we can do this in 7 moves:
+
+* Move 1 to 3
+* Move 1 to 2
+* Move 3 to 2
+* Move 1 to 3
+* Move 2 to 1
+* Move 2 to 3
+* Move 1 to 3
+
+[Solution](solutions/problem_128.py)
+- - - -
+
+#### Problem 129
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+[Solution](solutions/problem_129.py)
+- - - -
+
+#### Problem 130
+This problem was asked by Facebook.
+Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
+For example, given `k = 2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
+
+[Solution](solutions/problem_130.py)
+- - - -
+
+#### Problem 131
+This question was asked by Snapchat.
+Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
+
+[Solution](solutions/problem_131.py)
+- - - -
+
+#### Problem 132
+This question was asked by Riot Games.
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+* `record(timestamp)`: records a hit that happened at timestamp
+* `total()`: returns the total number of hits recorded
+* `range(lower, upper)`: returns the number of hits that occurred between timestamps lower and upper (inclusive)
+Follow-up: What if our system has limited memory?
+
+[Solution](solutions/problem_132.py)
+- - - -
+
+#### Problem 133
+This problem was asked by Amazon.
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
+(NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
+For example, the inorder successor of 22 is 30.
+```
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+```
+You can assume each node has a parent pointer.
+
+[Solution](solutions/problem_133.py)
+- - - -
+
+#### Problem 134
+This problem was asked by Facebook.
+You have a large array with most of the elements as zero.
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+* `init(arr, size)`: initialize with the original large array and size.
+* `set(i, val)`: updates index at i with val.
+* `get(i)`: gets the value at index i.
+
+[Solution](solutions/problem_134.py)
+- - - -
+
+#### Problem 135
+This question was asked by Apple.
+Given a binary tree, find a minimum path sum from root to a leaf.
+For example, the minimum path in this tree is `[10, 5, 1, -1]`, which has sum 15.
+```
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
+
+[Solution](solutions/problem_135.py)
+- - - -
+
+#### Problem 136
+This question was asked by Google.
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+For example, given the following matrix:
+```
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+
+Return 4.
+
+[Solution](solutions/problem_136.py)
+- - - -
+
+#### Problem 137
+This problem was asked by Amazon.
+Implement a bit array.
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+* init(size): initialize the array with size
+* set(i, val): updates index at i with val where val is either 1 or 0.
+* get(i): gets the value at index i.
+
+[Solution](solutions/problem_137.py)
+- - - -
+
+#### Problem 138
+This problem was asked by Google.
+Find the minimum number of coins required to make n cents.
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
+
+[Solution](solutions/problem_138.py)
+- - - -
+
+#### Problem 139
+This problem was asked by Google.
+Given an iterator with methods next() and hasNext(), create a wrapper iterator, PeekableInterface, which also implements peek(). peek shows the next element that would be returned on next().
+Here is the interface:
+```
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+```
+
+[Solution](solutions/problem_139.py)
+- - - -
+
+#### Problem 140
+This problem was asked by Facebook.
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return 4 and 8. The order does not matter.
+Follow-up: Can you do this in linear time and constant space?
+
+[Solution](solutions/problem_140.py)
+- - - - 
+
+#### Problem 141
+This problem was asked by Microsoft.
+Implement 3 stacks using a single list:
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
+
+[Solution](solutions/problem_141.py)
+- - - -
+
+#### Problem 142
+This problem was asked by Google.
+You're given a string consisting solely of `(`, `)`, and `*`. 
+`*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
+For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
+
+[Solution](solutions/problem_142.py)
+- - - -
+
+#### Problem 143
+This problem was asked by Amazon.
+Given a pivot `x`, and a list `lst`, partition the list into three parts.
+* The first part contains all elements in `lst` that are less than `x`
+* The second part contains all elements in `lst` that are equal to `x`
+* The third part contains all elements in `lst` that are larger than `x`
+Ordering within a part can be arbitrary.
+For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
+
+[Solution](solutions/problem_143.py)
+- - - -
+
+#### Problem 144
+This problem was asked by Google.
+Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
+For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
+If two distances to larger numbers are equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return `null`.
+Follow-up: If you can preprocess the array, can you do this in constant time?
+
+[Solution](solutions/problem_144.py)
+- - - -
+
+#### Problem 145
+This problem was asked by Google.
+Given the head of a singly linked list, swap every two nodes and return its head.
+For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+[Solution](solutions/problem_145.py)
+- - - -
+
+#### Problem 146
+This question was asked by BufferBox.
+Given a binary tree where all nodes are either 0 or 1, prune the tree so that subtrees containing all 0s are removed.
+For example, given the following tree:
+```
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 0   0
+```
+should be pruned to:
+```
+   0
+  / \
+ 1   0
+    /
+   1
+```
+We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
+
+[Solution](solutions/problem_146.py)
+- - - -
+
+#### Problem 147
+Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
+
+[Solution](solutions/problem_147.py)
+- - - -
+
+#### Problem 148
+This problem was asked by Apple.
+Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions.
+Given a number of bits `n`, generate a possible gray code for it.
+For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
+
+[Solution](solutions/problem_148.py)
+- - - -
+
+#### Problem 149
+This problem was asked by Goldman Sachs.
+Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including i, excluding j).
+For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`.
+You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
+
+[Solution](solutions/problem_149.py)
+- - - -
+
+#### Problem 150
+This problem was asked by LinkedIn.
+Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
+
+[Solution](solutions/problem_150.py)
+- - - -
+
+#### Problem 151
+Given a 2-D matrix representing an image, a location of a pixel in the screen and a color C, replace the color of the given pixel and all adjacent same colored pixels with C.
+For example, given the following matrix, and location pixel of `(2, 2)`, and `'G'` for green:
+```
+B B W
+W W W
+W W W
+B B B
+```
+Becomes
+```
+B B G
+G G G
+G G G
+B B B
+```
+
+[Solution](solutions/problem_151.py)
+- - - -
+
+#### Problem 152
+This problem was asked by Triplebyte.
+You are given `n` numbers as well as `n` probabilities that sum up to `1`. Write a function to generate one of the numbers with its corresponding probability.
+For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` `10%` of the time, `2` `50%` of the time, and `3` and `4` `20%` of the time.
+You can generate random numbers between 0 and 1 uniformly.
+
+[Solution](solutions/problem_152.py)
+- - - -
+
+#### Problem 153
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[Solution](solutions/problem_153.py)
+- - - -
+
+#### Problem 154
+This problem was asked by Amazon.
+Implement a stack API using only a heap. A stack implements the following methods:
+* `push(item)`, which adds an element to the stack
+* `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
+Recall that a heap has the following operations:
+* `push(item)`, which adds a new key to the heap
+* `pop()`, which removes and returns the max value of the heap
+
+[Solution](solutions/problem_154.py)
+- - - -
+
+#### Problem 155
+Given a list of elements, find the majority element, which appears more than half the times `(> floor(len(lst) / 2.0))`.
+You can assume that such an element exists.
+For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
+
+[Solution](solutions/problem_155.py)
+- - - -
+
+#### Problem 156
+This problem was asked by Facebook.
+Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
+For example, given n = `13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`.
+Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
+
+[Solution](solutions/problem_156.py)
+- - - -
+
+#### Problem 157
+This problem was asked by Amazon.
+Given a string, determine whether any permutation of it is a palindrome.
+For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
+
+[Solution](solutions/problem_157.py)
+- - - -
+
+#### Problem 158
+This problem was asked by Slack.
+You are given an `N * M` matrix of `0`s and `1`s. Starting from the top left corner, how many ways are there to reach the bottom right corner?
+You can only move right and down. `0` represents an empty space while `1` represents a wall you cannot walk through.
+For example, given the following matrix:
+```
+[[0, 0, 1],
+ [0, 0, 1],
+ [1, 0, 0]]
+```
+Return `2`, as there are only two ways to get to the bottom right:
+* `Right, down, down, right`
+* `Down, right, down, right`
+
+The top left corner and bottom right corner will always be `0`.
+
+[Solution](solutions/problem_158.py)
+- - - -
+
+#### Problem 159
+This problem was asked by Google.
+Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
+For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
+
+[Solution](solutions/problem_159.py)
+- - - -
+
+#### Problem 160
+This problem was asked by Uber.
+Given a tree where each edge has a weight, compute the length of the longest path in the tree.
+For example, given the following tree:
+```
+   a
+  /|\
+ b c d
+    / \
+   e   f
+  / \
+ g   h
+```
+and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of `17`.
+The path does not have to pass through the root, and each node can have any amount of children.
+
+[Solution](solutions/problem_160.py)
+- - - -
+
+#### Problem 161
+This problem was asked by Facebook.
+Given a 32-bit integer, return the number with its bits reversed.
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[Solution](solutions/problem_161.py)
+- - - -
+
+#### Problem 162
+This problem was asked by Square.
+Given a list of words, return the shortest unique prefix of each word. For example, given the list:
+* dog
+* cat
+* apple
+* apricot
+* fish
+Return the list:
+* d
+* c
+* app
+* apr
+* f
+
+[Solution](solutions/problem_162.py)
+- - - -
+
+#### Problem 163
+This problem was asked by Jane Street.
+Given an arithmetic expression in Reverse Polish Notation, write a program to evaluate it.
+The expression is given as a list of numbers and operands. For example: `[5, 3, '+']` should return `5 + 3 = 8`.
+For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to `((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5`.
+You can assume the given expression is always valid.
+
+[Solution](solutions/problem_163.py)
+- - - -
+
+#### Problem 164
+This problem was asked by Google.
+You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[Solution](solutions/problem_164.py)
+- - - -
+
+#### Problem 165
+This problem was asked by Google.
+Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that element in the original input array.
+For example, given the array `[3, 4, 9, 6, 1]`, return `[1, 1, 2, 1, 0]`, since:
+* There is 1 smaller element to the right of `3`
+* There is 1 smaller element to the right of `4`
+* There are 2 smaller elements to the right of `9`
+* There is 1 smaller element to the right of `6`
+* There are no smaller elements to the right of `1`
+
+[Solution](solutions/problem_165.py)
+- - - -
+
+#### Problem 166
+This problem was asked by Uber.
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+* `next()`: returns the next element in the array of arrays. If there are no more elements, raise an exception.
+* `has_next()`: returns whether or not the iterator still has elements left.
+For example, given the input `[[1, 2], [3], [], [4, 5, 6]]`, calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`.
+Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
+
+[Solution](solutions/problem_166.py)
+- - - -
+
+#### Problem 167
+This problem was asked by Airbnb.
+Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
+
+[Solution](solutions/problem_167.py)
+- - - -
+
+#### Problem 168
+This problem was asked by Facebook.
+Given an N by N matrix, rotate it by 90 degrees clockwise.
+For example, given the following matrix:
+```
+[[1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]]
+```
+you should return:
+```
+[[7, 4, 1],
+ [8, 5, 2],
+ [9, 6, 3]]
+```
+Follow-up: What if you couldn't use any extra space?
+
+[Solution](solutions/problem_168.py)
+- - - 
+
+#### Problem 169
+This problem was asked by Google.
+Given a linked list, sort it in `O(n log n)` time and constant space.
+For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
+
+[Solution](solutions/problem_169.py)
+- - - -
+
+#### Problem 170
+This problem was asked by Facebook.
+Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
+For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`.
+Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from dog to cat.
+
+[Solution](solutions/problem_170.py)
+- - - -
+
+#### Problem 171
+This problem was asked by Amazon.
+You are given a list of data entries that represent entries and exits of groups of people into a building. An entry looks like this:
+`{"timestamp": 1526579928, "count": 3, "type": "enter"}`
+This means 3 people entered the building. An exit looks like this:
+`{"timestamp": 1526580382, "count": 2, "type": "exit"}`
+This means that 2 people exited the building. timestamp is in Unix time.
+Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
+
+[Solution](solutions/problem_171.py)
+- - - -
+
+#### Problem 172
+
+This problem was asked by Dropbox.
+
+Given a string `s` and a list of words `words`, where each word is the same length, find all starting indices of substrings in `s` that is a concatenation of every word in `words` exactly once.
+
+For example, given `s = "dogcatcatcodecatdog"` and `words = ["cat", "dog"]`, return `[0, 13]`, since `"dogcat"` starts at index `0` and `"catdog"` starts at index `13`.
+
+Given `s = "barfoobazbitbyte"` and `words = ["dog", "cat"]`, return `[]` since there are no substrings composed of `"dog"` and `"cat"` in `s`.
+
+The order of the indices does not matter.
+
+[Solution](solutions/problem_172.py)
+
+---
+
+#### Problem 173
+
+This problem was asked by Stripe.
+
+Write a function to flatten a nested dictionary. Namespace the keys with a period.
+
+For example, given the following dictionary:
+
+```
+{
+    "key": 3,
+    "foo": {
+        "a": 5,
+        "bar": {
+            "baz": 8
+        }
+    }
+}
+```
+
+it should become:
+
+```
+{
+    "key": 3,
+    "foo.a": 5,
+    "foo.bar.baz": 8
+}
+```
+
+You can assume keys do not contain dots in them, i.e. no clobbering will occur.
+
+[Solution](solutions/problem_173.py)
+
+---
+
+#### Problem 174
+
+This problem was asked by Microsoft.
+
+Describe and give an example of each of the following types of polymorphism:
+* Ad-hoc polymorphism
+* Parametric polymorphism
+* Subtype polymorphism
+
+[Solution](solutions/problem_174.md)
+
+---
+
+#### Problem 175
+
+This problem was asked by Google.
+
+You are given a starting state start, a list of transition probabilities for a Markov chain, and a number of steps num_steps. Run the Markov chain starting from start for num_steps and compute the number of times we visited each state.
+
+For example, given the starting state `a`, number of steps `5000`, and the following transition probabilities:
+
+```
+[
+  ('a', 'a', 0.9),
+  ('a', 'b', 0.075),
+  ('a', 'c', 0.025),
+  ('b', 'a', 0.15),
+  ('b', 'b', 0.8),
+  ('b', 'c', 0.05),
+  ('c', 'a', 0.25),
+  ('c', 'b', 0.25),
+  ('c', 'c', 0.5)
+]
+```
+One instance of running this Markov chain might produce `{'a': 3012, 'b': 1656, 'c': 332 }`.
+
+[Solution](solutions/problem_175.py)
+
+---
+
+#### Problem 176
+
+This problem was asked by Bloomberg.
+
+Determine whether there exists a one-to-one character mapping from one string `s1` to another `s2`.
+
+For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
+
+Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
+
+[Solution](solutions/problem_176.py)
+
+---
+
+#### Problem 177
+
+This problem was asked by Airbnb.
+
+Given a linked list and a positive integer `k`, rotate the list to the right by `k` places.
+
+For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
+
+Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
+
+[Solution](solutions/problem_177.py)
+
+---
+
+#### Problem 178
+
+This problem was asked by Two Sigma.
+
+Alice wants to join her school's Probability Student Club. Membership dues are computed via one of two simple probabilistic games.
+
+The first game: roll a die repeatedly. Stop rolling once you get a five followed by a six. Your number of rolls is the amount you pay, in dollars.
+
+The second game: same, except that the stopping condition is a five followed by a five.
+
+Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
+
+[Solution](solutions/problem_178.py)
+
+---
+
+#### Problem 179
+
+This problem was asked by Google.
+
+Given the sequence of keys visited by a postorder traversal of a binary search tree, reconstruct the tree.
+
+For example, given the sequence `2, 4, 3, 8, 7, 5`, you should construct the following tree:
+
+```
+    5
+   / \
+  3   7
+ / \   \
+2   4   8
+```
+
+[Solution](solutions/problem_179.py)
+
+---
+
+#### Problem 180
+
+This problem was asked by Google.
+
+Given a stack of `N` elements, interleave the first half of the stack with the second half reversed using only one other queue. This should be done in-place.
+
+Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
+
+For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3]`. If the stack is `[1, 2, 3, 4]`, it should become `[1, 4, 2, 3]`.
+
+Hint: Try working backwards from the end state.
+
+[Solution](solutions/problem_180.py)
+
+---
+
+#### Problem 181
+
+This problem was asked by Google.
+
+Given a string, split it into as few strings as possible such that each string is a palindrome.
+
+For example, given the input string `"racecarannakayak"`, return `["racecar", "anna", "kayak"]`.
+
+Given the input string `"abc"`, return `["a", "b", "c"]`.
+
+[Solution](solutions/problem_181.py)
+
+---
+
+#### Problem 182
+
+This problem was asked by Facebook.
+
+A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
+
+Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
+
+[Solution](solutions/problem_182.py)
+
+---
+
+#### Problem 183
+
+This problem was asked by Twitch.
+
+Describe what happens when you type a URL into your browser and press Enter.
+
+[Solution](solutions/problem_183.md)
+
+---
+
+#### Problem 184
+
+This problem was asked by Amazon.
+
+Given n numbers, find the greatest common denominator between them.
+
+For example, given the numbers `[42, 56, 14]`, return `14`.
+
+[Solution](solutions/problem_184.py)
+
+---
+
+#### Problem 185
+
+This problem was asked by Google.
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return `0`.
+
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+```
+and
+```
+{
+    "top_left": (0, 5),
+    "dimensions" (4, 3) # width, height
+}
+```
+return `6`.
+
+[Solution](solutions/problem_185.py)
+
+---
+
+#### Problem 186
+
+This problem was asked by Microsoft.
+
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+
+For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of `5`, which is the smallest possible difference.
+
+[Solution](solutions/problem_186.py)
+
+---
+
+#### Problem 187
+
+This problem was asked by Google.
+
+You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+},
+{
+    "top_left": (-1, 3),
+    "dimensions": (2, 1)
+},
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3)
+}
+```
+
+return `true` as the first and third rectangle overlap each other.
+
+[Solution](solutions/problem_187.py)
+
+---
+
+#### Problem 188
+
+This problem was asked by Google.
+
+What will this code print out?
+
+```
+def make_functions():
+    flist = []
+
+    for i in [1, 2, 3]:
+        def print_i():
+            print(i)
+        flist.append(print_i)
+
+    return flist
+
+functions = make_functions()
+for f in functions:
+    f()
+```
+
+How can we make it print out what we apparently want?
+
+[Solution](solutions/problem_188.py)
+
+---
+
+#### Problem 189
+
+This problem was asked by Google.
+
+Given an array of elements, return the length of the longest subarray where all its elements are distinct.
+
+For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
+
+[Solution](solutions/problem_189.py)
+
+---
+
+#### Problem 190
+
+This problem was asked by Facebook.
+
+Given a circular array, compute its maximum subarray sum in `O(n)` time.
+
+For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
+
+Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
+
+[Solution](solutions/problem_190.py)
+
+---
+
+#### Problem 191
+
+This problem was asked by Stripe.
+
+Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
+
+Intervals can "touch", such as `[0, 1]` and `[1, 2]`, but they won't be considered overlapping.
+
+For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return `1` as the last interval can be removed and the first two won't overlap.
+
+The intervals are not necessarily sorted in any order.
+
+[Solution](solutions/problem_191.py)
+
+---
+
+#### Problem 192
+
+This problem was asked by Google.
+
+You are given an array of nonnegative integers. Let's say you start at the beginning of the array and are trying to advance to the end. You can advance at most, the number of steps that you're currently on. Determine whether you can get to the end of the array.
+
+For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
+
+Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
+
+[Solution](solutions/problem_192.py)
+
+---
+
+#### Problem 193
+
+This problem was asked by Affirm.
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock. You're also given a number fee that represents a transaction fee for each buy and sell transaction.
+
+You must buy before you can sell the stock, but you can make as many transactions as you like.
+
+For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, since you could buy the stock at `$1`, and sell at `$8`, and then buy it at `$4` and sell it at `$10`. Since we did two transactions, there is a `$4` fee, so we have `7 + 6 = 13` profit minus `$4` of fees.
+
+[Solution](solutions/problem_193.py)
+
+---
+
+#### Problem 194
+
+This problem was asked by Facebook.
+
+Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the line `y = 0` and the other list `q1, q2, ..., qn` on the line `y = 1`. Imagine a set of `n` line segments connecting each point `pi` to `qi`. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[Solution](solutions/problem_194.py)
+
+---
+
+#### Problem 195
+
+This problem was asked by Google.
+
+Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
+
+Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
+
+[Solution](solutions/problem_195.py)
+
+---
+
+#### Problem 196
+
+This problem was asked by Apple.
+
+Given the root of a binary tree, find the most frequent subtree sum. The subtree sum of a node is the sum of all values under a node, including the node itself.
+
+For example, given the following tree:
+
+```
+  5
+ / \
+2  -5
+```
+
+Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5.`
+
+[Solution](solutions/problem_196.py)
+
+---
+
+#### Problem 197
+
+This problem was asked by Amazon.
+
+Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
+
+[Solution](solutions/problem_197.py)
+
+---
+
+#### Problem 198
+
+
+This problem was asked by Google.
+
+Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset `(i, j)` satisfies either `i % j = 0` or `j % i = 0`.
+
+For example, given the set `[3, 5, 10, 20, 21]`, you should return `[5, 10, 20]`. Given `[1, 3, 6, 24]`, return `[1, 3, 6, 24]`.
+
+[Solution](solutions/problem_198.py)
+
+---
+
+#### Problem 199
+
+This problem was asked by Facebook.
+
+Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
+
+For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
+
+[Solution](solutions/problem_199.py)
+
+---
+
+#### Problem 200
+
+This problem was asked by Microsoft.
+
+Let `X` be a set of `n` intervals on the real line. We say that a set of points `P` "stabs" `X` if every interval in `X` contains at least one point in `P`. Compute the smallest set of points that stabs `X`.
+
+For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
+
+[Solution](solutions/problem_200.py)
+
+---
+
+#### Problem 201
+
+This problem was asked by Google.
+
+You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example, `[[1], [2, 3], [1, 5, 1]]` represents the triangle:
+
+```
+  1
+ 2 3
+1 5 1
+```
+
+We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, `1 -> 3 -> 5`. The weight of the path is the sum of the entries.
+
+Write a program that returns the weight of the maximum weight path.
+
+[Solution](solutions/problem_201.py)
+
+---
+
+#### Problem 202
+
+This problem was asked by Palantir.
+
+Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
+
+[Solution](solutions/problem_202.py)
+
+---
+
+#### Problem 203
+
+This problem was asked by Uber.
+
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in `O(log N)` time. You may assume the array does not contain duplicates.
+
+For example, given `[5, 7, 10, 3, 4]`, return `3`.
+
+[Solution](solutions/problem_203.py)
+
+---
+
+#### Problem 204
+
+This problem was asked by Amazon.
+
+Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
+
+[Solution](solutions/problem_204.py)
+
+---
+
+#### Problem 205
+
+This problem was asked by IBM.
+
+Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
+
+[Solution](solutions/problem_205.py)
+
+---
+
+#### Problem 206
+
+This problem was asked by Twitter.
+
+A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
+
+Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
+
+[Solution](solutions/problem_206.py)
+
+---
+
+#### Problem 207
+
+This problem was asked by Dropbox.
+
+Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+
+[Solution](solutions/problem_207.py)
+
+---
+
+#### Problem 208
+
+This problem was asked by LinkedIn.
+
+Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
+
+For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
+
+[Solution](solutions/problem_208.py)
+
+---
+
+#### Problem 209
+
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
+
+[Solution](solutions/problem_209.py)
+
+---
+
+#### Problem 210
+
+This problem was asked by Apple.
+
+A Collatz sequence in mathematics can be defined as follows. Starting with any positive integer:
+* If `n` is even, the next number in the sequence is `n / 2`
+* If `n` is odd, the next number in the sequence is `3n + 1`
+It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
+
+Bonus: What input `n <= 1000000` gives the longest sequence?
+
+[Solution](solutions/problem_210.py)
+
+---
+
+#### Problem 211
+
+This problem was asked by Microsoft.
+
+Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
+
+[Solution](solutions/problem_211.py)
+
+---
+
+#### Problem 212
+
+This problem was asked by Dropbox.
+
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
+
+[Solution](solutions/problem_212.py)
+
+---
+
+#### Problem 213
+
+This problem was asked by Snapchat.
+
+Given a string of digits, generate all possible valid IP address combinations.
+
+IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
+
+For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
+
+[Solution](solutions/problem_213.py)
+
+---
+
+#### Problem 214
+
+This problem was asked by Stripe.
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
+
+[Solution](solutions/problem_214.py)
+
+---
+
+#### Problem 215
+
+This problem was asked by Yelp.
+
+The horizontal distance of a binary tree node describes how far left or right the node will be when the tree is printed out.
+
+More rigorously, we can define it as follows:
+* The horizontal distance of the root is `0`.
+* The horizontal distance of a left child is `hd(parent) - 1`.
+* The horizontal distance of a right child is `hd(parent) + 1`.
+
+For example, for the following tree, `hd(1) = -2`, and `hd(6) = 0`.
+
+```
+             5
+          /     \
+        3         7
+      /  \      /   \
+    1     4    6     9
+   /                /
+  0                8
+```
+  
+The bottom view of a tree, then, consists of the lowest node at each horizontal distance. If there are two nodes at the same depth and horizontal distance, either is acceptable.
+
+For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
+
+Given the root to a binary tree, return its bottom view.
+
+[Solution](solutions/problem_215.py)
+
+---
+
+#### Problem 216
+
+This problem was asked by Facebook.
+
+Given a number in Roman numeral format, convert it to decimal.
+
+The values of Roman numerals are as follows:
+```
+{
+    'M': 1000,
+    'D': 500,
+    'C': 100,
+    'L': 50,
+    'X': 10,
+    'V': 5,
+    'I': 1
+}
+```
+
+In addition, note that the Roman numeral system uses subtractive notation for numbers such as `IV` and `XL`.
+
+For the input `XIV`, for instance, you should return `14`.
+
+[Solution](solutions/problem_216.py)
+
+---
+
+#### Problem 217
+
+This problem was asked by Oracle.
+
+We say a number is sparse if there are no adjacent ones in its binary representation. For example, `21` (`10101`) is sparse, but `22` (`10110`) is not. For a given input `N`, find the smallest sparse number greater than or equal to `N`.
+
+Do this in faster than `O(N log N)` time.
+
+[Solution](solutions/problem_217.py)
+
+---
+
+#### Problem 218
+
+This problem was asked by Yahoo.
+
+Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
+
+[Solution](solutions/problem_218.py)
+
+---
+
+#### Problem 219
+
+This problem was asked by Salesforce.
+
+Connect 4 is a game where opponents take turns dropping red or black discs into a `7 x 6` vertically suspended grid. The game ends either when one player creates a line of four consecutive discs of their color (horizontally, vertically, or diagonally), or when there are no more spots left in the grid.
+
+Design and implement Connect 4.
+
+[Solution](solutions/problem_219.py)
+
+---
+
+#### Problem 220
+
+This problem was asked by Square.
+
+In front of you is a row of N coins, with values `v_1, v_2, ..., v_n`.
+
+You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
+
+Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
+
+[Solution](solutions/problem_220.py)
+
+---
+
+#### Problem 221
+
+This problem was asked by Zillow.
+
+Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
+
+[Solution](solutions/problem_221.py)
+
+---
+
+#### Problem 222
+
+This problem was asked by Quora.
+
+Given an absolute pathname that may have `.` or `..` as part of it, return the shortest standardized path.
+
+For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
+
+[Solution](solutions/problem_222.py)
+
+---
+
+#### Problem 223
+
+This problem was asked by Palantir.
+
+Typically, an implementation of in-order traversal of a binary tree has `O(h)` space complexity, where `h` is the height of the tree. Write a program to compute the in-order traversal of a binary tree using `O(1)` space.
+
+[Solution](solutions/problem_223.py)
+
+---
+
+#### Problem 224
+
+This problem was asked by Amazon.
+
+Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+
+For example, for the input `[1, 2, 3, 10]`, you should return `7`.
+
+Do this in `O(N)` time.
+
+[Solution](solutions/problem_224.py)
+
+---
+
+#### Problem 225
+
+This problem was asked by Bloomberg.
+
+There are `N` prisoners standing in a circle, waiting to be executed. The executions are carried out starting with the `k`th person, and removing every successive `k`th person going clockwise until there is no one left.
+
+Given `N` and `k`, write an algorithm to determine where a prisoner should stand in order to be the last survivor.
+
+For example, if `N = 5` and `k = 2`, the order of executions would be `[2, 4, 1, 5, 3]`, so you should return `3`.
+
+Bonus: Find an `O(log N)` solution if `k = 2`.
+
+[Solution](solutions/problem_225.py)
+
+---
+
+#### Problem 226
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+[Solution](solutions/problem_226.py)
+
+---
+
+#### Problem 227
+
+This problem was asked by Facebook.
+
+Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+[Solution](solutions/problem_227.py)
+
+---
+
+#### Problem 228
+
+This problem was asked by Twitter.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
+
+[Solution](solutions/problem_228.py)
+
+---
+
+#### Problem 229
+
+This problem was asked by Flipkart.
+
+Snakes and Ladders is a game played on a `10 x 10` board, the goal of which is get from square `1` to square `100`. On each turn players will roll a six-sided die and move forward a number of spaces equal to the result. If they land on a square that represents a snake or ladder, they will be transported ahead or behind, respectively, to a new square.
+
+Find the smallest number of turns it takes to play snakes and ladders.
+
+For convenience, here are the squares representing snakes and ladders, and their outcomes:
+
+```
+snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78}
+ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
+```
+
+[Solution](solutions/problem_229.py)
+
+---
+
+#### Problem 230
+
+This problem was asked by Goldman Sachs.
+
+You are given `N` identical eggs and access to a building with `k` floors. Your task is to find the lowest floor that will cause an egg to break, if dropped from that floor. Once an egg breaks, it cannot be dropped again. If an egg breaks when dropped from the `x`th floor, you can assume it will also break when dropped from any floor greater than `x`.
+
+Write an algorithm that finds the minimum number of trial drops it will take, in the worst case, to identify this floor.
+
+For example, if `N = 1` and `k = 5`, we will need to try dropping the egg at every floor, beginning with the first, until we reach the fifth floor, so our solution will be `5`.
+
+[Solution](solutions/problem_230.py)
+
+---
+
+#### Problem 231
+
+This problem was asked by IBM.
+
+Given a string with repeated characters, rearrange the string so that no two adjacent characters are the same. If this is not possible, return None.
+
+For example, given "aaabbc", you could return "ababac". Given "aaab", return None.
+
+[Solution](solutions/problem_231.py)
+
+---
+
+#### Problem 232
+
+This problem was asked by Google.
+
+Implement a PrefixMapSum class with the following methods:
+
+`insert(key: str, value: int)`: Set a given key's value in the map. If the key already exists, overwrite the value.
+`sum(prefix: str)`: Return the sum of all values of keys that begin with a given prefix.
+For example, you should be able to run the following code:
+
+```
+mapsum.insert("columnar", 3)
+assert mapsum.sum("col") == 3
+```
+
+```
+mapsum.insert("column", 2)
+assert mapsum.sum("col") == 5
+```
+
+[Solution](solutions/problem_232.py)
+
+---
+
+#### Problem 233
+
+This problem was asked by Apple.
+
+Implement the function `fib(n)`, which returns the nth number in the Fibonacci sequence, using only `O(1)` space.
+
+[Solution](solutions/problem_233.py)
+
+---
+
+#### Problem 234
+
+This problem was asked by Microsoft.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
+
+[Solution](solutions/problem_234.py)
+
+---
+
+#### Problem 235
+
+This problem was asked by Facebook.
+
+Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+
+[Solution](solutions/problem_235.py)
+
+---
+
+#### Problem 236
+
+This problem was asked by Nvidia.
+
+You are given a list of N points `(x1, y1), (x2, y2), ..., (xN, yN)` representing a polygon. You can assume these points are given in order; that is, you can construct the polygon by connecting point 1 to point 2, point 2 to point 3, and so on, finally looping around to connect point N to point 1.
+
+Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
+
+[Solution](solutions/problem_236.md)
+
+---
+
+#### Problem 237
+
+This problem was asked by Amazon.
+
+A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
+
+```
+        4
+      / | \
+    3   5   3
+  /           \
+9              9
+```
+
+Given a k-ary tree, determine whether it is symmetric.
+
+[Solution](solutions/problem_237.py)
+
+---
+
+#### Problem 238
+
+This problem was asked by MIT.
+
+Blackjack is a two player card game whose rules are as follows:
+* The player and then the dealer are each given two cards.
+* The player can then "hit", or ask for arbitrarily many additional cards, so long as their total does not exceed 21.
+* The dealer must then hit if their total is 16 or lower, otherwise pass.
+* Finally, the two compare totals, and the one with the greatest sum not exceeding 21 is the winner.
+
+For this problem, cards values are counted as follows: each card between 2 and 10 counts as their face value, face cards count as 10, and aces count as 1.
+
+Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
+
+[Solution](solutions/problem_238.py)
+
+---
+
+#### Problem 239
+
+This problem was asked by Uber.
+
+One way to unlock an Android phone is through a pattern of swipes across a 1-9 keypad.
+
+For a pattern to be valid, it must satisfy the following:
+
+All of its keys must be distinct.
+It must not connect two keys by jumping over a third key, unless that key has already been used.
+For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
+
+Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
+
+[Solution](solutions/problem_239.py)
+
+---
+
+#### Problem 240
+
+This problem was asked by Spotify.
+
+There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
+What is the minimum number of swaps necessary for this to happen?
+
+[Solution](solutions/problem_240.md)
+
+---
+
+#### Problem 241
+
+This problem was asked by Palantir.
+
+In academia, the h-index is a metric used to calculate the impact of a researcher's papers. It is calculated as follows:
+
+A researcher has index `h` if at least `h` of her `N` papers have `h` citations each. If there are multiple `h` satisfying this formula, the maximum is chosen.
+
+For example, suppose `N = 5`, and the respective citations of each paper are `[4, 3, 0, 1, 5]`. Then the h-index would be `3`, since the researcher has `3` papers with at least `3` citations.
+
+Given a list of paper citations of a researcher, calculate their h-index.
+
+[Solution](solutions/problem_241.py)
+
+---
+
+#### Problem 242
+
+This problem was asked by Twitter.
+
+You are given an array of length 24, where each element represents the number of new subscribers during the corresponding hour. Implement a data structure that efficiently supports the following:
+* `update(hour: int, value: int)`: Increment the element at index hour by value.
+* `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between start and end (inclusive).
+You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
+
+[Solution](solutions/problem_242.py)
+
+---
+
+#### Problem 243
+
+This problem was asked by Etsy.
+
+Given an array of numbers `N` and an integer `k`, your task is to split `N` into `k` partitions such that the maximum sum of any partition is minimized. Return this sum.
+
+For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
+
+[Solution](solutions/problem_243.py)
+
+---
+
+#### Problem 244
+
+This problem was asked by Square.
+
+The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than N. The method is to take increasingly larger prime numbers, and mark their multiples as composite.
+
+For example, to find all primes less than 100, we would first mark `[4, 6, 8, ...]` (multiples of two), then `[6, 9, 12, ...]` (multiples of three), and so on. Once we have done this for all primes less than `N`, the unmarked numbers that remain will be prime.
+
+Implement this algorithm.
+
+Bonus: Create a generator that produces primes indefinitely (that is, without taking `N` as an input).
+
+[Solution](solutions/problem_244.py)
+
+---
+
+#### Problem 245
+
+This problem was asked by Yelp.
+
+You are given an array of integers, where each element represents the maximum number of steps that can be jumped going forward from that element. Write a function to return the minimum number of jumps you must take in order to get from the start to the end of the array.
+
+For example, given `[6, 2, 4, 0, 5, 1, 1, 4, 2, 9]`, you should return `2`, as the optimal solution involves jumping from `6` to `5`, and then from `5` to `9`.
+
+[Solution](solutions/problem_245.py)
+
+---
+
+#### Problem 246
+
+This problem was asked by Dropbox.
+
+Given a list of words, determine whether the words can be chained to form a circle. A word `X` can be placed in front of another word `Y` in a circle if the last character of `X` is same as the first character of `Y`.
+
+For example, the words `['chair', 'height', 'racket', 'touch', 'tunic']` can form the following circle: `chair -> racket -> touch -> height -> tunic -> chair`.
+
+[Solution](solutions/problem_246.py)
+
+---
+
+#### Problem 247
+
+This problem was asked by PayPal.
+
+Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
+
+[Solution](solutions/problem_247.py)
+
+---
+
+#### Problem 248
+
+This problem was asked by Nvidia.
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[Solution](solutions/problem_248.py)
+
+---
+
+### Problem 249
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+[Solution](solutions/problem_249.py)
+
+---
+
+### Problem 250
+
+This problem was asked by Google.
+
+A cryptarithmetic puzzle is a mathematical game where the digits of some numbers are represented by letters. Each letter represents a unique digit.
+
+For example, a puzzle of the form:
+
+```
+  SEND
++ MORE
+--------
+ MONEY
+```
+may have the solution:
+
+`{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O': 0, 'R': 8, 'Y': 2}`
+
+Given a three-word puzzle like the one above, create an algorithm that finds a solution.
+
+[Solution](solutions/problem_250.py)
+
+---
+
+### Problem 251
+
+This problem was asked by Amazon.
+
+Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
+
+[Solution](solutions/problem_251.md)
+
+---
+
+### Problem 252
+
+This problem was asked by Palantir.
+
+The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, `4 / 13` can be represented as `1 / (4 + 1 / (18 + (1 / 468)))`.
+
+Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
+
+[Solution](solutions/problem_252.py)
+
+---
+
+### Problem 253
+
+This problem was asked by PayPal.
+
+Given a string and a number of lines `k`, print the string in zigzag form. In zigzag, characters are printed out diagonally from top left to bottom right until reaching the kth line, then back up to top right, and so on.
+
+For example, given the sentence `"thisisazigzag"` and `k = 4`, you should print:
+
+```
+t     a     g
+ h   s z   a
+  i i   i z
+   s     g
+```
+
+[Solution](solutions/problem_253.py)
+
+---
+
+### Problem 254
+
+This problem was asked by Yahoo.
+
+Recall that a full binary tree is one in which each node is either a leaf node, or has two children. Given a binary tree, convert it to a full one by removing nodes with only one child.
+
+For example, given the following tree:
+
+```
+         a
+      /     \
+    b         c
+  /            \
+d                 e
+  \             /   \
+    f          g     h
+```
+
+You should convert it to:
+
+```
+     a
+  /     \
+f         e
+        /   \
+       g     h
+```
+[Solution](solutions/problem_254.py)
+
+---
+
+### Problem 255
+
+This problem was asked by Microsoft.
+
+The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
+
+For example, suppose we are given the following graph in adjacency list form:
+```
+graph = [
+    [0, 1, 3],
+    [1, 2],
+    [2],
+    [3]
+]
+```
+
+The transitive closure of this graph would be:
+```
+[1, 1, 1, 1]
+[0, 1, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+```
+
+Given a graph, find its transitive closure.
+
+[Solution](solutions/problem_255.py)
+
+---
+
+### Problem 256
+
+This problem was asked by Fitbit.
+
+Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high` ... form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
+
+[Solution](solutions/problem_256.py)
+
+---
+
+### Problem 257
+
+This problem was asked by WhatsApp.
+
+Given an array of integers out of order, determine the bounds of the smallest window that must be sorted in order for the entire array to be sorted. For example, given `[3, 7, 5, 6, 9]`, you should return `(1, 3)`.
+
+[Solution](solutions/problem_257.py)
+
+---
+
+### Problem 258
+
+This problem was asked by Morgan Stanley.
+
+In Ancient Greece, it was common to write text with the first line going left to right, the second line going right to left, and continuing to go back and forth. This style was called "boustrophedon".
+
+Given a binary tree, write an algorithm to print the nodes in boustrophedon order.
+
+For example, given the following tree:
+
+```
+       1
+    /     \
+  2         3
+ / \       / \
+4   5     6   7
+```
+
+You should return `[1, 3, 2, 4, 5, 6, 7]`.
+
+[Solution](solutions/problem_258.py)
+
+---
+
+### Problem 259
+
+This problem was asked by Two Sigma.
+
+Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+
+```
+Player 1: g
+Player 2: h
+Player 1: o
+Player 2: s
+Player 1: t [loses]
+```
+
+Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+
+For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be b.
+
+[Solution](solutions/problem_259.py)
+
+---
+
+### Problem 260
+
+This problem was asked by Pinterest.
+
+The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
+
+[Solution](solutions/problem_260.py)
+
+---
+
+### Problem 261
+
+This problem was asked by Amazon.
+
+Huffman coding is a method of encoding characters based on their frequency. Each letter is assigned a variable-length binary string, such as `0101` or `111110`, where shorter lengths correspond to more common letters. To accomplish this, a binary tree is built such that the path from the root to any leaf uniquely maps to a character. When traversing the path, descending to a left child corresponds to a `0` in the prefix, while descending right corresponds to `1`.
+
+Here is an example tree (note that only the leaf nodes have letters):
+
+```
+        *
+      /   \
+    *       *
+   / \     / \
+  *   a   t   *
+ /             \
+c               s
+```
+With this encoding, cats would be represented as `0000110111`.
+
+Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
+
+[Solution](solutions/problem_261.py)
+
+---
+
+### Problem 262
+
+This problem was asked by Mozilla.
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
+[Solution](solutions/problem_262.md)
+
+---
+
+### Problem 263
+
+This problem was asked by Nest.
+
+Create a basic sentence checker that takes in a stream of characters and determines whether they form valid sentences. If a sentence is valid, the program should print it out.
+
+We can consider a sentence valid if it conforms to the following rules:
+* The sentence must start with a capital letter, followed by a lowercase letter or a space.
+* All other characters must be lowercase letters, separators `(,,;,:)` or terminal marks `(.,?,!,‽)`.
+* There must be a single space between each word.
+* The sentence must end with a terminal mark immediately following a word.
+
+[Solution](solutions/problem_263.py)
+
+---
+
+### Problem 264
+
+This problem was asked by LinkedIn.
+
+Given a set of characters `C` and an integer `k`, a De Bruijn sequence is a cyclic sequence in which every possible `k`-length string of characters in `C` occurs exactly once.
+
+For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
+
+Create an algorithm that finds a De Bruijn sequence.
+
+[Solution](solutions/problem_264.py)
+
+---
+
+### Problem 265
+
+This problem was asked by Atlassian.
+
+MegaCorp wants to give bonuses to its employees based on how many lines of codes they have written. They would like to give the smallest positive amount to each worker consistent with the constraint that if a developer has written more lines of code than their neighbor, they should receive more money.
+
+Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
+
+For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
+
+[Solution](solutions/problem_265.py)
+
+---
+
+### Problem 266
+
+This problem was asked by Pivotal.
+
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
+
+Given a dictionary of words and an input word, create a function that returns all valid step words.
+
+[Solution](solutions/problem_266.py)
+
+---
+
+### Problem 267
+
+This problem was asked by Oracle.
+
+You are presented with an 8 by 8 matrix representing the positions of pieces on a chess board. The only pieces on the board are the black king and various white pieces. Given this matrix, determine whether the king is in check.
+
+For details on how each piece moves, see [here](https://en.wikipedia.org/wiki/Chess_piece#Moves_of_the_pieces).
+
+For example, given the following matrix:
+
+```
+...K....
+........
+.B......
+......P.
+.......R
+..N.....
+........
+.....Q..
+```
+
+You should return `True`, since the bishop is attacking the king diagonally.
+
+[Solution](solutions/problem_267.py)
+
+---
+
+### Problem 268
+
+This problem was asked by Indeed.
+
+Given a 32-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+
+[Solution](solutions/problem_268.py)
+
+---
+
+### Problem 269
+
+This problem was asked by Microsoft.
+
+You are given an string representing the initial conditions of some dominoes. Each element can take one of three values:
+* `L`, meaning the domino has just been pushed to the left,
+* `R`, meaning the domino has just been pushed to the right, or
+* `.`, meaning the domino is standing still.
+
+Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
+
+For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
+
+Given the string `..R...L.L`, you should return `..RR.LLLL`.
+
+[Solution](solutions/problem_269.py)
+
+---
+
+### Problem 270
+
+This problem was asked by Twitter.
+
+A network consists of nodes labeled `0` to `N`. You are given a list of edges `(a, b, t)`, describing the time `t` it takes for a message to be sent from node `a` to node `b`. Whenever a node receives a message, it immediately passes the message on to a neighboring node, if possible.
+
+Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node `0`.
+
+For example, given `N = 5`, and the following edges:
+
+```
+edges = [
+    (0, 1, 5),
+    (0, 2, 3),
+    (0, 5, 4),
+    (1, 3, 8),
+    (2, 3, 1),
+    (3, 5, 10),
+    (3, 4, 5)
+]
+```
+
+You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
+
+[Solution](solutions/problem_270.py)
+
+---
+
+### Problem 271
+
+This problem was asked by Netflix.
+
+Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in `O(log N)` time.
+
+[Solution](solutions/problem_271.py)
+
+---
+
+### Problem 272
+
+This problem was asked by Spotify.
+
+Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
+
+For example, `throw_dice(3, 6, 7)` should equal `15`.
+
+[Solution](solutions/problem_272.py)
+
+---
+
+### Problem 273
+
+This problem was asked by Apple.
+
+A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
+
+For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
+
+[Solution](solutions/problem_273.py)
+
+---
+
+### Problem 274
+
+This problem was asked by Facebook.
+
+Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+
+Don't use eval or a similar built-in parser.
+
+For example, given `'-1 + (2 + 3)'`, you should return `4`.
+
+[Solution](solutions/problem_274.py)
+
+---
+
+### Problem 275
+
+This problem was asked by Epic.
+
+The "look and say" sequence is defined as follows: beginning with the term `1`, each subsequent term visually describes the digits appearing in the previous term. The first few terms are as follows:
+
+```
+1
+11
+21
+1211
+111221
+```
+
+As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
+
+Given an integer `N`, print the `Nth` term of this sequence.
+
+[Solution](solutions/problem_275.py)
+
+---
+
+### Problem 276
+
+This problem was asked by Dropbox.
+
+Implement an efficient string matching algorithm.
+
+That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
+
+If the pattern is found, return the start index of its location. If not, return `False`.
+
+[Solution](solutions/problem_276.py)
+
+---
+
+### Problem 277
+
+This problem was asked by Google.
+
+UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
+
+For example, the Euro sign, `€`, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
+* For a single-byte character, the first bit must be zero.
+* For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
+Visually, this can be represented as follows.
+
+```
+ Bytes   |           Byte format
+-----------------------------------------------
+   1     | 0xxxxxxx
+   2     | 110xxxxx 10xxxxxx
+   3     | 1110xxxx 10xxxxxx 10xxxxxx
+   4     | 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+```
+
+Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
+
+[Solution](solutions/problem_277.py)
+
+---
+
+### Problem 278
+
+This problem was asked by Amazon.
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
+
+[Solution](solutions/problem_278.py)
+
+---
+
+### Problem 279
+
+This problem was asked by Twitter.
+
+A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
+
+```
+{
+    0: [1, 2],
+    1: [0, 5],
+    2: [0],
+    3: [6],
+    4: [],
+    5: [1],
+    6: [3]
+}
+```
+Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
+
+Given a friendship list such as the one above, determine the number of friend groups in the class.
+
+[Solution](solutions/problem_279.py)
+
+---
+
+### Problem 280
+
+This problem was asked by Pandora.
+
+Given an undirected graph, determine if it contains a cycle.
+
+[Solution](solutions/problem_280.py)
+
+---
+
+### Problem 281
+
+This problem was asked by LinkedIn.
+
+A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
+
+For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
+
+```
+[[3, 5, 1, 1],
+ [2, 3, 3, 2],
+ [5, 5],
+ [4, 4, 2],
+ [1, 3, 3, 3],
+ [1, 1, 6, 1, 1]]
+```
+
+The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
+
+Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+
+[Solution](solutions/problem_281.py)
+
+---
+
+### Problem 282
+
+This problem was asked by Netflix.
+
+Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
+
+[Solution](solutions/problem_282.py)
+
+---
+
+### Problem 283
+
+This problem was asked by Google.
+
+A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
+
+These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
+
+Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+
+[Solution](solutions/problem_283.py)
+
+---
+
+### Problem 284
+
+This problem was asked by Yext.
+
+Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
+
+```
+    1
+   / \
+  2   3
+ / \   \
+4   5   6
+```
+
+Given a binary tree and a particular node, find all cousins of that node.
+
+[Solution](solutions/problem_284.py)
+
+---
+
+### Problem 285
+
+This problem was asked by Mailchimp.
+
+You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
+
+For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
+
+Can you do this using just one forward pass through the array?
+
+[Solution](solutions/problem_285.py)
+
+---
+
+### Problem 286
+
+This problem was asked by VMware.
+
+The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary `x`-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
+
+Given an array of buildings as described above, create a function that returns the skyline.
+
+For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
+
+```
+     ______  
+    |      |        ___
+ ___|      |___    |   | 
+|   |   B  |   |   | C |
+| A |      | A |   |   |
+|   |      |   |   |   |
+------------------------
+```
+
+As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
+
+[Solution](solutions/problem_286.py)
+
+---
+
+### Problem 287
+
+This problem was asked by Quora.
+
+You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
+
+For example, suppose `k = 1`, and the list of tuples is:
+
+```
+[('a', 1), ('a', 3), ('a', 5),
+ ('b', 2), ('b', 6),
+ ('c', 1), ('c', 2), ('c', 3), ('c', 4), ('c', 5),
+ ('d', 4), ('d', 5), ('d', 6), ('d', 7),
+ ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
+```
+
+Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
+
+[Solution](solutions/problem_287.py)
+
+---
+
+### Problem 288
+
+This problem was asked by Salesforce.
+
+The number `6174` is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
+
+For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
+Subtract the smaller number from the larger number.
+For example, this algorithm terminates in three steps when starting from `1234`:
+
+```
+4321 - 1234 = 3087
+8730 - 0378 = 8352
+8532 - 2358 = 6174
+```
+
+Write a function that returns how many steps this will take for a given input `N`.
+
+[Solution](solutions/problem_288.py)
+
+---
+
+### Problem 289
+
+This problem was asked by Google.
+
+The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
+
+| A   | B   | C   |
+| --- | --- | --- |
+| 3   | 4   | 5   |
+| 3   | 1   | 5   |
+| 3   | 1   | 3   |
+| 0   | 1   | 3   |
+| 0   | 1   | 0   |
+| 0   | 0   | 0   |
+
+In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
+
+Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
+
+[Solution](solutions/problem_289.py)
+
+---
+
+### Problem 290
+
+This problem was asked by Facebook.
+
+On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
+
+Given N Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
+
+For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
+
+```
+        Arrangement       |   Change
+----------------------------------------
+['R', 'G', 'B', 'G', 'B'] | (R, G) -> B
+['B', 'B', 'G', 'B']      | (B, G) -> R
+['B', 'R', 'B']           | (R, B) -> G
+['B', 'G']                | (B, G) -> R
+['R']                     |
+```
+
+[Solution](solutions/problem_290.py)
+
+---
+
+### Problem 291
+
+This problem was asked by Glassdoor.
+
+An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
+
+For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
+
+[Solution](solutions/problem_291.py)
+
+---
+
+### Problem 292
+
+This problem was asked by Twitter.
+
+A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
+
+Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
+
+For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
+```
+students = {
+    0: [3],
+    1: [2],
+    2: [1, 4],
+    3: [0, 4, 5],
+    4: [2, 3],
+    5: [3]
+}
+```
+
+On the other hand, given the input below, you should return `False`.
+```
+students = {
+    0: [3],
+    1: [2],
+    2: [1, 3, 4],
+    3: [0, 2, 4, 5],
+    4: [2, 3],
+    5: [3]
+}
+```
+
+[Solution](solutions/problem_292.py)
+
+---
+
+### Problem 293
+
+This problem was asked by Uber.
+
+You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
+
+You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
+
+For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay 2 to create `[0, 1, 2, 3, 2, 1]`.
+
+[Solution](solutions/problem_293.py)
+
+---
+
+### Problem 294
+
+This problem was asked by Square.
+
+A competitive runner would like to create a route that starts and ends at his house, with the condition that the route goes entirely uphill at first, and then entirely downhill.
+
+Given a dictionary of places of the form `{location: elevation}`, and a dictionary mapping paths between some of these locations to their corresponding distances, find the length of the shortest route satisfying the condition above. Assume the runner's home is location `0`.
+
+For example, suppose you are given the following input:
+```
+elevations = {0: 5, 1: 25, 2: 15, 3: 20, 4: 10}
+paths = {
+    (0, 1): 10,
+    (0, 2): 8,
+    (0, 3): 15,
+    (1, 3): 12,
+    (2, 4): 10,
+    (3, 4): 5,
+    (3, 0): 17,
+    (4, 0): 10
+}
+```
+
+In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
+
+[Solution](solutions/problem_294.py)
+
+---
+
+### Problem 295
+
+This problem was asked by Stitch Fix.
+
+Pascal's triangle is a triangular array of integers constructed with the following formula:
+
+The first row consists of the number 1.
+For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+For example, here are the first few rows:
+```
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+```
+
+Given an input `k`, return the `k`th row of Pascal's triangle.
+
+Bonus: Can you do this using only `O(k)` space?
+
+[Solution](solutions/problem_295.py)
+
+---
+
+### Problem 296
+
+This problem was asked by Etsy.
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
+[Solution](solutions/problem_296.py)
+
+---
+
+### Problem 297
+
+This problem was asked by Amazon.
+
+At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer 0 will be satisfied with drinks `0`, `1`, `3`, or `6`.
+
+```
+preferences = {
+    0: [0, 1, 3, 6],
+    1: [1, 4, 7],
+    2: [2, 4, 7, 5],
+    3: [3, 2, 5],
+    4: [5, 8]
+}
+```
+
+A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
+
+For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
+
+[Solution](solutions/problem_297.py)
+
+---
+
+### Problem 298
+
+This problem was asked by Google.
+
+A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
+
+Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
+
+For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
+
+[Solution](solutions/problem_298.py)
+
+---
+
+### Problem 299
+
+This problem was asked by Samsung.
+
+A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
+
+For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes:
+`A <--> B <--> C <--> plant`
+
+Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
+
+In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
+
+```python
+pipes = {
+    'plant': {'A': 1, 'B': 5, 'C': 20},
+    'A': {'C': 15},
+    'B': {'C': 10},
+    'C': {}
+}
+```
+
+[Solution](solutions/problem_299.py)
+
+---
+
+### Problem 300
+
+This problem was asked by Uber.
+
+On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
+
+[Solution](solutions/problem_300.py)
+
+---
+
+### Problem 301
+
+This problem was asked by Triplebyte.
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+- `add(value)`: Add a value to the set of values.
+- `check(value)`: Check whether a value is in the set.
+
+The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+
+[Solution](solutions/problem_301.py)
+
+---
+
+### Problem 302
+
+This problem was asked by Uber.
+
+You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+```
+\    /
+ \  /
+  \/
+```
+
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+
+[Solution](solutions/problem_302.py)
+
+---
+
+### Problem 303
+
+This problem was asked by Microsoft.
+
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
+
+[Solution](solutions/problem_303.py)
+
+---
+
+### Problem 304
+
+This problem was asked by Two Sigma.
+
+A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
+
+After `k` moves, what is the probability that the knight remains on the board?
+
+[Solution](solutions/problem_304.py)
+
+---
+
+### Problem 305
+
+This problem was asked by Amazon.
+
+Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
+
+For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+
+[Solution](solutions/problem_305.py)
+
+---
+
+### Problem 306
+
+This problem was asked by Palantir.
+
+You are given a list of N numbers, in which each number is located at most k places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
+
+Come up with an algorithm that sorts this list in `O(N log k)` time.
+
+[Solution](solutions/problem_306.py)
+
+---
+
+### Problem 307
+
+This problem was asked by Oracle.
+
+Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+
+If either value does not exist, return None.
+
+[Solution](solutions/problem_307.py)
+
+---
+
+### Problem 308
+
+This problem was asked by Quantcast.
+
+You are presented with an array representing a Boolean expression. The elements are of two kinds:
+- `T` and `F`, representing the values `True` and `False`.
+- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
+
+Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
+
+For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
+
+[Solution](solutions/problem_308.py)
+
+---
+
+### Problem 309
+
+This problem was asked by Walmart Labs.
+
+There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
+
+For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be `5`.
+
+Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
+
+[Solution](solutions/problem_309.py)
+
+---
+
+### Problem 310
+
+This problem was asked by Pivotal.
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+
+[Solution](solutions/problem_310.py)
+
+---
+
+### Problem 311
+
+This problem was asked by Sumo Logic.
+
+Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+
+[Solution](solutions/problem_311.py)
+
+---
+
+### Problem 312
+
+This problem was asked by Wayfair.
+
+You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
+- Dominoes, or `2 x 1` rectangles.
+- Trominoes, or L-shapes.
+
+For example, if `N = 4`, here is one possible configuration, where A is a domino, and B and C are trominoes.
+
+```
+A B B C
+A B C C
+```
+
+Given an integer N, determine in how many ways this task is possible.
+
+[Solution](solutions/problem_312.py)
+
+---
+
+### Problem 313
+
+This problem was asked by Citrix.
+
+You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
+
+In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
+
+Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+
+[Solution](solutions/problem_313.py)
+
+---
+
+### Problem 314
+
+This problem was asked by Spotify.
+
+You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
+
+Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
+
+For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
+
+[Solution](solutions/problem_314.py)
+
+---
+
+### Problem 315
+
+This problem was asked by Google.
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+
+Write a program to determine whether a given input is a Toeplitz matrix.
+
+[Solution](solutions/problem_315.py)
+
+---
+
+### Problem 316
+
+This problem was asked by Snapchat.
+
+You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
+
+Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
+
+[Solution](solutions/problem_316.py)
+
+---
+
+### Problem 317
+
+This problem was asked by Yahoo.
+
+Write a function that returns the bitwise `AND` of all integers between `M` and `N`, inclusive.
+
+[Solution](solutions/problem_317.py)
+
+---
+
+### Problem 318
+
+This problem was asked by Apple.
+
+You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
+
+Given `N`, `M`, and `B`, determine the number of valid playlists.
+
+[Solution](solutions/problem_318.py)
+
+---
+
+### Problem 319
+
+This problem was asked by Airbnb.
+
+An 8-puzzle is a game played on a `3 x 3` board of tiles, with the ninth tile missing. The remaining tiles are labeled `1` through `8` but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
+
+Design a class to represent the board, and find a series of steps to bring the board to the state `[[1, 2, 3], [4, 5, 6], [7, 8, None]]`.
+
+[Solution](solutions/problem_319.py)
+
+---
+
+### Problem 320
+
+This problem was asked by Amazon.
+
+Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
+
+For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
+
+[Solution](solutions/problem_320.py)
+
+---
+
+### Problem 321
+
+This problem was asked by PagerDuty.
+
+Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
+
+There are two kinds of permitted steps:
+- You may decrement `N` to `N - 1`.
+- If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
+
+For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
+
+[Solution](solutions/problem_321.py)
+
+---
+
+### Problem 322
+
+This problem was asked by Flipkart.
+
+Starting from `0` on a number line, you would like to make a series of jumps that lead to the integer `N`.
+
+On the `i`th jump, you may move exactly `i` places to the left or right.
+
+Find a path with the fewest number of jumps required to get from `0` to `N`.
+
+[Solution](solutions/problem_322.py)
+
+---
+
+### Problem 323
+
+This problem was asked by Dropbox.
+
+Create an algorithm to efficiently compute the approximate median of a list of numbers.
+
+More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
+
+[Solution](solutions/problem_323.py)
+
+---
+
+### Problem 324
+
+This problem was asked by Amazon.
+
+Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
+
+Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
+
+For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+
+[Solution](solutions/problem_324.py)
+
+---
+
+### Problem 325
+
+This problem was asked by Jane Street.
+
+The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, and so on.
+
+Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+
+[Solution](solutions/problem_325.py)
+
+---
+
+### Problem 326
+
+This problem was asked by Netflix.
+
+A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
+
+It is heap-ordered, so that each parent value is strictly less than that of its children.
+An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
+For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
+
+```
+      1
+    /   \   
+  2       9
+ / \
+3   6
+```
+
+Given a sequence S, construct the corresponding Cartesian tree.
+
+[Solution](solutions/problem_326.py)
+
+---
+
+### Problem 327
+
+This problem was asked by Salesforce.
+
+Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
+
+If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+
+[Solution](solutions/problem_327.py)
+
+---
+
+### Problem 328
+
+This problem was asked by Facebook.
+
+In chess, the Elo rating system is used to calculate player strengths based on game results.
+
+A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
+
+Implement this system.
+
+[Solution](solutions/problem_328.py)
+
+---
+
+### Problem 329
+
+This problem was asked by Amazon.
+
+The stable marriage problem is defined as follows:
+
+Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
+
+For example, if `N = 3`, the input could be something like this:
+
+```
+guy_preferences = {
+    'andrew': ['caroline', 'abigail', 'betty'],
+    'bill': ['caroline', 'betty', 'abigail'],
+    'chester': ['betty', 'caroline', 'abigail'],
+}
+gal_preferences = {
+    'abigail': ['andrew', 'bill', 'chester'],
+    'betty': ['bill', 'andrew', 'chester'],
+    'caroline': ['bill', 'chester', 'andrew']
+}
+```
+
+Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
+
+[Solution](solutions/problem_329.py)
+
+---
+
+### Problem 330
+
+This problem was asked by Dropbox.
+
+A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
+
+For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
+
+```
+(¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
+```
+
+One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
+
+This type of formula, with AND statements joining tuples containing exactly one OR, is known as 2-CNF.
+
+Given a 2-CNF formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
+
+[Solution](solutions/problem_330.py)
+
+---
+
+### Problem 331
+
+This problem was asked by LinkedIn.
+
+You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called flip, which changes a single `x` to `y` or vice versa.
+
+Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
+
+[Solution](solutions/problem_331.py)
+
+---
+
+### Problem 332
+
+This problem was asked by Jane Street.
+
+Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
+
+```
+a + b = M
+a XOR b = N
+```
+
+[Solution](solutions/problem_332.py)
+
+---
+
+### Problem 333
+
+This problem was asked by Pinterest.
+
+At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
+
+Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
+
+[Solution](solutions/problem_333.py)
+
+---
+
+### Problem 334
+
+This problem was asked by Twitter.
+
+The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
+
+For example, given the input `[5, 2, 7, 8]`, you should return True, since `(5 * 2 - 7) * 8 = 24`.
+
+Write a function that plays the `24` game.
+
+[Solution](solutions/problem_334.py)
+
+---
+
+### Problem 335
+
+This problem was asked by Google.
+
+PageRank is an algorithm used by Google to rank the importance of different websites. While there have been changes over the years, the central idea is to assign each site a score based on the importance of other pages that link to that page.
+
+More mathematically, suppose there are `N` sites, and each site `i` has a certain count `Ci` of outgoing links. Then the score for a particular site `Sj` is defined as :
+
+```
+score(Sj) = (1 - d) / N + d * (score(Sx) / Cx+ score(Sy) / Cy+ ... + score(Sz) / Cz))
+```
+
+Here, `Sx, Sy, ..., Sz` denote the scores of all the other sites that have outgoing links to `Sj`, and `d` is a damping factor, usually set to around `0.85`, used to model the probability that a user will stop searching.
+
+Given a directed graph of links between various websites, write a program that calculates each site's page rank.
+
+[Solution](solutions/problem_335.py)
+
+---
+
+### Problem 336
+
+This problem was asked by Microsoft.
+
+Write a program to determine how many distinct ways there are to create a max heap from a list of `N` given integers.
+
+For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, shown below.
+
+```
+  3      3
+ / \    / \
+1   2  2   1
+```
+
+[Solution](solutions/problem_336.py)
+
+---
+
+### Problem 337
+
+This problem was asked by Apple.
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
+[Solution](solutions/problem_337.py)
+
+---
+
+### Problem 338
+
+This problem was asked by Facebook.
+
+Given an integer `n`, find the next biggest integer with the same number of `1`-bits on. For example, given the number `6` (`0110` in binary), return `9` (`1001`).
+
+[Solution](solutions/problem_338.py)
+
+---
+
+### Problem 339
+
+This problem was asked by Microsoft.
+
+Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return true as `20 + 4 + 25 = 49`.
+
+[Solution](solutions/problem_339.py)
+
+---
+
+### Problem 340
+
+This problem was asked by Google.
+
+Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
+
+[Solution](solutions/problem_340.py)
+
+---
+
+### Problem 341
+
+This problem was asked by Google.
+
+You are given an N by N matrix of random letters and a dictionary of words. Find the maximum number of words that can be packed on the board from the given dictionary.
+
+A word is considered to be able to be packed on the board if:
+- It can be found in the dictionary
+- It can be constructed from untaken letters by other words found so far on the board
+- The letters are adjacent to each other (vertically and horizontally, not diagonally).
+- Each tile can be visited only once by any word.
+
+For example, given the following dictionary:
+```
+{ 'eat', 'rain', 'in', 'rat' }
+```
+
+and matrix:
+```
+[['e', 'a', 'n'],
+ ['t', 't', 'i'],
+ ['a', 'r', 'a']]
+```
+
+Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
+
+[Solution](solutions/problem_341.py)
+
+---
+
+### Problem 342
+
+This problem was asked by Stripe.
+
+`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of reduce:
+
+```python
+def add(a, b):
+    return a + b
+```
+
+```python
+def sum(lst):
+    return reduce(lst, add, 0)
+```
+
+This should call add on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
+
+Implement your own version of reduce.
+
+[Solution](solutions/problem_342.py)
+
+---
+
+### Problem 343
+
+This problem was asked by Google.
+
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
+
+[Solution](solutions/problem_343.py)
+
+---
+
+### Problem 344
+
+This problem was asked by Adobe.
+
+You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
+
+For example, suppose your input was the following tree:
+```
+   1
+  / \ 
+ 2   3
+    / \ 
+   4   5
+ / | \
+6  7  8
+```
+
+In this case, removing the edge `(3, 4)` satisfies our requirement.
+
+Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
+
+[Solution](solutions/problem_344.py)
+
+---
+
+### Problem 345
+
+This problem was asked by Google.
+
+You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
+
+For example, the following two sentences are equivalent:
+- "He wants to eat food."
+- "He wants to consume food."
+
+Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
+
+Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
+
+[Solution](solutions/problem_345.py)
+
+---
+
+### Problem 346
+
+This problem was asked by Airbnb.
+
+You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
+
+Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
+
+For example, our traveler wants to go from JFK to LAX with up to 3 connections, and our input flights are as follows:
+
+```
+[
+    ('JFK', 'ATL', 150),
+    ('ATL', 'SFO', 400),
+    ('ORD', 'LAX', 200),
+    ('LAX', 'DFW', 80),
+    ('JFK', 'HKG', 800),
+    ('ATL', 'ORD', 90),
+    ('JFK', 'LAX', 500),
+]
+```
+
+Due to some improbably low flight prices, the cheapest itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
+
+[Solution](solutions/problem_346.py)
+
+---
+
+### Problem 347
+
+This problem was asked by Yahoo.
+
+You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
+
+Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
+
+For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
+
+[Solution](solutions/problem_347.py)
+
+---
+
+### Problem 348
+
+This problem was asked by Zillow.
+
+A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
+```
+       c
+    /  |  \
+   b   o   w
+ / |   |   |
+a  e   d   a
+|    / |   | \ 
+x   b  e   r  e
+```
+
+The tree is structured according to the following rules:
+- left child nodes link to words lexicographically earlier than the parent prefix
+- right child nodes link to words lexicographically later than the parent prefix
+- middle child nodes continue the current word
+
+For instance, since code is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
+
+Implement insertion and search functions for a ternary search tree.
+
+[Solution](solutions/problem_348.py)
+
+---
+
+### Problem 349
+
+This problem was asked by Grammarly.
+
+Soundex is an algorithm used to categorize phonetically, such that two names that sound alike but are spelled differently have the same representation.
+
+Soundex maps every name to a string consisting of one letter and three numbers, like `M460`.
+
+One version of the algorithm is as follows:
+- Remove consecutive consonants with the same sound (for example, change `ck -> c`).
+- Keep the first letter. The remaining steps only apply to the rest of the string.
+- Remove all vowels, including `y`, `w`, and `h`.
+- Replace all consonants with the following digits:
+    ```
+    b, f, p, v -> 1
+    c, g, j, k, q, s, x, z -> 2
+    d, t -> 3
+    l -> 4
+    m, n -> 5
+    r -> 6
+    ```
+
+If you don't have three numbers yet, append zeros until you do. Keep the first three numbers.
+Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
+
+Implement Soundex.
+
+[Solution](solutions/problem_349.py)
+
+---
+
+### Problem 350
+
+This problem was asked by Uber.
+
+Write a program that determines the smallest number of perfect squares that sum up to `N`.
+
+Here are a few examples:
+- Given `N = 4`, return `1` `(4)`
+- Given `N = 17`, return `2` `(16 + 1)`
+- Given `N = 18`, return `2` `(9 + 9)`
+
+[Solution](solutions/problem_350.py)
+
+---
+
+### Problem 351
+
+This problem was asked by Quora.
+
+Word sense disambiguation is the problem of determining which sense a word takes on in a particular setting, if that word has multiple meanings. For example, in the sentence "I went to get money from the bank", bank probably means the place where people deposit money, not the land beside a river or lake.
+
+Suppose you are given a list of meanings for several words, formatted like so:
+```
+{
+    "word_1": ["meaning one", "meaning two", ...],
+    ...
+    "word_n": ["meaning one", "meaning two", ...]
+}
+```
+
+Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
+
+[Solution](solutions/problem_351.md)
+
+---
+
+### Problem 352
+
+This problem was asked by Palantir.
+
+A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
+- Every white square must be part of an "across" word and a "down" word.
+- No word can be fewer than three letters long.
+- Every white square must be reachable from every other white square.
+
+The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
+Write a program to determine whether a given matrix qualifies as a crossword grid.
+
+[Solution](solutions/problem_352.md)
+
+---
+
+### Problem 353
+
+This problem was asked by Square.
+
+You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that `[1, 3, 2, 5]` corresponds to the following diagram:
+
+```
+      x
+      x  
+  x   x
+  x x x
+x x x x
+```
+
+Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the `2 x 3` area at the bottom right.
+
+[Solution](solutions/problem_353.py)
+
+---
+
+### Problem 354
+
+This problem was asked by Google.
+
+Design a system to crawl and copy all of Wikipedia using a distributed network of machines.
+
+More specifically, suppose your server has access to a set of client machines. Your client machines can execute code you have written to access Wikipedia pages, download and parse their data, and write the results to a database.
+
+Some questions you may want to consider as part of your solution are:
+- How will you reach as many pages as possible?
+- How can you keep track of pages that have already been visited?
+- How will you deal with your client machines being blacklisted?
+- How can you update your database when Wikipedia pages are added or updated?
+
+[Solution](solutions/problem_354.md)
+
+---
+
+### Problem 355
+
+This problem was asked by Airbnb.
+
+You are given an array `X` of floating-point numbers `x1, x2, ... xn`. These can be rounded up or down to create a corresponding array `Y` of integers `y1, y2, ... yn`.
+
+Write an algorithm that finds an appropriate `Y` array with the following properties:
+- The rounded sums of both arrays should be equal.
+- The absolute pairwise difference between elements is minimized. In other words, `|x1- y1| + |x2- y2| + ... + |xn- yn|` should be as small as possible.
+
+For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do better than `[1, 2, 5]`, which has an absolute difference of `|1.3 - 1| + |2.3 - 2| + |4.4 - 5| = 1`.
+
+[Solution](solutions/problem_355.py)
+
+---
+
+### Problem 356
+
+This problem was asked by Netflix.
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+
+[Solution](solutions/problem_356.py)
+
+---
+
+### Problem 357
+
+This problem was asked by LinkedIn.
+
+You are given a binary tree in a peculiar string representation. Each node is written in the form `(lr)`, where `l` corresponds to the left child and `r` corresponds to the right child.
+
+If either `l` or `r` is null, it will be represented as a zero. Otherwise, it will be represented by a new `(lr)` pair.
+
+Here are a few examples:
+- A root node with no children: `(00)`
+- A root node with two children: `((00)(00))`
+- An unbalanced tree with three consecutive left children: `((((00)0)0)0)`
+
+Given this representation, determine the depth of the tree.
+
+[Solution](solutions/problem_357.py)
+
+---
+
+### Problem 358
+
+This problem was asked by Dropbox.
+
+Create a data structure that performs all the following operations in `O(1)` time:
+- `plus`: Add a key with value 1. If the key already exists, increment its value by one.
+- `minus`: Decrement the value of a key. If the key's value is currently 1, remove it.
+- `get_max`: Return a key with the highest value.
+- `get_min`: Return a key with the lowest value.
+
+[Solution](solutions/problem_358.py)
+
+---
+
+### Problem 359
+
+This problem was asked by Slack.
+
+You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
+
+For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
+
+Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+
+[Solution](solutions/problem_359.py)
+
+---
+
+### Problem 360
+
+This problem was asked by Spotify.
+
+You have access to ranked lists of songs for various users. Each song is represented as an integer, and more preferred songs appear earlier in each list. For example, the list `[4, 1, 7]` indicates that a user likes song `4` the best, followed by songs `1` and `7`.
+
+Given a set of these ranked lists, interleave them to create a playlist that satisfies everyone's priorities.
+
+For example, suppose your input is `{[1, 7, 3], [2, 1, 6, 7, 9], [3, 9, 5]}`. In this case a satisfactory playlist could be `[2, 1, 6, 7, 3, 9, 5]`.
+
+[Solution](solutions/problem_360.py)
+
+---
+
+### Problem 361
+
+This problem was asked by Facebook.
+
+Mastermind is a two-player game in which the first player attempts to guess the secret code of the second. In this version, the code may be any six-digit number with all distinct digits.
+
+Each turn the first player guesses some number, and the second player responds by saying how many digits in this number correctly matched their location in the secret code. For example, if the secret code were `123456`, then a guess of `175286` would score two, since `1` and `6` were correctly placed.
+
+Write an algorithm which, given a sequence of guesses and their scores, determines whether there exists some secret code that could have produced them.
+
+For example, for the following scores you should return `True`, since they correspond to the secret code `123456`:
+`{175286: 2, 293416: 3, 654321: 0}`
+
+However, it is impossible for any key to result in the following scores, so in this case you should return `False`:
+`{123456: 4, 345678: 4, 567890: 4}`
+
+[Solution](solutions/problem_361.py)
+
+---
+
+### Problem 362
+
+This problem was asked by Twitter.
+
+A strobogrammatic number is a positive number that appears the same after being rotated `180` degrees. For example, `16891` is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with N digits.
+
+[Solution](solutions/problem_362.py)
+
+---
+
+### Problem 363
+
+Write a function, add_subtract, which alternately adds and subtracts curried arguments. Here are some sample operations:
+
+```
+add_subtract(7) -> 7
+add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
+add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
+```
+
+[Solution](solutions/problem_363.py)
+
+---
+
+### Problem 364
+
+This problem was asked by Facebook.
+
+Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+
+[Solution](solutions/problem_364.py)
+
+---
+
+### Problem 365
+
+This problem was asked by Google.
+
+A quack is a data structure combining properties of both stacks and queues. It can be viewed as a list of elements written left to right such that three operations are possible:
+- `push(x)`: add a new item `x` to the left end of the list
+- `pop()`: remove and return the item on the left end of the list
+- `pull()`: remove the item on the right end of the list.
+
+Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
+
+[Solution](solutions/problem_365.py)
+
+---
