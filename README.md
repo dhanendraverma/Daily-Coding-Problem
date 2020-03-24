@@ -616,7 +616,7 @@ that shuffles a deck of cards represented as an array using only swaps.
 It should run in O(N) time.
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day51.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day51.py)
 - - - -
 
 #### Problem 52
@@ -2250,7 +2250,7 @@ for f in functions:
 ```
 How can we make it print out what we apparently want?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day188.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day188.py)
 - - - -
 
 #### Problem 189
