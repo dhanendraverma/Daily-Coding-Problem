@@ -3136,7 +3136,7 @@ the digits appearing in the previous term. The first few terms are as follows:
 ```
 As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
 <br>Given an integer `N`, print the `Nth` term of this sequence.
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day211.cpp)
+[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day275.cpp)
 
 ---
 
