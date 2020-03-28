@@ -3120,8 +3120,7 @@ Don't use eval or a similar built-in parser.
 For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 [Solution](solutions/problem_274.py)
-
----
+- - - -
 
 ### Problem 275
 This problem was asked by Epic.
@@ -3136,9 +3135,8 @@ the digits appearing in the previous term. The first few terms are as follows:
 ```
 As an example, the fourth term is `1211`, since the third term consists of one `2` and one `1`.
 <br>Given an integer `N`, print the `Nth` term of this sequence.
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day275.cpp)
-
----
+[Solution](Day275.cpp)
+- - - -
 
 ### Problem 276
 
