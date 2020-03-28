@@ -3139,18 +3139,14 @@ As an example, the fourth term is `1211`, since the third term consists of one `
 - - - -
 
 ### Problem 276
-
 This problem was asked by Dropbox.
+<br>Implement an efficient string matching algorithm.
+<br>That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the
+string with less than `O(N * k)` worst-case time complexity.
+<br>If the pattern is found, return the start index of its location. If not, return `False`.
 
-Implement an efficient string matching algorithm.
-
-That is, given a string of length `N` and a pattern of length `k`, write a program that searches for the pattern in the string with less than `O(N * k)` worst-case time complexity.
-
-If the pattern is found, return the start index of its location. If not, return `False`.
-
-[Solution](solutions/problem_276.py)
-
----
+[Solution](Day276.cpp)
+- - - -
 
 ### Problem 277
 
