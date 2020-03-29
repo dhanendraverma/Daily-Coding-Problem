@@ -3170,7 +3170,7 @@ Visually, this can be represented as follows.
 
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
-[Solution](solutions/problem_277.py)
+[Solution](Day277.cpp)
 
 ---
 
@@ -3180,7 +3180,7 @@ This problem was asked by Amazon.
 
 Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
-[Solution](solutions/problem_278.py)
+[Solution](Day278.cpp)
 
 ---
 
@@ -3205,7 +3205,7 @@ Each student can be placed in a friend group, which can be defined as the transi
 
 Given a friendship list such as the one above, determine the number of friend groups in the class.
 
-[Solution](solutions/problem_279.py)
+[Solution](Day279.cpp)
 
 ---
 
@@ -3215,7 +3215,7 @@ This problem was asked by Pandora.
 
 Given an undirected graph, determine if it contains a cycle.
 
-[Solution](solutions/problem_280.py)
+[Solution](Day280.cpp)
 
 ---
 
