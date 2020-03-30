@@ -3240,7 +3240,7 @@ The best we can we do here is to draw a line after the eighth brick, which will 
 
 Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 
-[Solution](solutions/problem_281.py)
+[Solution](Day281.cpp))
 
 ---
 
@@ -3250,7 +3250,7 @@ This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
 
-[Solution](solutions/problem_282.py)
+[Solution](Day282.cpp))
 
 ---
 
@@ -3264,7 +3264,7 @@ These numbers have had many applications, from helping ancient Babylonians keep 
 
 Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
-[Solution](solutions/problem_283.py)
+[Solution](Day283.cpp))
 
 ---
 
