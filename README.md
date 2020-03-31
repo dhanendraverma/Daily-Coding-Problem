@@ -3175,21 +3175,15 @@ Write a program that takes in an array of integers representing byte values, and
 ---
 
 ### Problem 278
-
 This problem was asked by Amazon.
-
-Given an integer `N`, construct all possible binary search trees with `N` nodes.
+<br>Given an integer `N`, construct all possible binary search trees with `N` nodes.
 
 [Solution](Day278.cpp)
-
----
+- - - -
 
 ### Problem 279
-
 This problem was asked by Twitter.
-
-A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
-
+<br>A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where `0` is friends with `1` and `2`, `3` is friends with `6`, and so on.
 ```
 {
     0: [1, 2],
@@ -3201,32 +3195,27 @@ A classroom consists of N students, whose friendships can be represented in an a
     6: [3]
 }
 ```
-Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
-
-Given a friendship list such as the one above, determine the number of friend groups in the class.
+Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship
+relations. In other words, this is the smallest set such that no student in the group has any friends outside this group. For
+the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
+<br>Given a friendship list such as the one above, determine the number of friend groups in the class.
 
 [Solution](Day279.cpp)
-
----
+- - - -
 
 ### Problem 280
-
 This problem was asked by Pandora.
-
-Given an undirected graph, determine if it contains a cycle.
+<br>Given an undirected graph, determine if it contains a cycle.
 
 [Solution](Day280.cpp)
-
----
+- - - -
 
 ### Problem 281
-
 This problem was asked by LinkedIn.
-
-A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge between two bricks, this does not count as a cut.
-
-For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
-
+<br>A wall consists of several rows of bricks of various integer lengths and uniform height. Your goal is to find a vertical line
+going from the top to the bottom of the wall that cuts through the fewest number of bricks. If the line goes through the edge
+between two bricks, this does not count as a cut.
+<br>For example, suppose the input is as follows, where values in each row represent the lengths of bricks in that row:
 ```
 [[3, 5, 1, 1],
  [2, 3, 3, 2],
@@ -3235,45 +3224,32 @@ For example, suppose the input is as follows, where values in each row represent
  [1, 3, 3, 3],
  [1, 1, 6, 1, 1]]
 ```
-
 The best we can we do here is to draw a line after the eighth brick, which will only require cutting through the bricks in the third and fifth row.
-
-Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
+<br>Given an input consisting of brick lengths for each row such as the one above, return the fewest number of bricks that must be cut to create a vertical line.
 
 [Solution](Day281.cpp))
-
----
+ - - - -
 
 ### Problem 282
-
 This problem was asked by Netflix.
-
-Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
+<br>Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet `(a, b, c)` is defined by the equation `a^2 + b^2 = c^2`.
 
 [Solution](Day282.cpp))
-
----
+ - - - -
 
 ### Problem 283
-
 This problem was asked by Google.
-
-A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that a regular number is one whose only prime divisors are `2`, `3`, and `5`.
-
-These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
-
-Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
+<br>A regular number in mathematics is defined as one which evenly divides some power of `60`. Equivalently, we can say that
+a regular number is one whose only prime divisors are `2`, `3`, and `5`.
+<br>These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
+<br>Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
 [Solution](Day283.cpp))
-
----
+- - - -
 
 ### Problem 284
-
 This problem was asked by Yext.
-
-Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. For example, in the following diagram `4` and `6` are cousins.
-
+<br>Two nodes in a binary tree can be called cousins if they are on the same level of the tree but have different parents. <br>For example, in the following diagram `4` and `6` are cousins.
 ```
     1
    / \
@@ -3281,37 +3257,31 @@ Two nodes in a binary tree can be called cousins if they are on the same level o
  / \   \
 4   5   6
 ```
-
 Given a binary tree and a particular node, find all cousins of that node.
 
 [Solution](solutions/problem_284.py)
-
----
+- - - -
 
 ### Problem 285
-
 This problem was asked by Mailchimp.
-
-You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in order to properly value the street.
-
-For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
-
-Can you do this using just one forward pass through the array?
+<br>You are given an array representing the heights of neighboring buildings on a city street, from east to west. The city
+assessor would like you to write an algorithm that returns how many of these buildings have a view of the setting sun, in
+order to properly value the street.
+<br>For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
+<br>Can you do this using just one forward pass through the array?
 
 [Solution](solutions/problem_285.py)
-
----
+- - - -
 
 ### Problem 286
-
 This problem was asked by VMware.
-
-The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us where on an imaginary `x`-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
-
-Given an array of buildings as described above, create a function that returns the skyline.
-
-For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these buildings would create a skyline that looks like the one below.
-
+<br>The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another
+when viewed from a distance. We can represent the buildings using an array of `(left, right, height)` tuples, which tell us
+where on an imaginary `x`-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list
+of `(x, height)` tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
+<br>Given an array of buildings as described above, create a function that returns the skyline.
+<br>For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5), (19, 23, 4)]`. In aggregate, these
+buildings would create a skyline that looks like the one below.
 ```
      ______  
     |      |        ___
@@ -3321,12 +3291,10 @@ For example, suppose the input consists of the buildings `[(0, 15, 3), (4, 11, 5
 |   |      |   |   |   |
 ------------------------
 ```
-
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
 
 [Solution](solutions/problem_286.py)
-
----
+- - - -
 
 ### Problem 287
 
