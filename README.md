@@ -3244,7 +3244,7 @@ a regular number is one whose only prime divisors are `2`, `3`, and `5`.
 <br>These numbers have had many applications, from helping ancient Babylonians keep time to tuning instruments according to the diatonic scale.
 <br>Given an integer `N`, write a program that returns, in order, the first `N` regular numbers.
 
-[Solution](Day283.cpp))
+[Solution](Day283.cpp)
 - - - -
 
 ### Problem 284
@@ -3259,7 +3259,7 @@ This problem was asked by Yext.
 ```
 Given a binary tree and a particular node, find all cousins of that node.
 
-[Solution](solutions/problem_284.py)
+[Solution](Day284.cpp)
 - - - -
 
 ### Problem 285
@@ -3270,7 +3270,7 @@ order to properly value the street.
 <br>For example, given the array `[3, 7, 8, 3, 6, 1]`, you should return `3`, since the top floors of the buildings with heights `8`, `6`, and `1` all have an unobstructed view to the west.
 <br>Can you do this using just one forward pass through the array?
 
-[Solution](solutions/problem_285.py)
+[Solution](Day285.cpp)
 - - - -
 
 ### Problem 286
@@ -3293,17 +3293,13 @@ buildings would create a skyline that looks like the one below.
 ```
 As a result, your function should return `[(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)]`.
 
-[Solution](solutions/problem_286.py)
+[Solution](Day286.cpp)
 - - - -
 
 ### Problem 287
-
 This problem was asked by Quora.
-
-You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
-
-For example, suppose `k = 1`, and the list of tuples is:
-
+<br>You are given a list of (website, user) pairs that represent users visiting websites. Come up with a program that identifies the top `k` pairs of websites with the greatest similarity.
+<br>For example, suppose `k = 1`, and the list of tuples is:
 ```
 [('a', 1), ('a', 3), ('a', 5),
  ('b', 2), ('b', 6),
@@ -3311,40 +3307,35 @@ For example, suppose `k = 1`, and the list of tuples is:
  ('d', 4), ('d', 5), ('d', 6), ('d', 7),
  ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
 ```
+<br>Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
 
-Then a reasonable similarity metric would most likely conclude that `a` and `e` are the most similar, so your program should return `[('a', 'e')]`.
-
-[Solution](solutions/problem_287.py)
+[Solution](Day287.cpp)
 
 ---
 
 ### Problem 288
-
 This problem was asked by Salesforce.
-
-The number `6174` is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this value. The procedure is as follows:
-
-For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
+<br>The number `6174` is known as Kaprekar's contant, after the mathematician who discovered an associated property: for all
+four-digit numbers with at least two distinct digits, repeatedly applying a simple procedure eventually results in this
+value. The procedure is as follows:
+<br>For a given input `x`, create two new numbers that consist of the digits in `x` in ascending and descending order.
 Subtract the smaller number from the larger number.
 For example, this algorithm terminates in three steps when starting from `1234`:
-
 ```
 4321 - 1234 = 3087
 8730 - 0378 = 8352
 8532 - 2358 = 6174
 ```
+<br>Write a function that returns how many steps this will take for a given input `N`.
 
-Write a function that returns how many steps this will take for a given input `N`.
-
-[Solution](solutions/problem_288.py)
-
----
+[Solution](Day283.cpp)
+- - - -
 
 ### Problem 289
-
 This problem was asked by Google.
-
-The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
+The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take
+turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For
+example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
 
 | A   | B   | C   |
 | --- | --- | --- |
@@ -3355,13 +3346,12 @@ The game of Nim is played as follows. Starting with three heaps, each containing
 | 0   | 1   | 0   |
 | 0   | 0   | 0   |
 
-In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
-
+<br>In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two
+stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
 [Solution](solutions/problem_289.py)
-
----
+- - - -
 
 ### Problem 290
 
