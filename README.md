@@ -3328,7 +3328,7 @@ For example, this algorithm terminates in three steps when starting from `1234`:
 ```
 <br>Write a function that returns how many steps this will take for a given input `N`.
 
-[Solution](Day283.cpp)
+[Solution](Day288.cpp)
 - - - -
 
 ### Problem 289
@@ -3350,19 +3350,14 @@ example, if the initial heap sizes are 3, 4, and 5, a game could be played as sh
 stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 Given a list of non-zero starting values `[a, b, c]`, and assuming optimal play, determine whether the first player has a forced win.
 
-[Solution](solutions/problem_289.py)
+[Solution](Day289.cpp)
 - - - -
 
 ### Problem 290
-
 This problem was asked by Facebook.
-
-On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
-
-Given N Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
-
-For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
-
+<br>On a mysterious island there are creatures known as Quxes which come in three colors: red, green, and blue. One power of the Qux is that if two of them are standing next to each other, they can transform into a single creature of the third color.
+<br>Given N Quxes standing in a line, determine the smallest number of them remaining after any possible sequence of such transformations.
+<br>For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end up with a single Qux through the following steps:
 ```
         Arrangement       |   Change
 ----------------------------------------
@@ -3373,30 +3368,22 @@ For example, given the input `['R', 'G', 'B', 'G', 'B']`, it is possible to end 
 ['R']                     |
 ```
 
-[Solution](solutions/problem_290.py)
-
----
+[Solution](Day290.cpp)
+- - - -
 
 ### Problem 291
-
 This problem was asked by Glassdoor.
+<br>An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
+<br>For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
 
-An imminent hurricane threatens the coastal town of Codeville. If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is `k`, determine how many boats will be needed to save everyone.
-
-For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three.
-
-[Solution](solutions/problem_291.py)
-
----
+[Solution](Day291.cpp)
+- - - -
 
 ### Problem 292
-
 This problem was asked by Twitter.
-
-A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and several refuse to be put on the same team as that of their enemies.
-
-Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
-
+A teacher must divide a class of students into two teams to play dodgeball. Unfortunately, not all the kids get along, and
+several refuse to be put on the same team as that of their enemies.
+<br>Given an adjacency list of students and their enemies, write an algorithm that finds a satisfactory pair of teams, or returns `False` if none exists.
 For example, given the following enemy graph you should return the teams `{0, 1, 4, 5}` and `{2, 3}`.
 ```
 students = {
@@ -3408,7 +3395,6 @@ students = {
     5: [3]
 }
 ```
-
 On the other hand, given the input below, you should return `False`.
 ```
 students = {
@@ -3421,9 +3407,8 @@ students = {
 }
 ```
 
-[Solution](solutions/problem_292.py)
-
----
+[Solution](Day292.cpp)
+- - - -
 
 ### Problem 293
 
