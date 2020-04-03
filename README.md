@@ -3449,9 +3449,9 @@ paths = {
 
 ### Problem 295
 This problem was asked by Stitch Fix.
-* Pascal's triangle is a triangular array of integers constructed with the following formula:
+<br>Pascal's triangle is a triangular array of integers constructed with the following formula:
 * The first row consists of the number 1.
-For each subsequent row, each element is the sum of the numbers directly above it, on either side.
+* For each subsequent row, each element is the sum of the numbers directly above it, on either side.
 <br>For example, here are the first few rows:
 ```
     1
