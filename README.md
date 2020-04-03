@@ -3411,28 +3411,24 @@ students = {
 - - - -
 
 ### Problem 293
-
 This problem was asked by Uber.
+<br>You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that
+the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In
+addition, the start and end stones of the pyramid should each be one stone high.
+<br>You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
+<br>For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay 2 to create `[0, 1, 2, 3, 2, 1]`.
 
-You have N stones in a row, and would like to create from them a pyramid. This pyramid should be constructed such that the height of each stone increases by one until reaching the tallest stone, after which the heights decrease by one. In addition, the start and end stones of the pyramid should each be one stone high.
-
-You can change the height of any stone by paying a cost of `1` unit to lower its height by `1`, as many times as necessary. Given this information, determine the lowest cost method to produce this pyramid.
-
-For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to pay 2 to create `[0, 1, 2, 3, 2, 1]`.
-
-[Solution](solutions/problem_293.py)
-
----
+[Solution](Day293.cpp)
+- - - -
 
 ### Problem 294
-
 This problem was asked by Square.
-
-A competitive runner would like to create a route that starts and ends at his house, with the condition that the route goes entirely uphill at first, and then entirely downhill.
-
-Given a dictionary of places of the form `{location: elevation}`, and a dictionary mapping paths between some of these locations to their corresponding distances, find the length of the shortest route satisfying the condition above. Assume the runner's home is location `0`.
-
-For example, suppose you are given the following input:
+<br>A competitive runner would like to create a route that starts and ends at his house, with the condition that the route
+goes entirely uphill at first, and then entirely downhill.
+<br>Given a dictionary of places of the form `{location: elevation}`, and a dictionary mapping paths between some of these
+locations to their corresponding distances, find the length of the shortest route satisfying the condition above. Assume the
+runner's home is location `0`.
+<br>For example, suppose you are given the following input:
 ```
 elevations = {0: 5, 1: 25, 2: 15, 3: 20, 4: 10}
 paths = {
@@ -3446,22 +3442,17 @@ paths = {
     (4, 0): 10
 }
 ```
+<br>In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
 
-In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
-
-[Solution](solutions/problem_294.py)
-
----
+[Solution](Day294.cpp)
+- - - -
 
 ### Problem 295
-
 This problem was asked by Stitch Fix.
-
-Pascal's triangle is a triangular array of integers constructed with the following formula:
-
-The first row consists of the number 1.
+* Pascal's triangle is a triangular array of integers constructed with the following formula:
+* The first row consists of the number 1.
 For each subsequent row, each element is the sum of the numbers directly above it, on either side.
-For example, here are the first few rows:
+<br>For example, here are the first few rows:
 ```
     1
    1 1
@@ -3469,14 +3460,11 @@ For example, here are the first few rows:
  1 3 3 1
 1 4 6 4 1
 ```
-
 Given an input `k`, return the `k`th row of Pascal's triangle.
+<br>Bonus: Can you do this using only `O(k)` space?
 
-Bonus: Can you do this using only `O(k)` space?
-
-[Solution](solutions/problem_295.py)
-
----
+[Solution](Day295.cpp)
+- - - -
 
 ### Problem 296
 
