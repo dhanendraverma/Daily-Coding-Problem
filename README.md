@@ -3467,21 +3467,16 @@ Given an input `k`, return the `k`th row of Pascal's triangle.
 - - - -
 
 ### Problem 296
-
 This problem was asked by Etsy.
+<br>Given a sorted array, convert it into a height-balanced binary search tree.
 
-Given a sorted array, convert it into a height-balanced binary search tree.
-
-[Solution](solutions/problem_296.py)
-
----
+[Solution](Day296.cpp)
+- - - -
 
 ### Problem 297
-
 This problem was asked by Amazon.
-
-At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For example, in the following situation, customer 0 will be satisfied with drinks `0`, `1`, `3`, or `6`.
-
+<br>At a popular bar, each customer has a set of favorite drinks, and will happily accept any drink among this set. For
+example, in the following situation, customer 0 will be satisfied with drinks `0`, `1`, `3`, or `6`.
 ```
 preferences = {
     0: [0, 1, 3, 6],
@@ -3491,28 +3486,22 @@ preferences = {
     4: [5, 8]
 }
 ```
+A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a
+dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
+<br>For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
 
-A lazy bartender working at this bar is trying to reduce his effort by limiting the drink recipes he must memorize. Given a dictionary input such as the one above, return the fewest number of drinks he must learn in order to satisfy all customers.
-
-For the input above, the answer would be `2`, as drinks `1` and `5` will satisfy everyone.
-
-[Solution](solutions/problem_297.py)
-
----
+[Solution](Day297.cpp)
+- - - -
 
 ### Problem 298
-
 This problem was asked by Google.
+A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along,
+but is meticulous about not putting different kinds of apples in the same bag.
+<br>Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
+<br>For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
 
-A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
-
-Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
-
-For example, given the input `[2, 1, 2, 3, 3, 1, 3, 5]`, the longest portion will involve types `1` and `3`, with a length of four.
-
-[Solution](solutions/problem_298.py)
-
----
+[Solution](Day298.cpp)
+- - - -
 
 ### Problem 299
 
