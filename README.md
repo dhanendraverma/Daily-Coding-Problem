@@ -3504,18 +3504,12 @@ but is meticulous about not putting different kinds of apples in the same bag.
 - - - -
 
 ### Problem 299
-
 This problem was asked by Samsung.
-
-A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
-
-For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes:
+<br>A group of houses is connected to the main water plant by means of a set of pipes. A house can either be connected by a set of pipes extending directly to the plant, or indirectly by a pipe to a nearby house which is otherwise connected.
+<br>For example, here is a possible configuration, where A, B, and C are houses, and arrows represent pipes:
 `A <--> B <--> C <--> plant`
-
-Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
-
-In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
-
+<br>Each pipe has an associated cost, which the utility company would like to minimize. Given an undirected graph of pipe connections, return the lowest cost configuration of pipes such that each house has access to water.
+<br>In the following setup, for example, we can remove all but the pipes from plant to A, plant to B, and B to C, for a total cost of 16.
 ```python
 pipes = {
     'plant': {'A': 1, 'B': 5, 'C': 20},
@@ -3525,33 +3519,27 @@ pipes = {
 }
 ```
 
-[Solution](solutions/problem_299.py)
-
----
+[Solution](Day299.cpp)
+- - - -
 
 ### Problem 300
-
 This problem was asked by Uber.
+On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that
+reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once,
+report this as fraud.
 
-On election day, a voting machine writes data in the form `(voter_id, candidate_id)` to a text file. Write a program that reads this file as a stream and returns the top 3 candidates at any given time. If you find a voter voting more than once, report this as fraud.
-
-[Solution](solutions/problem_300.py)
-
----
+[Solution](Day300.cpp)
+- - - -
 
 ### Problem 301
-
 This problem was asked by Triplebyte.
-
-Implement a data structure which carries out the following operations without resizing the underlying array:
+<br>Implement a data structure which carries out the following operations without resizing the underlying array:
 - `add(value)`: Add a value to the set of values.
 - `check(value)`: Check whether a value is in the set.
+<br>The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
 
-The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
-
-[Solution](solutions/problem_301.py)
-
----
+[Solution](Day301.cpp)
+- - - -
 
 ### Problem 302
 
