@@ -3542,59 +3542,43 @@ This problem was asked by Triplebyte.
 - - - -
 
 ### Problem 302
-
 This problem was asked by Uber.
-
-You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
-
-For example, suppose the input for a three-by-six grid is the following:
+<br>You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+<br>For example, suppose the input for a three-by-six grid is the following:
 ```
 \    /
  \  /
   \/
 ```
-
 Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
 
-[Solution](solutions/problem_302.py)
-
----
+[Solution](Day302.cpp)
+- - - -
 
 ### Problem 303
-
 This problem was asked by Microsoft.
+<br>Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+<br>Bonus: When, during the course of a day, will the angle be zero?
 
-Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
-
-Bonus: When, during the course of a day, will the angle be zero?
-
-[Solution](solutions/problem_303.py)
-
----
+[Solution](Day303.cpp)
+- - - -
 
 ### Problem 304
-
 This problem was asked by Two Sigma.
-
-A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move is a standard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
-
-After `k` moves, what is the probability that the knight remains on the board?
+<br>A knight is placed on a given square on an `8 x 8` chessboard. It is then moved randomly several times, where each move
+is as tandard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
+<br>After `k` moves, what is the probability that the knight remains on the board?
 
 [Solution](solutions/problem_304.py)
-
----
+- - - -
 
 ### Problem 305
-
 This problem was asked by Amazon.
-
-Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
-
-For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
+<br>Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
+<br>For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
 
 [Solution](solutions/problem_305.py)
-
----
+- - - -
 
 ### Problem 306
 
