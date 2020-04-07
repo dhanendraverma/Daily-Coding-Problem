@@ -3569,7 +3569,7 @@ This problem was asked by Two Sigma.
 is as tandard knight move. If the knight jumps off the board at any point, however, it is not allowed to jump back on.
 <br>After `k` moves, what is the probability that the knight remains on the board?
 
-[Solution](solutions/problem_304.py)
+[Solution](Day304.cpp)
 - - - -
 
 ### Problem 305
@@ -3577,62 +3577,50 @@ This problem was asked by Amazon.
 <br>Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
 <br>For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only `5`.
 
-[Solution](solutions/problem_305.py)
+[Solution](Day305.cpp)
 - - - -
 
 ### Problem 306
-
 This problem was asked by Palantir.
+<br>You are given a list of N numbers, in which each number is located at most k places away from its sorted position. For
+example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
+<br>Come up with an algorithm that sorts this list in `O(N log k)` time.
 
-You are given a list of N numbers, in which each number is located at most k places away from its sorted position. For example, if `k = 1`, a given element at index `4` might end up at indices `3`, `4`, or `5`.
-
-Come up with an algorithm that sorts this list in `O(N log k)` time.
-
-[Solution](solutions/problem_306.py)
-
----
+[Solution](Day306.cpp)
+- - - -
 
 ### Problem 307
-
 This problem was asked by Oracle.
+<br>Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree
+less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
+<br>If either value does not exist, return None.
 
-Given a binary search tree, find the floor and ceiling of a given integer. The floor is the highest element in the tree less than or equal to an integer, while the ceiling is the lowest element in the tree greater than or equal to an integer.
-
-If either value does not exist, return None.
-
-[Solution](solutions/problem_307.py)
-
----
+[Solution](Day307.cpp)
+- - - -
 
 ### Problem 308
-
 This problem was asked by Quantcast.
-
-You are presented with an array representing a Boolean expression. The elements are of two kinds:
-- `T` and `F`, representing the values `True` and `False`.
-- `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
-
+<br>You are presented with an array representing a Boolean expression. The elements are of two kinds:
+* `T` and `F`, representing the values `True` and `False`.
+* `&`, `|`, and `^`, representing the bitwise operators for `AND`, `OR`, and `XOR`.
 Determine the number of ways to group the array elements using parentheses so that the entire expression evaluates to `True`.
-
-For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T) & T` and `F | (T & T)`.
+<br>For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T)
+& T` and `F | (T & T)`.
 
 [Solution](solutions/problem_308.py)
-
----
+- - - -
 
 ### Problem 309
-
 This problem was asked by Walmart Labs.
+<br>There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there
+are no gaps between any of them, while keeping overall movement to a minimum.
+<br>For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and
+`1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can
+consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be `5`.
+<br>Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
 
-There are `M` people sitting in a row of `N` seats, where `M < N`. Your task is to redistribute people such that there are no gaps between any of them, while keeping overall movement to a minimum.
-
-For example, suppose you are faced with an input of `[0, 1, 1, 0, 1, 0, 0, 0, 1]`, where `0` represents an empty seat and `1` represents a person. In this case, one solution would be to place the person on the right in the fourth seat. We can consider the cost of a solution to be the sum of the absolute distance each person must move, so that the cost here would be `5`.
-
-Given an input such as the one above, return the lowest possible cost of moving people to remove all gaps.
-
-[Solution](solutions/problem_309.py)
-
----
+[Solution](Day309.cpp)
+- - - -
 
 ### Problem 310
 
