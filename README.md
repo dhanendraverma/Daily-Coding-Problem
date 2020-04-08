@@ -2823,14 +2823,14 @@ may have the solution:
 `{'S': 9, 'E': 5, 'N': 6, 'D': 7, 'M': 1, 'O': 0, 'R': 8, 'Y': 2}`
 <br>Given a three-word puzzle like the one above, create an algorithm that finds a solution.
 
-[Solution](solutions/problem_250.py)
+[Solution](Day250.cpp)
 - - - 
 
 ### Problem 251
 This problem was asked by Amazon.
 <br>Given an array of a million integers between zero and a billion, out of order, how can you efficiently sort it? Assume that you cannot store an array of a billion elements in memory.
 
-[Solution](solutions/problem_251.md)
+[Solution](Day251.md)
 - - - -
 
 ### Problem 252
@@ -2838,7 +2838,7 @@ This problem was asked by Palantir.
 <br>The ancient Egyptians used to express fractions as a sum of several terms where each numerator is one. For example, `4 / 13` can be represented as `1 / (4 + 1 / (18 + (1 / 468)))`.
 <br>Create an algorithm to turn an ordinary fraction `a / b`, where `a < b`, into an Egyptian fraction.
 
-[Solution](solutions/problem_252.py)
+[Solution](Day252.cpp)
 - - - -
 
 ### Problem 253
@@ -2852,7 +2852,7 @@ t     a     g
    s     g
 ```
 
-[Solution](solutions/problem_253.py)
+[Solution](Day253.cpp)
 - - - -
 
 ### Problem 254
@@ -2876,7 +2876,7 @@ f         e
         /   \
        g     h
 ```
-[Solution](solutions/problem_254.py)
+[Solution](Day254.cpp)
 - - - -
 
 ### Problem 255
@@ -3607,7 +3607,7 @@ Determine the number of ways to group the array elements using parentheses so th
 <br>For example, suppose the input is `['F', '|', 'T', '&', 'T']`. In this case, there are two acceptable groupings: `(F | T)
 & T` and `F | (T & T)`.
 
-[Solution](solutions/problem_308.py)
+[Solution](Day308.cpp)
 - - - -
 
 ### Problem 309
@@ -3623,14 +3623,11 @@ consider the cost of a solution to be the sum of the absolute distance each pers
 - - - -
 
 ### Problem 310
-
 This problem was asked by Pivotal.
+<br>Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
 
-Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
-
-[Solution](solutions/problem_310.py)
-
----
+[Solution](Day310.cpp)
+- - - -
 
 ### Problem 311
 
