@@ -3630,51 +3630,37 @@ This problem was asked by Pivotal.
 - - - -
 
 ### Problem 311
-
 This problem was asked by Sumo Logic.
+<br>Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+<br>An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
-Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
-
-An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
-
-[Solution](solutions/problem_311.py)
-
----
+[Solution](Day311.cpp)
+- - - -
 
 ### Problem 312
-
 This problem was asked by Wayfair.
-
-You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
-- Dominoes, or `2 x 1` rectangles.
-- Trominoes, or L-shapes.
-
+<br>You are given a `2 x N` board, and instructed to completely cover the board with the following shapes:
+* Dominoes, or `2 x 1` rectangles.
+* Trominoes, or L-shapes.
 For example, if `N = 4`, here is one possible configuration, where A is a domino, and B and C are trominoes.
-
 ```
 A B B C
 A B C C
 ```
-
 Given an integer N, determine in how many ways this task is possible.
 
-[Solution](solutions/problem_312.py)
-
----
+[Solution](Day312.cpp)
+- - - -
 
 ### Problem 313
-
 This problem was asked by Citrix.
+<br>You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of
+these wheels rotate clockwise and counterclockwise.
+<br>In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
+<br>Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
 
-You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
-
-In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
-
-Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
-
-[Solution](solutions/problem_313.py)
-
----
+[Solution](Day313.cpp)
+- - - -
 
 ### Problem 314
 
