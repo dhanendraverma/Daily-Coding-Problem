@@ -3001,7 +3001,7 @@ This problem was asked by LinkedIn.
 <br>For example, suppose `C = {0, 1}` and `k = 3`. Then our sequence should contain the substrings `{'000', '001', '010', '011', '100', '101', '110', '111'}`, and one possible solution would be `00010111`.
 <br>Create an algorithm that finds a De Bruijn sequence.
 
-[Solution](solutions/problem_264.py)
+[Solution](Day264.cpp)
 - - - -
 
 ### Problem 265
@@ -3010,7 +3010,7 @@ This problem was asked by Atlassian.
 <br>Given an array representing a line of seats of employees at MegaCorp, determine how much each one should get paid.
 <br>For example, given `[10, 40, 200, 1000, 60, 30]`, you should return `[1, 2, 3, 4, 2, 1]`.
 
-[Solution](solutions/problem_265.py)
+[Solution](Day265.cpp)
 - - - -
 
 ### Problem 266
@@ -3018,7 +3018,7 @@ This problem was asked by Pivotal.
 <br>A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
 <br>Given a dictionary of words and an input word, create a function that returns all valid step words.
 
-[Solution](solutions/problem_266.py)
+[Solution](Day266.cpp)
 - - - -
 
 ### Problem 267
@@ -3037,14 +3037,14 @@ This problem was asked by Oracle.
 .....Q..
 ```
 You should return `True`, since the bishop is attacking the king diagonally.
-[Solution](solutions/problem_267.py)
+[Solution](Day267.cpp)
 - - - -
 
 ### Problem 268
 This problem was asked by Indeed.
 <br>Given a 32-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
 
-[Solution](solutions/problem_268.py)
+[Solution](Day268.cpp)
 - - - -
 
 ### Problem 269
@@ -3057,7 +3057,7 @@ This problem was asked by Microsoft.
 <br>For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
 <br>Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
-[Solution](solutions/problem_269.py)
+[Solution](Day269.cpp)
 - - - -
 
 ### Problem 270
@@ -3078,7 +3078,7 @@ edges = [
 ```
 You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` will take that much time.
 
-[Solution](solutions/problem_270.py)
+[Solution](Day270.cpp)
 - - - -
 
 ### Problem 271
@@ -3086,7 +3086,7 @@ This problem was asked by Netflix.
 <br>Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
 <br>Do this in `O(log N)` time.
 
-[Solution](solutions/problem_271.py)
+[Solution](Day271.cpp)
 - - - -
 
 ### Problem 272
@@ -3094,30 +3094,22 @@ This problem was asked by Spotify.
 <br>Write a function, `throw_dice(N, faces, total)`, that determines how many ways it is possible to throw `N` dice with some number of faces each to get a specific total.
 <br>For example, `throw_dice(3, 6, 7)` should equal `15`.
 
-[Solution](solutions/problem_272.py)
+[Solution](Day272.cpp)
 - - - -
 
 ### Problem 273
-
 This problem was asked by Apple.
+<br>A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
+<br>For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
 
-A fixed point in an array is an element whose value is equal to its index. Given a sorted array of distinct elements, return a fixed point, if one exists. Otherwise, return `False`.
-
-For example, given `[-6, 0, 2, 40]`, you should return `2`. Given `[1, 5, 7, 8]`, you should return `False`.
-
-[Solution](solutions/problem_273.py)
-
----
+[Solution](Day273.cpp)
+- - - -
 
 ### Problem 274
-
 This problem was asked by Facebook.
-
-Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
-
-Don't use eval or a similar built-in parser.
-
-For example, given `'-1 + (2 + 3)'`, you should return `4`.
+<br>Given a string consisting of parentheses, single digits, and positive and negative signs, convert the string into a mathematical expression to obtain the answer.
+<br>Don't use eval or a similar built-in parser.
+<br>For example, given `'-1 + (2 + 3)'`, you should return `4`.
 
 [Solution](solutions/problem_274.py)
 - - - -
@@ -3149,12 +3141,9 @@ string with less than `O(N * k)` worst-case time complexity.
 - - - -
 
 ### Problem 277
-
 This problem was asked by Google.
-
-UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
-
-For example, the Euro sign, `€`, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
+<br>UTF-8 is a character encoding that maps each symbol to one, two, three, or four bytes.
+<br>For example, the Euro sign, `€`, corresponds to the three bytes `11100010 10000010 10101100`. The rules for mapping characters are as follows:
 * For a single-byte character, the first bit must be zero.
 * For an `n`-byte character, the first byte starts with `n` ones and a zero. The other `n - 1` bytes all start with `10`.
 Visually, this can be represented as follows.
@@ -3171,8 +3160,7 @@ Visually, this can be represented as follows.
 Write a program that takes in an array of integers representing byte values, and returns whether it is a valid UTF-8 encoding.
 
 [Solution](Day277.cpp)
-
----
+- - - -
 
 ### Problem 278
 This problem was asked by Amazon.
@@ -3663,25 +3651,17 @@ these wheels rotate clockwise and counterclockwise.
 - - - -
 
 ### Problem 314
-
 This problem was asked by Spotify.
+<br>You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
+<br>Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
+<br>For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
 
-You are the technical director of WSPT radio, serving listeners nationwide. For simplicity's sake we can consider each listener to live along a horizontal line stretching from `0` (west) to `1000` (east).
-
-Given a list of `N` listeners, and a list of `M` radio towers, each placed at various locations along this line, determine what the minimum broadcast range would have to be in order for each listener's home to be covered.
-
-For example, suppose `listeners = [1, 5, 11, 20]`, and `towers = [4, 8, 15]`. In this case the minimum range would be `5`, since that would be required for the tower at position `15` to reach the listener at position `20`.
-
-[Solution](solutions/problem_314.py)
-
----
+[Solution](Day314.cpp)
+- - - -
 
 ### Problem 315
-
 This problem was asked by Google.
-
-In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
-
+<br>In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
 Here is an example:
 ```
 1 2 3 4 8
@@ -3689,24 +3669,18 @@ Here is an example:
 4 5 1 2 3
 7 4 5 1 2
 ```
-
 Write a program to determine whether a given input is a Toeplitz matrix.
 
-[Solution](solutions/problem_315.py)
-
----
+[Solution](Day315.cpp)
+- - - -
 
 ### Problem 316
-
 This problem was asked by Snapchat.
+<br>You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
+<br>Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
 
-You are given an array of length `N`, where each element `i` represents the number of ways we can produce `i` units of change. For example, `[1, 0, 1, 1, 2]` would indicate that there is only one way to make `0`, `2`, or `3` units, and two ways of making `4` units.
-
-Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value `2`, `3`, and `4`.
-
-[Solution](solutions/problem_316.py)
-
----
+[Solution](Day316.cpp)
+- - - -
 
 ### Problem 317
 
