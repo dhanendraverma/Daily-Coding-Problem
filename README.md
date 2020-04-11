@@ -3683,38 +3683,32 @@ This problem was asked by Snapchat.
 - - - -
 
 ### Problem 317
-
 This problem was asked by Yahoo.
+<br>Write a function that returns the bitwise `AND` of all integers between `M` and `N`, inclusive.
 
-Write a function that returns the bitwise `AND` of all integers between `M` and `N`, inclusive.
-
-[Solution](solutions/problem_317.py)
-
----
+[Solution](Day317.cpp)
+- - - -
 
 ### Problem 318
-
 This problem was asked by Apple.
+<br>You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though
+you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a
+buffer of `B` songs between repeats.
+<br>Given `N`, `M`, and `B`, determine the number of valid playlists.
 
-You are going on a road trip, and would like to create a suitable music playlist. The trip will require `N` songs, though you only have `M` songs downloaded, where `M < N`. A valid playlist should select each song at least once, and guarantee a buffer of `B` songs between repeats.
-
-Given `N`, `M`, and `B`, determine the number of valid playlists.
-
-[Solution](solutions/problem_318.py)
-
----
+[Solution](Day318.cpp)
+- - - -
 
 ### Problem 319
-
 This problem was asked by Airbnb.
+<br>An 8-puzzle is a game played on a `3 x 3` board of tiles, with the ninth tile missing. The remaining tiles are labeled
+`1` through `8` but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed
+from the board.
+<br>Design a class to represent the board, and find a series of steps to bring the board to the state 
+`[[1, 2, 3], [4, 5, 6],[7, 8, None]]`.
 
-An 8-puzzle is a game played on a `3 x 3` board of tiles, with the ninth tile missing. The remaining tiles are labeled `1` through `8` but shuffled randomly. Tiles may slide horizontally or vertically into an empty space, but may not be removed from the board.
-
-Design a class to represent the board, and find a series of steps to bring the board to the state `[[1, 2, 3], [4, 5, 6], [7, 8, None]]`.
-
-[Solution](solutions/problem_319.py)
-
----
+[Solution](Day319.cpp)
+- - - -
 
 ### Problem 320
 
@@ -3724,7 +3718,7 @@ Given a string, find the length of the smallest window that contains every disti
 
 For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
 
-[Solution](solutions/problem_320.py)
+[Solution](Day320.cpp)
 
 ---
 
