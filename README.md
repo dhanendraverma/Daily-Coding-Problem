@@ -3711,46 +3711,33 @@ from the board.
 - - - -
 
 ### Problem 320
-
 This problem was asked by Amazon.
-
-Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
-
-For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
+<br>Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more
+than once in the window.
+<br>For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
 
 [Solution](Day320.cpp)
-
----
+- - - -
 
 ### Problem 321
-
 This problem was asked by PagerDuty.
-
-Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
-
-There are two kinds of permitted steps:
-- You may decrement `N` to `N - 1`.
-- If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
-
+<br>Given a positive integer `N`, find the smallest number of steps it will take to reach `1`.
+<br>There are two kinds of permitted steps:
+* You may decrement `N` to `N - 1`.
+* If `a * b = N`, you may decrement `N` to the larger of `a` and `b`.
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
-[Solution](solutions/problem_321.py)
-
----
+[Solution](Day321.cpp)
+- - - -
 
 ### Problem 322
-
 This problem was asked by Flipkart.
+<br>Starting from `0` on a number line, you would like to make a series of jumps that lead to the integer `N`.
+<br>On the `i`th jump, you may move exactly `i` places to the left or right.
+<br>Find a path with the fewest number of jumps required to get from `0` to `N`.
 
-Starting from `0` on a number line, you would like to make a series of jumps that lead to the integer `N`.
-
-On the `i`th jump, you may move exactly `i` places to the left or right.
-
-Find a path with the fewest number of jumps required to get from `0` to `N`.
-
-[Solution](solutions/problem_322.py)
-
----
+[Solution](Day322.cpp)
+- - - -
 
 ### Problem 323
 
