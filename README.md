@@ -3740,42 +3740,33 @@ This problem was asked by Flipkart.
 - - - -
 
 ### Problem 323
-
 This problem was asked by Dropbox.
-
-Create an algorithm to efficiently compute the approximate median of a list of numbers.
-
-More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`, with a high level of certainty, in less than `O(N)` time.
+<br>Create an algorithm to efficiently compute the approximate median of a list of numbers.
+<br>More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`,
+with a high level of certainty, in less than `O(N)` time.
 
 [Solution](solutions/problem_323.py)
-
----
+- - - -
 
 ### Problem 324
-
 This problem was asked by Amazon.
-
-Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
-
-Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
-
-For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
+<br>Consider the following scenario: there are `N` mice and `N` holes placed at integer points along a line. Given this, find
+a method that maps mice to holes such that the largest number of steps any mouse takes is minimized.
+<br>Each move consists of moving one mouse one unit to the left or right, and only one mouse can fit inside each hole.
+<br>For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this
+case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
 
 [Solution](solutions/problem_324.py)
-
----
+- - - -
 
 ### Problem 325
-
 This problem was asked by Jane Street.
-
-The United States uses the imperial system of weights and measures, which means that there are many different, seemingly arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, and so on.
-
-Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
+<br>The United States uses the imperial system of weights and measures, which means that there are many different, seemingly
+arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, and so on.
+<br>Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
 [Solution](solutions/problem_325.py)
-
----
+- - - -
 
 ### Problem 326
 
