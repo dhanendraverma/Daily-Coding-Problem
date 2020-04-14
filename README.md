@@ -3745,7 +3745,7 @@ This problem was asked by Dropbox.
 <br>More precisely, given an unordered list of `N` numbers, find an element whose rank is between `N / 4` and `3 * N / 4`,
 with a high level of certainty, in less than `O(N)` time.
 
-[Solution](solutions/problem_323.py)
+[Solution](Day323.cpp)
 - - - -
 
 ### Problem 324
@@ -3756,7 +3756,7 @@ a method that maps mice to holes such that the largest number of steps any mouse
 <br>For example, suppose the mice are positioned at `[1, 4, 9, 15]`, and the holes are located at `[10, -5, 0, 16]`. In this
 case, the best pairing would require us to send the mouse at `1` to the hole at `-5`, so our function should return `6`.
 
-[Solution](solutions/problem_324.py)
+[Solution](Day324.cpp)
 - - - -
 
 ### Problem 325
@@ -3765,19 +3765,15 @@ This problem was asked by Jane Street.
 arbitrary units to measure distance. There are 12 inches in a foot, 3 feet in a yard, 22 yards in a chain, and so on.
 <br>Create a data structure that can efficiently convert a certain quantity of one unit to the correct amount of any other unit. You should also allow for additional units to be added to the system.
 
-[Solution](solutions/problem_325.py)
+[Solution](Day325.cpp)
 - - - -
 
 ### Problem 326
-
 This problem was asked by Netflix.
-
-A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
-
-It is heap-ordered, so that each parent value is strictly less than that of its children.
+<br>A Cartesian tree with sequence `S` is a binary tree defined by the following two properties:
+<br>It is heap-ordered, so that each parent value is strictly less than that of its children.
 An in-order traversal of the tree produces nodes with values that correspond exactly to `S`.
 For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree would be:
-
 ```
       1
     /   \   
@@ -3785,38 +3781,31 @@ For example, given the sequence `[3, 2, 6, 1, 9]`, the resulting Cartesian tree 
  / \
 3   6
 ```
-
 Given a sequence S, construct the corresponding Cartesian tree.
 
-[Solution](solutions/problem_326.py)
-
----
+[Solution](Day326.cpp)
+- - - -
 
 ### Problem 327
-
 This problem was asked by Salesforce.
-
-Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values of the corresponding nodes of the input trees.
-
-If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
+<br>Write a program to merge two binary trees. Each node in the new tree should hold a value equal to the sum of the values
+of the corresponding nodes of the input trees.
+<br>If only one input tree has a node in a given position, the corresponding node in the new tree should match that input node.
 
 [Solution](solutions/problem_327.py)
-
----
+- - - -
 
 ### Problem 328
-
 This problem was asked by Facebook.
-
-In chess, the Elo rating system is used to calculate player strengths based on game results.
-
-A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300-ranked player.
-
+<br>In chess, the Elo rating system is used to calculate player strengths based on game results.
+<br>A simplified description of the Elo system is as follows. Every player begins at the same score. For each subsequent
+game, the loser transfers some points to the winner, where the amount of points transferred depends on how unlikely the win
+is. For example, a 1200-ranked player should gain much more points for beating a 2000-ranked player than for beating a 1300
+ranked player.
 Implement this system.
 
-[Solution](solutions/problem_328.py)
-
----
+[Solution](Day328.cpp)
+- - - -
 
 ### Problem 329
 
