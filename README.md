@@ -3808,15 +3808,11 @@ Implement this system.
 - - - -
 
 ### Problem 329
-
 This problem was asked by Amazon.
-
-The stable marriage problem is defined as follows:
-
-Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of preference.
-
-For example, if `N = 3`, the input could be something like this:
-
+<br>The stable marriage problem is defined as follows:
+<br>Suppose you have `N` men and `N` women, and each person has ranked their prospective opposite-sex partners in order of
+preference.
+<br>For example, if `N = 3`, the input could be something like this:
 ```
 guy_preferences = {
     'andrew': ['caroline', 'abigail', 'betty'],
@@ -3829,46 +3825,36 @@ gal_preferences = {
     'caroline': ['bill', 'chester', 'andrew']
 }
 ```
+<br>Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both
+rather be with each other than with their current partners.
 
-Write an algorithm that pairs the men and women together in such a way that no two people of opposite sex would both rather be with each other than with their current partners.
-
-[Solution](solutions/problem_329.py)
-
----
+[Solution](Day329.cpp)
+- - - -
 
 ### Problem 330
-
 This problem was asked by Dropbox.
-
-A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the entire formula evaluates to true.
-
-For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
-
+<br>A Boolean formula can be said to be satisfiable if there is a way to assign truth values to each variable such that the
+entire formula evaluates to true.
+<br>For example, suppose we have the following formula, where the symbol `¬` is used to denote negation:
 ```
 (¬c OR b) AND (b OR c) AND (¬b OR c) AND (¬c OR ¬a)
 ```
+<br>One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
+<br>This type of formula, with AND statements joining tuples containing exactly one OR, is known as 2-CNF.
+<>brGiven a 2-CNF formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
 
-One way to satisfy this formula would be to let `a = False`, `b = True`, and `c = True`.
-
-This type of formula, with AND statements joining tuples containing exactly one OR, is known as 2-CNF.
-
-Given a 2-CNF formula, find a way to assign truth values to satisfy it, or return `False` if this is impossible.
-
-[Solution](solutions/problem_330.py)
-
----
+[Solution](Day330.cpp)
+- - - -
 
 ### Problem 331
-
 This problem was asked by LinkedIn.
+<br>You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation
+called flip, which changes a single `x` to `y` or vice versa.
+<br>Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the
+preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
 
-You are given a string consisting of the letters `x` and `y`, such as `xyxxxyxyy`. In addition, you have an operation called flip, which changes a single `x` to `y` or vice versa.
-
-Determine how many times you would need to apply this operation to ensure that all `x`'s come before all `y`'s. In the preceding example, it suffices to flip the second and sixth characters, so you should return `2`.
-
-[Solution](solutions/problem_331.py)
-
----
+[Solution](Day331.cpp)
+- - - -
 
 ### Problem 332
 
