@@ -3857,45 +3857,37 @@ preceding example, it suffices to flip the second and sixth characters, so you s
 - - - -
 
 ### Problem 332
-
 This problem was asked by Jane Street.
-
-Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following conditions:
-
+<br>Given integers `M` and `N`, write a program that counts how many positive integer pairs `(a, b)` satisfy the following
+conditions:
 ```
 a + b = M
 a XOR b = N
 ```
 
-[Solution](solutions/problem_332.py)
-
----
+[Solution](Day332.cpp)
+- - - -
 
 ### Problem 333
-
 This problem was asked by Pinterest.
+<br>At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To
+help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a`
+knows person `b`, else `False`.
+<br>Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 
-At a party, there is a single person who everyone knows, but who does not know anyone in return (the "celebrity"). To help figure out who this is, you have access to an `O(1)` method called `knows(a, b)`, which returns `True` if person `a` knows person `b`, else `False`.
-
-Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
-
-[Solution](solutions/problem_333.py)
-
----
+[Solution](Day333.cpp)
+- - - -
 
 ### Problem 334
-
 This problem was asked by Twitter.
-
-The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is possible to reach the value `24`.
-
+<br>The `24` game is played as follows. You are given a list of four integers, each between `1` and `9`, in a fixed order. By
+placing the operators `+`, `-`, `*`, and `/` between the numbers, and grouping them with parentheses, determine whether it is
+possible to reach the value `24`.
 For example, given the input `[5, 2, 7, 8]`, you should return True, since `(5 * 2 - 7) * 8 = 24`.
+<br>Write a function that plays the `24` game.
 
-Write a function that plays the `24` game.
-
-[Solution](solutions/problem_334.py)
-
----
+[Solution](Day334.cpp)
+- - - -
 
 ### Problem 335
 
