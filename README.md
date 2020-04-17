@@ -116,7 +116,7 @@ in the set that have s as a prefix.
 For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day11.cpp)
+[Solution](Day11.cpp)
 - - - -
 
 #### Problem 12
@@ -134,7 +134,7 @@ For example, if N is 4, then there are 5 unique ways:
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X
 For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day12.cpp)
+[Solution](Day12.cpp)
 - - - -
 
 #### Problem 13
@@ -142,7 +142,7 @@ This problem was asked by Amazon.
 Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day13.cpp)
+[Solution](Day13.cpp)
 - - - -
 
 #### Problem 14
@@ -150,14 +150,14 @@ This problem was asked by Google.
 The area of a circle is defined as r^2. Estimate \pi to 3 decimal places using a Monte Carlo method.
 Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day14.cpp)
+[Solution](Day14.cpp)
 - - - -
 
 #### Problem 15
 This problem was asked by Facebook.
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day15.cpp)
+[Solution](Day15.cpp)
 - - - -
 
 #### Problem 16
@@ -168,7 +168,7 @@ record(order_id): adds the order_id to the log
 get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
 You should be as efficient with time and space as possible.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day16.cpp)
+[Solution](Day16.cpp)
 - - - -
 
 #### Problem 17
@@ -200,7 +200,7 @@ For example, in the second example above, the longest absolute path is "dir/subd
 <br>Given a string representing the file system in the above format, return the length of the longest absolute path to a file
 in the abstracted file system. If there is no file in the system, return 0.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day17.cpp)
+[Solution](Day17.cpp)
 - - - -
 
 #### Problem 18
@@ -217,7 +217,7 @@ of length k.
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You
 can simply print them out as you compute them.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day18.cpp)
+[Solution](Day18.cpp)
 - - - -
 
 #### Problem 19
@@ -227,7 +227,7 @@ ensuring that no two neighboring houses are of the same color.
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the
 minimum cost which achieves this goal.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day19.cpp)
+[Solution](Day19.cpp)
 - - - -
 
 #### Problem 20
@@ -237,7 +237,7 @@ For example, given A = 3 -> 7 -> 8 -> 10 and B = 99 -> 1 -> 8 -> 10, return the 
 In this example, assume nodes with the same value are the exact same node objects.
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day20.cpp)
+[Solution](Day20.cpp)
 - - - -
 
 #### Problem 21
@@ -246,7 +246,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 required.
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day21.cpp)
+[Solution](Day21.cpp)
 - - - -
 
 #### Problem 22
