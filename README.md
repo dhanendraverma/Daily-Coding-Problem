@@ -258,7 +258,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed',
 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day22.cpp)
+[Solution](Day22.cpp)
 - - - -
 
 #### Problem 23
@@ -277,7 +277,7 @@ For example, given the following board:
 ```
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day23.cpp)
+[Solution](Day23.cpp)
 - - - -
 
 #### Problem 24
@@ -294,7 +294,7 @@ You may augment the node to add parent pointers or any other property you would 
 single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the
 height of the tree.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day24.cpp)
+[Solution](Day24.cpp)
 - - - -
 
 #### Problem 25
@@ -308,7 +308,7 @@ For example, given the regular expression "ra." and the string "ray", your funct
 expression on the string "raymond" should return false.
 Given the regular expression `".*at"` and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day25.cpp)
+[Solution](Day25.cpp)
 - - - -
 
 #### Problem 26
@@ -318,7 +318,7 @@ the length of the list.
 The list is very long, so making more than one pass is prohibitively expensive.
 Do this in constant space and in one pass.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day26.cpp)
+[Solution](Day26.cpp)
 - - - -
 
 #### Problem 27
@@ -327,7 +327,7 @@ Given a string of round, curly, and square open and closing brackets, return whe
 For example, given the string "([])[]({})", you should return true.
 Given the string "([)]" or "((()", you should return false.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day27.cpp)
+[Solution](Day27.cpp)
 - - - -
 
 #### Problem 28
@@ -345,7 +345,7 @@ should return the following:
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day28.cpp)
+[Solution](Day28.cpp)
 - - - -
 
 #### Problem 29
@@ -356,7 +356,7 @@ For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of
 alphabetic characters. You can assume the string to be decoded is valid.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day29.cpp)
+[Solution](Day29.cpp)
 - - - -
 
 #### Problem 30
@@ -367,7 +367,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we
 cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day30.cpp)
+[Solution](Day30.cpp)
 - - - -
 
 #### Problem 31
