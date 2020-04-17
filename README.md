@@ -377,7 +377,7 @@ required to change one string to the other. For example, the edit distance betwe
 substitute the "k" for "s", substitute the "e" for "i", and append a "g".
 Given two strings, compute the edit distance between them.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day31.cpp)
+[Solution](Day31.cpp)
 - - - -
 
 #### Problem 32
@@ -387,7 +387,7 @@ arbitrage: that is, whether there is some sequence of trades you can make, start
 that you can end up with some amount greater than A of that currency.
 There are no transaction costs and you can trade fractional quantities.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day32.cpp)
+[Solution](Day32.cpp)
 - - - -
 
 #### Problem 33
@@ -406,7 +406,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day33.cpp)
+[Solution](Day33.cpp)
 - - - -
 
 #### Problem 34
@@ -419,7 +419,7 @@ smallest amount to make a palindrome). There are seven other palindromes that ca
 letters, but "ecarace" comes first alphabetically.
 As another example, given the string "google", you should return "elgoogle".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day34.cpp)
+[Solution](Day34.cpp)
 - - - -
 
 #### Problem 35
@@ -428,14 +428,14 @@ Given an array of strictly the characters 'R', 'G', and 'B', segregate the value
 the Gs come second, and the Bs come last. You can only swap elements of the array.Do this in linear time and in-place.
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day35.cpp)
+[Solution](Day35.cpp)
 - - - -
 
 #### Problem 36
 This problem was asked by Dropbox.
 Given the root to a binary search tree, find the second largest node in the tree.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day36.cpp)
+[Solution](Day36.cpp)
 - - - -
 
 #### Problem 37
@@ -444,7 +444,7 @@ The power set of a set is the set of all its subsets. Write a function that, giv
 For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
 You may also use a list or array to represent a set.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day37.cpp)
+[Solution](Day37.cpp)
 - - - -
 
 #### Problem 38
@@ -452,7 +452,7 @@ This problem was asked by Microsoft.
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N
 queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day38.cpp)
+[Solution](Day38.cpp)
 - - - -
 
 #### Problem 39
@@ -468,7 +468,7 @@ number of steps it should run for. Once initialized, it should print out the boa
 board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 You can represent a live cell with an asterisk `*` and a dead cell with a dot `.`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day39.cpp)
+[Solution](Day39.cpp)
 - - - -
 
 #### Problem 40
@@ -478,7 +478,7 @@ return the non-duplicated integer.
 For example, given `[6, 1, 3, 3, 3, 6, 6]`, return `1`. Given `[13, 19, 13, 13]`, return `19`.
 Do this in $O(N)$ time and $O(1)$ space.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day40.cpp)
+[Solution](Day40.cpp)
 - - - -
 
 #### Problem 41
