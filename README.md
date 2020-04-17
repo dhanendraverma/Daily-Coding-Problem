@@ -8,7 +8,7 @@ Given a list of numbers, return whether any two sums to k.
 For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day1.cpp)
+[Solution](Day1.cpp)
 - - - -
 
 #### Problem 2
@@ -19,7 +19,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 1], the expected output would be [2, 3, 6].
 Follow-up: what if you can't use division?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day2.cpp)
+[Solution](Day2.cpp)
 - - - -
 
 #### Problem 3
@@ -27,7 +27,7 @@ This problem was asked by Google.
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s),
 which deserializes the string back into the tree.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day3.cpp)
+[Solution](Day3.cpp)
 - - - -
 
 #### Problem 4
@@ -37,7 +37,7 @@ the lowest positive integer that does not exist in the array. The array can cont
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 You can modify the input array in-place.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day4.cpp)
+[Solution](Day4.cpp)
 - - - -
 
 #### Problem 5
@@ -51,7 +51,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day5.cpp)
+[Solution](Day5.cpp)
 - - - -
 
 #### Problem 6
@@ -63,7 +63,7 @@ add(element) which adds the element to the end, and a get(index) which returns t
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and
 dereference_pointer functions that converts between nodes and memory addresses.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day6.cpp)
+[Solution](Day6.cpp)
 - - - -
 
 #### Problem 7
@@ -72,7 +72,7 @@ Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the nu
 For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day7.cpp)
+[Solution](Day7.cpp)
 - - - -
 
 #### Problem 8
@@ -90,7 +90,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day8.cpp)
+[Solution](Day8.cpp)
 - - - -
 
 #### Problem 9
@@ -99,14 +99,14 @@ Given a list of integers, write a function that returns the largest sum of non-a
 negative.
 For example, [2, 4, 6, 8] should return 12, since we pick 4 and 8. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day9.cpp)
+[Solution](Day9.cpp)
 - - - -
 
 #### Problem 10
 This problem was asked by Apple.
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day10.cpp)
+[Solution](Day10.cpp)
 - - - -
 
 #### Problem 11
