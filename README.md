@@ -3918,24 +3918,19 @@ This problem was asked by Microsoft.
 - - - -
 
 ### Problem 337
-
 This problem was asked by Apple.
+<br>Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
 
-Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
-
-[Solution](solutions/problem_337.py)
-
----
+[Solution](Day337.cpp)
+- - - -
 
 ### Problem 338
-
 This problem was asked by Facebook.
+<br>Given an integer `n`, find the next biggest integer with the same number of `1`-bits on. For example, given the number
+`6` (`0110` in binary), return `9` (`1001`).
 
-Given an integer `n`, find the next biggest integer with the same number of `1`-bits on. For example, given the number `6` (`0110` in binary), return `9` (`1001`).
-
-[Solution](solutions/problem_338.py)
-
----
+[Solution](Day338.cpp)
+- - - -
 
 ### Problem 339
 
