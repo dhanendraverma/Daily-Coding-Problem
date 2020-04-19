@@ -3933,24 +3933,20 @@ This problem was asked by Facebook.
 - - - -
 
 ### Problem 339
-
 This problem was asked by Microsoft.
+<br>Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the
+specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return true as `20 + 4 + 25 = 49`.
 
-Given an array of numbers and a number `k`, determine if there are three entries in the array which add up to the specified number `k`. For example, given `[20, 303, 3, 4, 25]` and `k = 49`, return true as `20 + 4 + 25 = 49`.
-
-[Solution](solutions/problem_339.py)
-
----
+[Solution](Day339.cpp)
+- - - -
 
 ### Problem 340
-
 This problem was asked by Google.
+<br>Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest points. For example, given the points
+`[(1,1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
 
-Given a set of points `(x, y)` on a 2D cartesian plane, find the two closest points. For example, given the points `[(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)]`, return `[(-1, -1), (1, 1)]`.
-
-[Solution](solutions/problem_340.py)
-
----
+[Solution](Day340.cpp)
+- - - -
 
 ### Problem 341
 
@@ -3983,10 +3979,10 @@ Your function should return 3, since we can make the words 'eat', 'in', and 'rat
 ---
 
 ### Problem 342
-
 This problem was asked by Stripe.
-
-`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and builds up a result by calling the combining function on each element of the array, left to right. For example, we can write `sum()` in terms of reduce:
+<br>`reduce` (also known as `fold`) is a function that takes in an array, a combining function, and an initial value and
+builds up a result by calling the combining function on each element of the array, left to right. For example, we can write
+`sum()` in terms of reduce:
 
 ```python
 def add(a, b):
@@ -3998,13 +3994,12 @@ def sum(lst):
     return reduce(lst, add, 0)
 ```
 
-This should call add on the initial value with the first element of the array, and then the result of that with the second element of the array, and so on until we reach the end, when we return the sum of the array.
+This should call add on the initial value with the first element of the array, and then the result of that with the second
+element of the array, and so on until we reach the end, when we return the sum of the array.
+<br>Implement your own version of reduce.
 
-Implement your own version of reduce.
-
-[Solution](solutions/problem_342.py)
-
----
+[Solution](Day342.cpp)
+- - - -
 
 ### Problem 343
 
