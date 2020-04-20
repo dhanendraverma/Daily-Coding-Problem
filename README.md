@@ -4002,12 +4002,10 @@ element of the array, and so on until we reach the end, when we return the sum o
 - - - -
 
 ### Problem 343
-
 This problem was asked by Google.
-
-Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
-
-For example, given the following tree:
+<br>Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree
+within the range.
+<br>For example, given the following tree:
 ```
     5
    / \
@@ -4015,20 +4013,18 @@ For example, given the following tree:
  / \ / \
 2  4 6  10
 ```
+<br>and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
 
-and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
-
-[Solution](solutions/problem_343.py)
+[Solution](Day343.cpp)
 
 ---
 
 ### Problem 344
-
 This problem was asked by Adobe.
-
-You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
-
-For example, suppose your input was the following tree:
+<br>You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an
+"edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even
+number of nodes.
+<br>For example, suppose your input was the following tree:
 ```
    1
   / \ 
@@ -4038,32 +4034,24 @@ For example, suppose your input was the following tree:
  / | \
 6  7  8
 ```
+<br>In this case, removing the edge `(3, 4)` satisfies our requirement.
+<br>Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
 
-In this case, removing the edge `(3, 4)` satisfies our requirement.
-
-Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
-
-[Solution](solutions/problem_344.py)
-
----
+[Solution](Day344.cpp)
+- - - -
 
 ### Problem 345
-
 This problem was asked by Google.
+<br>You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences
+with the same number of words are equivalent.
+<br>For example, the following two sentences are equivalent:
+* "He wants to eat food."
+* "He wants to consume food."
+<br>Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
+<br>Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
 
-You are given a set of synonyms, such as `(big, large)` and `(eat, consume)`. Using this set, determine if two sentences with the same number of words are equivalent.
-
-For example, the following two sentences are equivalent:
-- "He wants to eat food."
-- "He wants to consume food."
-
-Note that the synonyms `(a, b)` and `(a, c)` do not necessarily imply `(b, c)`: consider the case of `(coach, bus)` and `(coach, teacher)`.
-
-Follow-up: what if we can assume that `(a, b)` and `(a, c)` do in fact imply `(b, c)`?
-
-[Solution](solutions/problem_345.py)
-
----
+[Solution](Day345.cpp)
+- - - -
 
 ### Problem 346
 
