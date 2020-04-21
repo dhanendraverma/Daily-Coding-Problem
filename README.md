@@ -4054,15 +4054,12 @@ with the same number of words are equivalent.
 - - - -
 
 ### Problem 346
-
 This problem was asked by Airbnb.
-
-You are given a huge list of airline ticket prices between different cities around the world on a given day. These are all direct flights. Each element in the list has the format `(source_city, destination, price)`.
-
-Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find the cheapest fare possible for this journey and print the itinerary for that journey.
-
-For example, our traveler wants to go from JFK to LAX with up to 3 connections, and our input flights are as follows:
-
+<br>You are given a huge list of airline ticket prices between different cities around the world on a given day. These are
+all direct flights. Each element in the list has the format `(source_city, destination, price)`.
+<br>Consider a user who is willing to take up to `k` connections from their origin city `A` to their destination `B`. Find
+the cheapest fare possible for this journey and print the itinerary for that journey.
+<br>For example, our traveler wants to go from JFK to LAX with up to 3 connections, and our input flights are as follows:
 ```
 [
     ('JFK', 'ATL', 150),
@@ -4074,32 +4071,26 @@ For example, our traveler wants to go from JFK to LAX with up to 3 connections, 
     ('JFK', 'LAX', 500),
 ]
 ```
+<br>Due to some improbably low flight prices, the cheapest itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
 
-Due to some improbably low flight prices, the cheapest itinerary would be JFK -> ATL -> ORD -> LAX, costing $440.
-
-[Solution](solutions/problem_346.py)
-
----
+[Solution](Day346.cpp)
+- - - -
 
 ### Problem 347
-
 This problem was asked by Yahoo.
+<br>You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k`
+letters and moving it to the end.
+<br>Write a program to determine the lexicographically smallest string that can be created after an unlimited number of
+moves.
+<br>For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
 
-You are given a string of length `N` and a parameter `k`. The string can be manipulated by taking one of the first `k` letters and moving it to the end.
-
-Write a program to determine the lexicographically smallest string that can be created after an unlimited number of moves.
-
-For example, suppose we are given the string `daily` and `k = 1`. The best we can create in this case is `ailyd`.
-
-[Solution](solutions/problem_347.py)
-
----
+[Solution](Day347.py)
+- - - - 
 
 ### Problem 348
-
 This problem was asked by Zillow.
-
-A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
+<br>A ternary search tree is a trie-like data structure where each node may have up to three children. Here is an example
+which represents the words `code`, `cob`, `be`, `ax`, `war`, and `we`.
 ```
        c
     /  |  \
@@ -4109,19 +4100,16 @@ a  e   d   a
 |    / |   | \ 
 x   b  e   r  e
 ```
-
 The tree is structured according to the following rules:
-- left child nodes link to words lexicographically earlier than the parent prefix
-- right child nodes link to words lexicographically later than the parent prefix
-- middle child nodes continue the current word
+* left child nodes link to words lexicographically earlier than the parent prefix
+* right child nodes link to words lexicographically later than the parent prefix
+* middle child nodes continue the current word
+<br>For instance, since code is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is
+represented as a left child extending from `cod`.
+<br>Implement insertion and search functions for a ternary search tree.
 
-For instance, since code is the first word inserted in the tree, and `cob` lexicographically precedes `cod`, `cob` is represented as a left child extending from `cod`.
-
-Implement insertion and search functions for a ternary search tree.
-
-[Solution](solutions/problem_348.py)
-
----
+[Solution](Day348.cpp)
+- - - -
 
 ### Problem 349
 
