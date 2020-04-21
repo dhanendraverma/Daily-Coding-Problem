@@ -693,7 +693,7 @@ This problem was asked by Google.
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two
 computers are mostly the same?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day59.cpp)
+[Solution](Day59.cpp)
 - - - -
 
 #### Problem 60
@@ -703,7 +703,7 @@ For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return tru
 15, 10} and {20, 35}, which both add up to 55. Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't
 split it up into two subsets that add up to the same sum.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day60.cpp)
+[Solution](Day60.cpp)
 - - - -
 
 #### Problem 61
@@ -712,7 +712,7 @@ Implement integer exponentiation. That is, implement the pow(x, y) function, whe
 Do this faster than the naive method of repeated multiplication.
 For example, pow(2, 10) should return 1024.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day61.cpp)
+[Solution](Day61.cpp)
 - - - -
 
 #### Problem 62
@@ -724,7 +724,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 * Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day62.cpp)
+[Solution](Day62.cpp)
 - - - -
 
 #### Problem 63
@@ -741,7 +741,7 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS',
 you should return true, since it's the last row.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day63.cpp)
+[Solution](Day63.cpp)
 - - - -
 
 #### Problem 64
@@ -749,7 +749,7 @@ This problem was asked by Google.
 A knight's tour is a sequence of moves by a knight on a chessboard such that all squares are visited once.
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day64.cpp)
+[Solution](Day64.cpp)
 - - - -
 
 #### Problem 65
@@ -767,7 +767,7 @@ You should print out the following:
 1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day65.cpp)
+[Solution](Day65.cpp)
 - - - -
 
 #### Problem 66
@@ -776,7 +776,7 @@ Assume you have access to a function toss_biased() which returns 0 or 1 with a p
 100 or 100-0). You do not know the bias of the coin.
 Write a function to simulate an unbiased coin toss.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day66.cpp)
+[Solution](Day66.cpp)
 - - - -
 
 #### Problem 67
@@ -788,7 +788,7 @@ should also remove the least frequently used item. If there is a tie, then the l
 * `get(key)`: gets the value at key. If no such key exists, return null. 
 Each operation should run in O(1) time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day67.cpp)
+[Solution](Day67.cpp)
 - - - -
 
 #### Problem 68
@@ -814,7 +814,7 @@ The board would look like this:
 ```
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day68.cpp)
+[Solution](Day68.cpp)
 - - - -
 
 #### Problem 69
@@ -823,7 +823,7 @@ Given a list of integers, return the largest product that can be made by multipl
 For example, if the list is [-10, -10, 5, 2], we should return 500, since that's -10 * -10 * 5.
 You can assume the list has at least three integers.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day69.cpp)
+[Solution](Day69.cpp)
 - - - -
 
 #### Problem 70
@@ -831,7 +831,7 @@ A number is considered perfect if its digits sum up to exactly 10.
 Given a positive integer n, return the n-th perfect number.
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day70.cpp)
+[Solution](Day70.cpp)
 - - - -
 
 #### Problem 71
@@ -840,7 +840,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive) with un
 rand5() that returns an integer from 1 to 5 (inclusive).
 (repeated question - Problem 45)
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day71.cpp)
+[Solution](Day71.cpp)
 - - - -
 
 #### Problem 72
