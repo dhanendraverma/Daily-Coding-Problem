@@ -968,7 +968,7 @@ Given an array of integers, write a function to determine whether the array coul
 decreasing.
 Given the array `[10, 5, 1]`, you should return false, since we can't modify any one element to get a non-decreasing array.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day79.cpp)
+[Solution](Day79.cpp)
 - - - -
 
 #### Problem 80
@@ -982,7 +982,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day80.cpp)
+[Solution](Day80.cpp)
 - - - -
 
 #### Problem 81
@@ -992,7 +992,7 @@ represent. You can assume each valid number in the mapping is a single digit.
 For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` should return `['ad', 'ae', 'af', 'bd', 'be',
 'bf', 'cd', 'ce', 'cf']`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day81.cp)
+[Solution](Day81.cp)
 - - - -
 
 #### Problem 82
