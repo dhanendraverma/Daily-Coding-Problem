@@ -1000,7 +1000,7 @@ This problem was asked Microsoft.
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day82.cp)
+[Solution](Day82.cp)
 - - - -
 
 #### Problem 83
@@ -1023,7 +1023,7 @@ should become:
   f e  d
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day83.cp)
+[Solution](Day83.cp)
 - - - -
 
 #### Problem 84
@@ -1040,7 +1040,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day84.cp)
+[Solution](Day84.cp)
 - - - -
 
 #### Problem 85
