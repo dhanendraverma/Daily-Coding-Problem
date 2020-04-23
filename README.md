@@ -1048,7 +1048,7 @@ This problem was asked by Facebook.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You
 can assume b can only be 1 or 0.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day85.cp)
+[Solution](]Day85.cp)
 - - - -
 
 #### Problem 86
@@ -1058,7 +1058,7 @@ valid (i.e. each open parenthesis is eventually closed).
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must
 remove all of them.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day86.cp)
+[Solution](Day86.cp)
 - - - -
 
 #### Problem 87
@@ -1081,7 +1081,7 @@ A N B
 ```
 is considered valid.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day87.cp)
+[Solution](Day87.cp)
 - - - -
 
 #### Problem 88
