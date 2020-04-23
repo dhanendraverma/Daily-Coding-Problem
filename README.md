@@ -1097,7 +1097,7 @@ Determine whether a tree is a valid binary search tree.
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child
 must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day89.cp)
+[Solution](Day89.cp)
 - - - -
 
 #### Problem 90
@@ -1105,7 +1105,7 @@ This question was asked by Google.
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in
 (uniform).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day90.py)
+[Solution](Day90.py)
 - - - -
 
 #### Problem 91
@@ -1120,7 +1120,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day91.py)
+[Solution](Day91.py)
 - - - -
 
 #### Problem 92
@@ -1131,7 +1131,7 @@ Return null if there is no such ordering.
 For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100',
 'CSC200', 'CSCS300']`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day92.cp)
+[Solution](Day92.cp)
 - - - -
 
 #### Problem 93
