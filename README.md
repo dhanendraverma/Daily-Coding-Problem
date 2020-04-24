@@ -1839,7 +1839,7 @@ Given a list of elements, find the majority element, which appears more than hal
 <br>You can assume that such an element exists.
 <br>For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day156.cpp)
+[Solution](Day156.cpp)
 - - - -
 
 #### Problem 156
@@ -1847,7 +1847,7 @@ This problem was asked by Facebook.
 <br>Given a positive integer `n`, find the smallest number of squared integers which sum to `n`.
 <br>For example, given n = `13`, return `2` since `13 = 3^2 + 2^2 = 9 + 4`. Given `n = 27`, return `3` since `27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day156.cpp)
+[Solution](Day156.cpp)
 - - - -
 
 #### Problem 157
