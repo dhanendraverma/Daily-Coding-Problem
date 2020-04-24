@@ -616,7 +616,7 @@ that shuffles a deck of cards represented as an array using only swaps.
 It should run in O(N) time.
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day51.py)
+[Solution](Day51.py)
 - - - -
 
 #### Problem 52
@@ -628,7 +628,7 @@ also remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day52.py)
+[Solution](Day52.py)
 - - - -
 
 #### Problem 53
