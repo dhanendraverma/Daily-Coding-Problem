@@ -577,7 +577,7 @@ You should return the following tree:
 d  e f  g
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day48.cpp)
+[Solution](Day48.cpp)
 - - - -
 
 #### Problem 49
@@ -1297,7 +1297,7 @@ Given an integer list where each number represents the number of hops you can ma
 last index starting at index 0.
 <br>For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
+[Solution](endraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
 - - - -
 
 ### Day 107 ###
