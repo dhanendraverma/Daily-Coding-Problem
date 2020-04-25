@@ -868,14 +868,14 @@ A
 ```
 Should return null, since we have an infinite loop.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day72.cpp)
+[Solution](Day72.cpp)
 - - - -
 
 #### Problem 73
 This problem was asked by Google.
 Given the head of a singly linked list, reverse it in-place.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day73.cp)
+[Solution](Day73.cp)
 - - - -
 
 #### Problem 74
@@ -896,7 +896,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day74.cp)
+[Solution](Day74.cp)
 - - - -
 
 #### Problem 75
@@ -906,7 +906,7 @@ necessarily have to be contiguous.
 For example, given the array `[0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]`, the longest increasing subsequence has
 length 6: it is `0, 2, 6, 9, 11, 15`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day75.cp)
+[Solution](Day75.cp)
 - - - -
 
 #### Problem 76
@@ -940,7 +940,7 @@ tsr
 ```
 Your function should return 3, since we would need to remove all the columns to order it.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day76.cpp)
+[Solution](Day76.cpp)
 - - - -
 
 #### Problem 77
@@ -950,14 +950,14 @@ merged.
 The input list is not necessarily ordered in any way.
 For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1, 3), (4, 10), (20, 25)]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day77.cpp)
+[Solution](Day77.cpp)
 - - - -
 
 #### Problem 78
 This problem was asked recently by Google.
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day78.cpp)
+[Solution](Day78.cpp)
 - - - -
 
 #### Problem 79
