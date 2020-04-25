@@ -992,7 +992,7 @@ represent. You can assume each valid number in the mapping is a single digit.
 For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` should return `['ad', 'ae', 'af', 'bd', 'be',
 'bf', 'cd', 'ce', 'cf']`.
 
-[Solution](Day81.cp)
+[Solution](Day81.cpp)
 - - - -
 
 #### Problem 82
@@ -1000,7 +1000,7 @@ This problem was asked Microsoft.
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
 
-[Solution](Day82.cp)
+[Solution](Day82.cpp)
 - - - -
 
 #### Problem 83
@@ -1023,7 +1023,7 @@ should become:
   f e  d
 ```
 
-[Solution](Day83.cp)
+[Solution](Day83.cpp)
 - - - -
 
 #### Problem 84
@@ -1040,7 +1040,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Solution](Day84.cp)
+[Solution](Day84.cpp)
 - - - -
 
 #### Problem 85
@@ -1048,7 +1048,7 @@ This problem was asked by Facebook.
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You
 can assume b can only be 1 or 0.
 
-[Solution](]Day85.cp)
+[Solution](]Day85.cpp)
 - - - -
 
 #### Problem 86
@@ -1058,7 +1058,7 @@ valid (i.e. each open parenthesis is eventually closed).
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must
 remove all of them.
 
-[Solution](Day86.cp)
+[Solution](Day86.cpp)
 - - - -
 
 #### Problem 87
@@ -1081,14 +1081,14 @@ A N B
 ```
 is considered valid.
 
-[Solution](Day87.cp)
+[Solution](Day87.cpp)
 - - - -
 
 #### Problem 88
 This question was asked by ContextLogic.
 Implement division of two positive integers without using the division, multiplication, or modulus operators.Return the quotient as an integer, ignoring the remainder.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day88.cp)
+[Solution](Day88.cpp)
 - - - -
 
 #### Problem 89
@@ -1097,7 +1097,7 @@ Determine whether a tree is a valid binary search tree.
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child
 must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
-[Solution](Day89.cp)
+[Solution](Day89.cpp)
 - - - -
 
 #### Problem 90
@@ -1131,7 +1131,7 @@ Return null if there is no such ordering.
 For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100',
 'CSC200', 'CSCS300']`.
 
-[Solution](Day92.cp)
+[Solution](Day92.cpp)
 - - - -
 
 #### Problem 93
