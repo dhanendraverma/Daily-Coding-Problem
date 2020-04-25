@@ -1139,7 +1139,7 @@ This problem was asked by Apple.
 Given a tree, find the largest tree/subtree that is a BST.
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day93.cpp)
+[Solution](Day93.cpp)
 - - - -
 
 #### Problem 94
@@ -1147,7 +1147,7 @@ This problem was asked by Google.
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and
 does not need to go through the root.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day94.cpp)
+[Solution](Day94.cpp)
 - - - -
 
 #### Problem 95
@@ -1158,7 +1158,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 should return `[1,2,3]`.
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day95.cpp)
+[Solution](Day95.cpp)
 - - - -
 
 #### Problem 96
@@ -1166,7 +1166,7 @@ This problem was asked by Microsoft.
 Given a number in the form of a list of digits, return all possible permutations.
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day96.cpp)
+[Solution](Day96.cpp)
 - - - -
 
 #### Problem 97
@@ -1197,7 +1197,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day97.cpp)
+[Solution](Day97.cpp)
 - - - -
 
 #### Problem 98
@@ -1215,7 +1215,7 @@ For example, given the following board:
 ```
 `exists(board, "ABCCED")` returns true, `exists(board, "SEE")` returns true, `exists(board, "ABCB")` returns false.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day98.cpp)
+[Solution](Day98.cpp)
 - - - -
 
 #### Problem 99
@@ -1224,7 +1224,7 @@ Given an unsorted array of integers, find the length of the longest consecutive 
 For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
 Your algorithm should run in O(n) complexity.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day99.cpp)
+[Solution](Day99.cpp)
 - - - -
 
 ### Day 100 ###
@@ -1248,7 +1248,7 @@ Input: [(0, 0), (1, 1), (1, 2)]
 Output: 2
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day100.cpp)
+[Solution](Day100.cpp)
 - - - -
 
 ### Day 101 ###
@@ -1263,7 +1263,7 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 [a, b] < [c, d]
 If a < c OR a==c AND b < d.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day101.cpp)
+[Solution](Day101.cpp)
 - - - -
 
 ### Day 102 ###
@@ -1271,7 +1271,7 @@ This problem was asked by Lyft.
 Given a list of integers and a number K, return which contiguous elements of the list sum to K.
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day102.cpp)
+[Solution](Day102.cpp)
 - - - -
 
 ### Day 103 ###
@@ -1280,7 +1280,7 @@ Given a string and a set of characters, return the shortest substring containing
 <br>For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 If there is no substring containing all the characters in the set, return null.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day103.cpp)
+[Solution](Day103.cpp)
 - - - -
 
 ### Day 104 ###
@@ -1288,7 +1288,7 @@ This problem was asked by Google.
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day104.cpp)
+[Solution](Day104.cpp)
 - - - -
 
 ### Day 106 ###
@@ -1297,7 +1297,7 @@ Given an integer list where each number represents the number of hops you can ma
 last index starting at index 0.
 <br>For example, [2, 0, 1, 0] returns True while [1, 1, 0, 1] returns False.
 
-[Solution](endraverma/Daily-Coding-Problem/blob/master/Day106.cpp)
+[Solution](Day106.cpp)
 - - - -
 
 ### Day 107 ###
