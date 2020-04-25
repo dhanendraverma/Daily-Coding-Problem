@@ -493,7 +493,7 @@ Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and s
 list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is
 lexicographically smaller.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day41.py)
+[Solution](Day41.py)
 - - - -
 
 #### Problem 42
@@ -503,7 +503,7 @@ subset cannot be made, then return null.
 Integers can appear more than once in the list. You may assume all numbers in the list are positive.
 For example, given `S = [12, 1, 61, 5, 9, 2]` and `k = 24`, return [12, 9, 2, 1] since it sums up to 24.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day42.cpp)
+[Solution](Day42.cpp)
 - - - -
 
 #### Problem 43
@@ -516,7 +516,7 @@ throw an error or return null.
 throw an error or return null.
 Each method should run in constant time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day43.cpp)
+[Solution](Day43.cpp)
 - - - -
 
 #### Problem 44
@@ -527,7 +527,7 @@ Given an array, count the number of inversions it has. Do this faster than O(N^2
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3).
 The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day44.cpp)
+[Solution](Day44.cpp)
 - - - -
 
 #### Problem 45
@@ -535,7 +535,7 @@ This problem was asked by Two Sigma.
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function
 rand7() that returns an integer from 1 to 7 (inclusive).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day45.cpp)
+[Solution](Day45.cpp)
 - - - -
 
 #### Problem 46
@@ -544,7 +544,7 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 any one.
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day46.cpp)
+[Solution](Day46.cpp)
 - - - -
 
 #### Problem 47
@@ -554,7 +554,7 @@ the maximum profit you could have made from buying and selling that stock once. 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 
 dollars.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day47.cpp)
+[Solution](Day47.cpp)
 - - - -
 
 #### Problem 48
@@ -588,7 +588,7 @@ For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be
 Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
 Do this in O(N) time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day49.cpp)
+[Solution](Day49.cpp)
 - - - -
 
 #### Problem 50
@@ -606,7 +606,7 @@ For example, given the following tree:
 ```
 You should return 45, as it is (3 + 2) * (4 + 5).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day50.cpp)
+[Solution](Day50.cpp)
 - - - -
 
 #### Problem 51
@@ -636,7 +636,7 @@ This problem was asked by Apple.
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following
 methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day53.cpp)
+[Solution](Day53.cpp)
 - - - -
 
 #### Problem 54
@@ -645,7 +645,7 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
 Implement an efficient sudoku solver.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day54.cpp)
+[Solution](Day54.cpp)
 - - - -
 
 #### Problem 55
@@ -655,7 +655,7 @@ Implement a URL shortener with the following methods:
 * restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
 Hint: What if we enter the same URL twice?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day55.cpp)
+[Solution](Day55.cpp)
 - - - -
 
 #### Problem 56
@@ -663,7 +663,7 @@ This problem was asked by Google.
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each
 vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day56.cpp)
+[Solution](Day56.cpp)
 - - - -
 
 #### Problem 57
@@ -674,7 +674,7 @@ You can assume that there are no spaces at the ends of the string and that there
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick",
 "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day57.cpp)
+[Solution](Day57.cpp)
 - - - -
 
 #### Problem 58
@@ -685,7 +685,7 @@ the array, return null.
 For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 (the index of 8 in the array).
 You can assume all the integers in the array are unique.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day58.cpp)
+[Solution](Day58.cpp)
 - - - -
 
 #### Problem 59
