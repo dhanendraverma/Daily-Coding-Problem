@@ -1311,7 +1311,7 @@ Print the nodes in a binary tree level-wise. For example, the following should p
   4   5
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day107.cpp)
+[Solution](Day107.cpp)
 - - - -
 
 #### Problem 108
@@ -1319,7 +1319,7 @@ This problem was asked by Google.
 Given two strings A and B, return whether or not A can be shifted some number of times to get B.
 <br>For example, if A is `abcde` and B is `cdeab`, return true. If A is `abc` and B is `acb`, return false.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day108.cpp)
+[Solution](Day108.cpp)
 - - - -
 
 #### Problem 109
@@ -1328,7 +1328,7 @@ Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit
 <br>For example, `10101010` should be `01010101`. `11100010` should be `11010001`.
 Bonus: Can you do this in one line?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day109.cpp)
+[Solution](Day109.cpp)
 - - - -
 
 #### Problem 110
@@ -1344,7 +1344,7 @@ Given a binary tree, return all paths from the root to leaves.
 ```
 it should return `[[1, 2], [1, 3, 4], [1, 3, 5]]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day110.cpp)
+[Solution](Day110.cpp)
 - - - -
 
 #### Problem 111
@@ -1352,7 +1352,7 @@ This problem was asked by Google.
 Given a word W and a string S, find all starting indices in S which are anagrams of W.
 <br>For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day111.cpp)
+[Solution](Day111.cpp)
 - - - -
 
 #### Problem 112
@@ -1360,7 +1360,7 @@ This problem was asked by Twitter.
 Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
 According to the definition of LCA on Wikipedia: "The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself)."
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day112.cpp)
+[Solution](Day112.cpp)
 - - - -
 
 #### Problem 113
@@ -1368,7 +1368,7 @@ This problem was asked by Google.Given a string of words delimited by spaces, re
 <br>For example, given "hello world here", return "here world hello"
 Follow-up: given a mutable string representation, can you perform this operation in-place?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day113.cpp)
+[Solution](Day113.cpp)
 - - - -
 
 #### Problem 114
@@ -1376,14 +1376,14 @@ This problem was asked by Facebook.Given a string and a set of delimiters, rever
 <br>For example, given "hello/world:here", return "here/world:hello"
 Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day114.cpp)
+[Solution](Day114.cpp)
 - - - -
 
 #### Problem 115
 This problem was asked by Google.
 Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day115.cpp)
+[Solution](Day115.cpp)
 - - - -
 
 #### Problem 116
@@ -1398,7 +1398,7 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 This problem was asked by Facebook.
 Given a binary tree, return the level of the tree with minimum sum.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day117.cpp)
+[Solution](Day117.cpp)
 - - - -
 
 #### Problem 118
@@ -1406,7 +1406,7 @@ This problem was asked by Google.
 Given a sorted list of integers, square the elements and give the output in sorted order.
 <br>For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day118.cpp)
+[Solution](Day118.cpp)
 - - - -
 
 #### Problem 119
@@ -1414,14 +1414,14 @@ This problem was asked by Google.
 Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
 <br>For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day119.cpp)
+[Solution](Day119.cpp)
 - - - -
 
 #### Problem 120
 This problem was asked by Microsoft.
 Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day120.cpp)
+[Solution](Day120.cpp)
 - - - -
 
 #### Problem 121
@@ -1429,7 +1429,7 @@ This problem was asked by Google.
 Given a string which we can delete at most k, return whether you can make a palindrome.
 <br>For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day121.cpp)
+[Solution](Day121.cpp)
 - - - -
 
 #### Problem 122
@@ -1443,7 +1443,7 @@ You are given a 2-d matrix where each cell represents number of coins in that ce
 ```
 The most we can collect is `0 + 2 + 1 + 5 + 3 + 1 = 12` coins.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day122.cpp)
+[Solution](Day122.cpp)
 - - - -
 
 #### Problem 123
@@ -1461,7 +1461,7 @@ And here are examples of non-numbers:
 * "a -2"
 * "-"
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day123.cpp)
+[Solution](Day123.cpp)
 - - - -
 
 #### Problem 124
@@ -1469,7 +1469,7 @@ This problem was asked by Microsoft.
 <br>You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
 <br>Write a function that, given $n$, returns the number of rounds you'd expect to play until one coin remains.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day124.cpp)
+[Solution](Day124.cpp)
 - - - -
 
 #### Problem 125
@@ -1486,7 +1486,7 @@ This problem was asked by Google.
 
 Return the nodes 5 and 15.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day125.cpp)
+[Solution](Day125.cpp)
 - - - -
 
 #### Problem 126
