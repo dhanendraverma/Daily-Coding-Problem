@@ -1935,14 +1935,14 @@ This problem was asked by Jane Street.
 <br>For example, `[15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-']` should return `5`, since it is equivalent to `((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1)) = 5`.
 <br> You can assume the given expression is always valid.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day163.cpp)
+[Solution](Day163.cpp)
 - - - -
 
 #### Problem 164
 This problem was asked by Google.
 <br>You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day164.cpp)
+[Solution](Day164.cpp)
 - - - -
 
 #### Problem 165
@@ -1955,7 +1955,7 @@ This problem was asked by Google.
 * There is 1 smaller element to the right of `6`
 * There are no smaller elements to the right of `1`
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day165.cpp)
+[Solution](Day165.cpp)
 - - - -
 
 #### Problem 166
@@ -1965,7 +1965,7 @@ This problem was asked by Uber.
 * `has_next()`: returns whether or not the iterator still has elements left.
 <br>For example, given the input `[[1, 2], [3], [], [4, 5, 6]]`, calling `next()` repeatedly should output `1, 2, 3, 4, 5, 6`. Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day166.cpp)
+[Solution](Day166.cpp)
 - - - -
 
 #### Problem 167
@@ -1973,7 +1973,7 @@ This problem was asked by Airbnb.
 <br> Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 <br> For example, given the list `["code", "edoc", "da", "d"]`, return `[(0, 1), (1, 0), (2, 3)]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day167.cppy)
+[Solution](Day167.cppy)
 - - - -
 
 #### Problem 168
@@ -1993,7 +1993,7 @@ you should return:
 ```
 Follow-up: What if you couldn't use any extra space?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day168.cpp)
+[Solution](Day168.cpp)
 - - - -
 
 #### Problem 169
@@ -2001,7 +2001,7 @@ This problem was asked by Google.
 <br>Given a linked list, sort it in `O(n log n)` time and constant space.
 <br>For example, the linked list `4 -> 1 -> -3 -> 99` should become `-3 -> 1 -> 4 -> 99`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day169.cpp)
+[Solution](Day169.cpp)
 - - - -
 
 #### Problem 170
@@ -2009,7 +2009,7 @@ This problem was asked by Facebook.
 <br>Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end such that only one letter is changed at each step of the sequence, and each transformed word exists in the dictionary. If there is no possible transformation, return null. Each word in the dictionary have the same length as start and end and is lowercase.
 <br>For example, given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "dop", "dat", "cat"}`, return `["dog", "dot", "dat", "cat"]`. Given `start = "dog"`, `end = "cat"`, and `dictionary = {"dot", "tod", "dat", "dar"}`, return null as there is no possible transformation from dog to cat.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day170.cpp)
+[Solution](Day170.cpp)
 - - - -
 
 #### Problem 171
@@ -2021,7 +2021,7 @@ This problem was asked by Amazon.
 <br>This means that 2 people exited the building. timestamp is in Unix time.
 <br>Find the busiest period in the building, that is, the time with the most people in the building. Return it as a pair of `(start, end)` timestamps. You can assume the building always starts off and ends up empty, i.e. with 0 people inside.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day171.cpp)
+[Solution](Day171.cpp)
 - - - -
 
 #### Problem 172
@@ -2030,7 +2030,7 @@ This problem was asked by Dropbox.
 <br>For example, given `s = "dogcatcatcodecatdog"` and `words = ["cat", "dog"]`, return `[0, 13]`, since `"dogcat"` starts at index `0` and `"catdog"` starts at index `13`.
 <br>Given `s = "barfoobazbitbyte"` and `words = ["dog", "cat"]`, return `[]` since there are no substrings composed of `"dog"` and `"cat"` in `s`.The order of the indices does not matter.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day172.cpp)
+[Solution](Day172.cpp)
 - - - -
 
 #### Problem 173
@@ -2058,7 +2058,7 @@ it should become:
 ```
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day173.cpp)
+[Solution](Day173.cpp)
 - - - -
 
 #### Problem 174
@@ -2068,7 +2068,7 @@ This problem was asked by Microsoft.
 * Parametric polymorphism
 * Subtype polymorphism
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day174.cpp)
+[Solution](Day174.cpp)
 - - - -
 
 #### Problem 175
@@ -2090,7 +2090,7 @@ This problem was asked by Google.
 ```
 One instance of running this Markov chain might produce `{'a': 3012, 'b': 1656, 'c': 332 }`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day175.cpp)
+[Solution](Day175.cpp)
 - - - -
 
 #### Problem 176
@@ -2099,7 +2099,7 @@ This problem was asked by Bloomberg.
 <br>For example, given `s1 = abc` and `s2 = bcd`, return `true` since we can map `a` to `b`, `b` to `c`, and `c` to `d`.
 Given `s1 = foo` and `s2 = bar`, return `false` since the `o` cannot map to two characters.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day176.cpp)
+[Solution](Day176.cpp)
 - - - -
 
 #### Problem 177
