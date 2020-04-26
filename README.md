@@ -1494,7 +1494,7 @@ This problem was asked by Facebook.
 <br>Write a function that rotates a list by k elements. 
 <br>For example, `[1, 2, 3, 4, 5, 6]` rotated by two becomes `[3, 4, 5, 6, 1, 2]`. Try solving this without creating a copy of the list. How many swap or move operations do you need?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day126.cpp)
+[Solution](Day126.cpp)
 - - - -
 
 #### Problem 127
@@ -1510,7 +1510,7 @@ For example, given
 return `124 (99 + 25)` as:
 `4 -> 2 -> 1`
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day127.cpp)
+[Solution](Day127.cpp)
 - - - -
 
 #### Problem 128
@@ -1530,14 +1530,14 @@ All the disks start off on the first rod in a stack. They are ordered by size, w
 * Move 2 to 3
 * Move 1 to 3
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day128.cpp)
+[Solution](Day128.cpp)
 - - - -
 
 #### Problem 129
 Given a real number n, find the square root of n. 
 <br>For example, given n = 9, return 3.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day129.cpp)
+[Solution](Day129.cpp)
 - - - -
 
 #### Problem 130
@@ -1545,14 +1545,14 @@ This problem was asked by Facebook.
 <br>Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
 <br>For example, given `k = 2` and the array `[5, 2, 4, 0, 1]`, you should return `3`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day130.cpp)
+[Solution](Day130.cpp)
 - - - -
 
 #### Problem 131
 This question was asked by Snapchat.
 <br>Given the head to a singly linked list, where each node also has a 'random' pointer that points to anywhere in the linked list, deep clone the list.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day131.cpp)
+[Solution](Day131.cpp)
 - - - -
 
 #### Problem 132
@@ -1563,7 +1563,7 @@ This question was asked by Riot Games.
 * `range(lower, upper)`: returns the number of hits that occurred between timestamps lower and upper (inclusive)
 Follow-up: What if our system has limited memory?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day132.cpp)
+[Solution](Day132.cpp)
 - - - -
 
 #### Problem 133
@@ -1580,7 +1580,7 @@ For example, the inorder successor of 22 is 30.
 ```
 You can assume each node has a parent pointer.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day133.cpp)
+[Solution](Day133.cpp)
 - - - -
 
 #### Problem 134
@@ -1590,7 +1590,7 @@ This problem was asked by Facebook.
 * `set(i, val)`: updates index at i with val.
 * `get(i)`: gets the value at index i.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day134.cpp)
+[Solution](Day134.cpp)
 - - - -
 
 #### Problem 135
@@ -1607,7 +1607,7 @@ This question was asked by Apple.
      -1
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day135.cppy)
+[Solution](Day135.cppy)
 - - - -
 
 #### Problem 136
@@ -1622,7 +1622,7 @@ This question was asked by Google.
 ```
 Return 4.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day136.cpp)
+[Solution](Day136.cpp)
 - - - -
 
 #### Problem 137
@@ -1632,7 +1632,7 @@ This problem was asked by Amazon.
 * set(i, val): updates index at i with val where val is either 1 or 0.
 * get(i): gets the value at index i.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day137.cpp)
+[Solution](Day137.cpp)
 - - - -
 
 #### Problem 138
@@ -1640,7 +1640,7 @@ This problem was asked by Google.
 <br>Find the minimum number of coins required to make n cents. You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
 <br>For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day138.cpp)
+[Solution](Day138.cpp)
 - - - -
 
 #### Problem 139
@@ -1661,7 +1661,7 @@ class PeekableInterface(object):
         pass
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day139.cpp)
+[Solution](Day139.cpp)
 - - - -
 
 #### Problem 140
@@ -1670,7 +1670,7 @@ This problem was asked by Facebook.
 <br>For example, given the array `[2, 4, 6, 8, 10, 2, 6, 10]`, return 4 and 8. The order does not matter.
 <br>Follow-up: Can you do this in linear time and constant space?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day140.cpp)
+[Solution](Day140.cpp)
 - - - - 
 
 #### Problem 141
@@ -1688,7 +1688,7 @@ class Stack:
         pass
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day141.cpp)
+[Solution](Day141.cpp)
 - - - -
 
 #### Problem 142
