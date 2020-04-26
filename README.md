@@ -1697,7 +1697,7 @@ This problem was asked by Google.
 `*` can represent either a `(`, `)`, or an empty string. Determine whether the parentheses are balanced.
 <br>For example, `(()*` and `(*)` are balanced. `)*(` is not balanced.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day142.cpp)
+[Solution](Day142.cpp)
 - - - -
 
 #### Problem 143
@@ -1709,7 +1709,7 @@ This problem was asked by Amazon.
 Ordering within a part can be arbitrary.
 <br>For example, given `x = 10` and `lst = [9, 12, 3, 5, 14, 10, 10]`, one partition may be `[9, 3, 5, 10, 10, 12, 14]`
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day143.cpp)
+[Solution](Day143.cpp)
 - - - -
 
 #### Problem 144
@@ -1719,7 +1719,7 @@ This problem was asked by Google.
 If two distances to larger numbers are equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return `null`.
 <br>Follow-up: If you can preprocess the array, can you do this in constant time?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day144.cpp)
+[Solution](Day144.cpp)
 - - - -
 
 #### Problem 145
@@ -1727,7 +1727,7 @@ This problem was asked by Google.
 <br>Given the head of a singly linked list, swap every two nodes and return its head.
 <br>For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day145.cpp)
+[Solution](Day145.cpp)
 - - - -
 
 #### Problem 146
@@ -1753,13 +1753,13 @@ should be pruned to:
 ```
 We do not remove the tree at the root or its left child because it still has a 1 as a descendant.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day146.cpp)
+[Solution](Day146.cpp)
 - - - -
 
 #### Problem 147
 Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day147.cpp)
+[Solution](Day147.cpp)
 - - - -
 
 #### Problem 148
@@ -1767,7 +1767,7 @@ This problem was asked by Apple.
 <br>Gray code is a binary code where each successive value differ in only one bit, as well as when wrapping around. Gray code is common in hardware so that we don't see temporary spurious values during transitions. Given a number of bits `n`, generate a possible gray code for it.
 <br>For example, for `n = 2`, one gray code would be `[00, 01, 11, 10]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day148.cpp)
+[Solution](Day148.cpp)
 - - - -
 
 #### Problem 149
@@ -1775,7 +1775,7 @@ This problem was asked by Goldman Sachs.
 <br>Given a list of numbers `L`, implement a method `sum(i, j)` which returns the sum from the sublist `L[i:j]` (including i, excluding j).
 <br>For example, given `L = [1, 2, 3, 4, 5]`, `sum(1, 3)` should return `sum([2, 3])`, which is `5`. You can assume that you can do some pre-processing. `sum()` should be optimized over the pre-processing step.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day149.cpp)
+[Solution](Day149.cpp)
 - - - -
 
 #### Problem 150
@@ -1783,7 +1783,7 @@ This problem was asked by LinkedIn.
 <br>Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
 <br>For example, given the list of points `[(0, 0), (5, 4), (3, 1)]`, the central point `(1, 2)`, and `k = 2`, return `[(0, 0), (3, 1)]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day150.cpp)
+[Solution](Day150.cpp)
 - - - -
 
 #### Problem 151
@@ -1803,7 +1803,7 @@ G G G
 B B B
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day151.cpp)
+[Solution](Day151.cpp)
 - - - -
 
 #### Problem 152
@@ -1812,14 +1812,14 @@ This problem was asked by Triplebyte.
 <br>For example, given the numbers `[1, 2, 3, 4]` and probabilities `[0.1, 0.5, 0.2, 0.2]`, your function should return `1` `10%` of the time, `2` `50%` of the time, and `3` and `4` `20%` of the time.
 You can generate random numbers between 0 and 1 uniformly.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day152.cppy)
+[Solution](Day152.cppy)
 - - - -
 
 #### Problem 153
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
 <br>For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day153.cpp)
+[Solution](Day153.cpp)
 - - - -
 
 #### Problem 154
@@ -1831,7 +1831,7 @@ Recall that a heap has the following operations:
 * `push(item)`, which adds a new key to the heap
 * `pop()`, which removes and returns the max value of the heap
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day154.cpp)
+[Solution](Day154.cpp)
 - - - -
 
 #### Problem 155
@@ -1855,7 +1855,7 @@ This problem was asked by Amazon.
 <br>Given a string, determine whether any permutation of it is a palindrome.
 <br>For example, `carrace` should return `true`, since it can be rearranged to form `racecar`, which is a palindrome. `daily` should return `false`, since there's no rearrangement that can form a palindrome.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day157.cpp)
+[Solution](Day157.cpp)
 - - - -
 
 #### Problem 158
@@ -1873,7 +1873,7 @@ Return `2`, as there are only two ways to get to the bottom right:
 
 The top left corner and bottom right corner will always be `0`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day158.cpp)
+[Solution](Day158.cpp)
 - - - -
 
 #### Problem 159
@@ -1881,7 +1881,7 @@ This problem was asked by Google.
 <br>Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
 <br>For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day159.cpp)
+[Solution](Day159.cpp)
 - - - -
 
 #### Problem 160
@@ -1900,7 +1900,7 @@ This problem was asked by Uber.
 and the weights: `a-b: 3`, `a-c: 5`, `a-d: 8`, `d-e: 2`, `d-f: 4`, `e-g: 1`, `e-h: 1`, the longest path would be `c -> a -> d -> f`, with a length of `17`.
 The path does not have to pass through the root, and each node can have any amount of children.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day160.cpp)
+[Solution](Day160.cpp)
 - - - -
 
 #### Problem 161
@@ -1908,7 +1908,7 @@ This problem was asked by Facebook.
 <br>Given a 32-bit integer, return the number with its bits reversed.
 <br>For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day161.cpp)
+[Solution](Day161.cpp)
 - - - -
 
 #### Problem 162
@@ -1926,7 +1926,7 @@ Return the list:
 * apr
 * f
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day162.cpp)
+[Solution](Day162.cpp)
 - - - -
 
 #### Problem 163
