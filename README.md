@@ -2276,7 +2276,7 @@ This problem was asked by Stripe.
 <br>For example, given the intervals `(7, 9), (2, 4), (5, 8)`, return `1` as the last interval can be removed and the first two won't overlap.
 <br>The intervals are not necessarily sorted in any order.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day191.cpp)
+[Solution](Day191.cpp)
 - - - -
 
 #### Problem 192
@@ -2285,7 +2285,7 @@ This problem was asked by Google.
 <br>For example, given the array `[1, 3, 1, 2, 0, 1]`, we can go from indices `0 -> 1 -> 3 -> 5`, so return `true`.
 <br>Given the array `[1, 2, 1, 0, 0]`, we can't reach the end, so return `false`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day192.cpp)
+[Solution](Day192.cpp)
 - - - -
 
 #### Problem 193
@@ -2294,14 +2294,14 @@ This problem was asked by Affirm.
 <br>You must buy before you can sell the stock, but you can make as many transactions as you like.
 <br>For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, since you could buy the stock at `$1`, and sell at `$8`, and then buy it at `$4` and sell it at `$10`. Since we did two transactions, there is a `$4` fee, so we have `7 + 6 = 13` profit minus `$4` of fees.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day193.cpp)
+[Solution](Day193.cpp)
 - - - -
 
 #### Problem 194
 This problem was asked by Facebook.
 Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the line `y = 0` and the other list `q1, q2, ..., qn` on the line `y = 1`. Imagine a set of `n` line segments connecting each point `pi` to `qi`. Write an algorithm to determine how many pairs of the line segments intersect.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day194.cpp)
+[Solution](Day194.cpp)
 - - - -
 
 #### Problem 195
@@ -2309,7 +2309,7 @@ This problem was asked by Google.
 <br>Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
 <br>Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day195.cpp)
+[Solution](Day195.cpp)
 - - - -
 
 #### Problem 196
@@ -2323,7 +2323,7 @@ This problem was asked by Apple.
 ```
 Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 + 5 - 5.`
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day196.cpp)
+[Solution](Day196.cpp)
 - - - -
 
 #### Problem 197
