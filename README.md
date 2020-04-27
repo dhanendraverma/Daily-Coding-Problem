@@ -2108,7 +2108,7 @@ This problem was asked by Airbnb.
 <br>For example, given the linked list `7 -> 7 -> 3 -> 5` and `k = 2`, it should become `3 -> 5 -> 7 -> 7`.
 Given the linked list `1 -> 2 -> 3 -> 4 -> 5` and `k = 3`, it should become `3 -> 4 -> 5 -> 1 -> 2`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day177.cpp)
+[Solution](Day177.cpp)
 - - - -
 
 #### Problem 178
@@ -2118,7 +2118,7 @@ This problem was asked by Two Sigma.
 The second game: same, except that the stopping condition is a five followed by a five.
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day178.cpp)
+[Solution](Day178.cpp)
 - - - -
 
 #### Problem 179
@@ -2133,7 +2133,7 @@ This problem was asked by Google.
 2   4   8
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day179.cpp)
+[Solution](Day179.cpp)
 - - - -
 
 #### Problem 180
@@ -2142,7 +2142,7 @@ This problem was asked by Google.
 <br>For example, if the stack is `[1, 2, 3, 4, 5]`, it should become `[1, 5, 2, 4, 3]`. If the stack is `[1, 2, 3, 4]`, it should become `[1, 4, 2, 3]`.
 <br>Hint: Try working backwards from the end state.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day180.cpp)
+[Solution](Day180.cpp)
 - - - -
 
 #### Problem 181
@@ -2150,7 +2150,7 @@ This problem was asked by Google.
 <br>Given a string, split it into as few strings as possible such that each string is a palindrome.
 <br>For example, given the input string `"racecarannakayak"`, return `["racecar", "anna", "kayak"]`. Given the input string `"abc"`, return `["a", "b", "c"]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day181.cpp)
+[Solution](Day181.cpp)
 - - - -
 
 #### Problem 182
@@ -2158,7 +2158,7 @@ This problem was asked by Facebook.
 <br>A graph is minimally-connected if it is connected and there is no edge that can be removed while still leaving the graph connected. For example, any binary tree is minimally-connected.
 <br>Given an undirected graph, check if the graph is minimally-connected. You can choose to represent the graph as either an adjacency matrix or adjacency list.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day182.cpp)
+[Solution](Day182.cpp)
 - - - -
 
 #### Problem 183
