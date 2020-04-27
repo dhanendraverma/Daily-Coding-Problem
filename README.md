@@ -2165,7 +2165,7 @@ This problem was asked by Facebook.
 This problem was asked by Twitch.
 <br>Describe what happens when you type a URL into your browser and press Enter.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day183.cpp)
+[Solution](Day183.cpp)
 - - - -
 
 #### Problem 184
@@ -2173,7 +2173,7 @@ This problem was asked by Amazon.
 <br>Given n numbers, find the greatest common denominator between them.
 <br>For example, given the numbers `[42, 56, 14]`, return `14`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day184.cpp)
+[Solution](Day184.cpp)
 - - - -
 
 #### Problem 185
@@ -2195,7 +2195,7 @@ and
 ```
 return `6`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day185.cpp)
+[Solution](Day185.cpp)
 - - - -
 
 #### Problem 186
@@ -2203,7 +2203,7 @@ This problem was asked by Microsoft.
 <br>Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
 <br>For example, given `[5, 10, 15, 20, 25]`, return the sets `{10, 25}` and `{5, 15, 20}`, which has a difference of `5`, which is the smallest possible difference.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day186.cpp)
+[Solution](Day186.cpp)
 - - - -
 
 #### Problem 187
@@ -2226,7 +2226,7 @@ This problem was asked by Google.
 ```
 return `true` as the first and third rectangle overlap each other.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day187.cpp)
+[Solution](/Day187.cpp)
 - - - -
 
 #### Problem 188
@@ -2250,7 +2250,7 @@ for f in functions:
 ```
 How can we make it print out what we apparently want?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day188.py)
+[Solution](Day188.py)
 - - - -
 
 #### Problem 189
@@ -2258,7 +2258,7 @@ This problem was asked by Google.
 <br>Given an array of elements, return the length of the longest subarray where all its elements are distinct.
 <br>For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longest subarray of distinct elements is `[5, 2, 3, 4, 1]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day189.cpp)
+[Solution](Day189.cpp)
 - - - -
 
 #### Problem 190
@@ -2267,7 +2267,7 @@ This problem was asked by Facebook.
 For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
 <br>Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day190.cpp)
+[Solution](Day190.cpp)
 - - - -
 
 #### Problem 191
