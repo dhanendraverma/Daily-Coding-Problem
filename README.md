@@ -2330,7 +2330,7 @@ Return `2` as it occurs twice: once as the left leaf, and once as the sum of `2 
 This problem was asked by Amazon.
 Given an array and a number `k` that's smaller than the length of the array, rotate the array to the right `k` elements in-place.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day197.cpp)
+[Solution](Day197.cpp)
 - - - -
 
 #### Problem 198
@@ -2338,7 +2338,7 @@ This problem was asked by Google.
 <br>Given a set of distinct positive integers, find the largest subset such that every pair of elements in the subset `(i, j)` satisfies either `i % j = 0` or `j % i = 0`.
 <br>For example, given the set `[3, 5, 10, 20, 21]`, you should return `[5, 10, 20]`. Given `[1, 3, 6, 24]`, return `[1, 3, 6, 24]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day198.cpp)
+[Solution](Day198.cpp)
 - - - 
 
 #### Problem 199
@@ -2346,7 +2346,7 @@ This problem was asked by Facebook.
 <br>Given a string of parentheses, find the balanced string that can be produced from it using the minimum number of insertions and deletions. If there are multiple solutions, return any of them.
 <br>For example, given `"(()"`, you could return `"(())"`. Given `"))()("`, you could return `"()()()()"`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day199.cpp)
+[Solution](Day199.cpp)
 - - - -
 
 #### Problem 200
@@ -2354,7 +2354,7 @@ This problem was asked by Microsoft.
 <br>Let `X` be a set of `n` intervals on the real line. We say that a set of points `P` "stabs" `X` if every interval in `X` contains at least one point in `P`. Compute the smallest set of points that stabs `X`.
 <br>For example, given the intervals `[(1, 4), (4, 5), (7, 9), (9, 12)]`, you should return `[4, 9]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day200.cpp)
+[Solution](Day200.cpp)
 - - - -
 
 #### Problem 201
@@ -2368,14 +2368,14 @@ This problem was asked by Google.
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an entry on the bottom row. For example, `1 -> 3 -> 5`. The weight of the path is the sum of the entries.
 <br>Write a program that returns the weight of the maximum weight path.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day201.cpp)
+[Solution](Day201.cpp)
 - - - -
 
 #### Problem 202
 This problem was asked by Palantir.
 <br>Write a program that checks whether an integer is a palindrome. For example, `121` is a palindrome, as well as `888`. `678` is not a palindrome. Do not convert the integer into a string.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day202.cpp)
+[Solution](Day202.cpp)
 - - - -
 
 #### Problem 203
@@ -2383,21 +2383,21 @@ This problem was asked by Uber.
 <br>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element in `O(log N)` time. You may assume the array does not contain duplicates.
 <br>For example, given `[5, 7, 10, 3, 4]`, return `3`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day203.cpp)
+[Solution](Day203.cpp)
 - - - -
 
 #### Problem 204
 This problem was asked by Amazon.
 <br>Given a complete binary tree, count the number of nodes in faster than `O(n)` time. Recall that a complete binary tree has every level filled except the last, and the nodes in the last level are filled starting from the left.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day204.cpp)
+[Solution](Day204.cpp)
 - - - -
 
 #### Problem 205
 This problem was asked by IBM.
 Given an integer, find the next permutation of it in absolute order. For example, given `48975`, the next permutation would be `49578`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day205.cppy)
+[Solution](Day205.cppy)
 - - - -
 
 #### Problem 206
