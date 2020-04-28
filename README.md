@@ -2539,7 +2539,7 @@ This problem was asked by Salesforce.
 <br>Connect 4 is a game where opponents take turns dropping red or black discs into a `7 x 6` vertically suspended grid. The game ends either when one player creates a line of four consecutive discs of their color (horizontally, vertically, or diagonally), or when there are no more spots left in the grid.
 <br>Design and implement Connect 4.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day219.cpp)
+[Solution](Day219.cpp)
 - - - - 
 
 #### Problem 220
@@ -2548,14 +2548,14 @@ This problem was asked by Square.
 <br>You are asked to play the following game. You and an opponent take turns choosing either the first or last coin from the row, removing it from the row, and receiving the value of the coin.
 <br>Write a program that returns the maximum amount of money you can win with certainty, if you move first, assuming your opponent plays optimally.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day220.cpp)
+[Solution](Day220.cpp)
 - - - -
 
 #### Problem 221
 This problem was asked by Zillow.
 <br>Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day221.cpp)
+[Solution](Day221.cpp)
 - - - -
 
 #### Problem 222
@@ -2563,7 +2563,7 @@ This problem was asked by Quora.
 <br>Given an absolute pathname that may have `.` or `..` as part of it, return the shortest standardized path.
 <br>For example, given `/usr/bin/../bin/./scripts/../`, return `/usr/bin/`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day222.cpp)
+[Solution](Day222.cpp)
 - - - -
 
 #### Problem 223
