@@ -2438,14 +2438,14 @@ This problem was asked by Apple.
 It is conjectured that every such sequence eventually reaches the number `1`. Test this conjecture.
 <br>Bonus: What input `n <= 1000000` gives the longest sequence?
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day210.cpp)
+[Solution](Day210.cpp)
 - - - -
 
 #### Problem 211
 This problem was asked by Microsoft.
 <br>Given a string and a pattern, find the starting indices of all occurrences of the pattern in the string. For example, given the string "abracadabra" and the pattern "abr", you should return `[0, 7]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day211.cpp)
+[Solution](Day211.cpp)
 - - - -
 
 #### Problem 212
@@ -2453,7 +2453,7 @@ This problem was asked by Dropbox.
 <br>Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
 <br>Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day212.cpp)
+[Solution](/Day212.cpp)
 - - - -
 
 #### Problem 213
@@ -2462,7 +2462,7 @@ This problem was asked by Snapchat.
 <br>IP addresses must follow the format `A.B.C.D`, where `A`, `B`, `C`, and `D` are numbers between `0` and `255`. Zero-prefixed numbers, such as `01` and `065`, are not allowed, except for `0` itself.
 <br>For example, given "2542540123", you should return `['254.25.40.123', '254.254.0.123']`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day213.cpp)
+[Solution](Day213.cpp)
 - - - -
 
 #### Problem 214
