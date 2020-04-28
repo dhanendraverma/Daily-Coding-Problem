@@ -2470,7 +2470,7 @@ This problem was asked by Stripe.
 <br>Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
 <br>For example, given `156`, you should return `3`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day214.cpp)
+[Solution](/Day214.cpp)
 - - - -
 
 #### Problem 215
@@ -2495,7 +2495,7 @@ The bottom view of a tree, then, consists of the lowest node at each horizontal 
 For this tree, for example, the bottom view could be `[0, 1, 3, 6, 8, 9]`.
 <br>Given the root to a binary tree, return its bottom view.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day215.cpp)
+[Solution](Day215.cpp)
 - - - -
 
 #### Problem 216
@@ -2516,7 +2516,7 @@ This problem was asked by Facebook.
 In addition, note that the Roman numeral system uses subtractive notation for numbers such as `IV` and `XL`.
 <br>For the input `XIV`, for instance, you should return `14`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day216.cpp)
+[Solution](Day216.cpp)
 - - - -
 
 #### Problem 217
@@ -2524,14 +2524,14 @@ This problem was asked by Oracle.
 <br>We say a number is sparse if there are no adjacent ones in its binary representation. For example, `21` (`10101`) is sparse, but `22` (`10110`) is not. For a given input `N`, find the smallest sparse number greater than or equal to `N`.
 <br>Do this in faster than `O(N log N)` time.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day217.cpp)
+[Solution](Day217.cpp)
 - - - -
 
 #### Problem 218
 This problem was asked by Yahoo.
 <br>Write an algorithm that computes the reversal of a directed graph. For example, if a graph consists of `A -> B -> C`, it should become `A <- B <- C`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day218.cpp)
+[Solution](Day218.cpp)
 - - - -
 
 #### Problem 219
