@@ -2405,14 +2405,14 @@ This problem was asked by Twitter.
 <br>A permutation can be specified by an array `P`, where `P[i]` represents the location of the element at `i` in the permutation. For example, `[2, 1, 0]` represents the permutation where elements at the index `0` and `2` are swapped.
 <br>Given an array and a permutation, apply the permutation to the array. For example, given the array `["a", "b", "c"]` and the permutation `[2, 1, 0]`, return `["c", "b", "a"]`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day206.cpp)
+[Solution](Day206.cpp)
 - - - -
 
 #### Problem 207
 This problem was asked by Dropbox.
 <br>Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day207.cpp)
+[Solution](Day207.cpp)
 - - - -
 
 #### Problem 208
@@ -2420,14 +2420,14 @@ This problem was asked by LinkedIn.
 <br>Given a linked list of numbers and a pivot `k`, partition the linked list so that all nodes less than `k` come before nodes greater than or equal to `k`.
 <br>For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solution could be `1 -> 0 -> 5 -> 8 -> 3`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day208.cpp)
+[Solution](Day208.cpp)
 - - - -
 
 #### Problem 209
 This problem was asked by YouTube.
 <br>Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day209.cpp)
+[Solution](Day209.cpp)
 - - - -
 
 #### Problem 210
