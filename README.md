@@ -2671,14 +2671,14 @@ This problem was asked by Apple.
 This problem was asked by Microsoft.
 <br>Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day234.cpp)
+[Solution](Day234.cpp)
 - - - -
 
 #### Problem 235
 This problem was asked by Facebook.
 <br>Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day235.cpp)
+[Solution](Day235.cpp)
 - - - -
 
 #### Problem 236
