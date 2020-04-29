@@ -2610,7 +2610,7 @@ This problem was asked by Facebook.
 This problem was asked by Twitter.
 <br>Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day228.cpp)
+[Solution](Day228.cpp)
 - - - -
 
 #### Problem 229
@@ -2623,7 +2623,7 @@ snakes = {16: 6, 48: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75,
 ladders = {1: 38, 4: 14, 9: 31, 21: 42, 28: 84, 36: 44, 51: 67, 71: 91, 80: 100}
 ```
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day229.cppy)
+[Solution](Day229.cppy)
 - - - -
 
 #### Problem 230
