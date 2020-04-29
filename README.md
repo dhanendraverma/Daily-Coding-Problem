@@ -2657,14 +2657,14 @@ assert mapsum.sum("col") == 3
 mapsum.insert("column", 2)
 assert mapsum.sum("col") == 5
 ```
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day232.cpp)
+[Solution](Day232.cpp)
 - - - -
 
 #### Problem 233
 This problem was asked by Apple.
 <br>Implement the function `fib(n)`, which returns the nth number in the Fibonacci sequence, using only `O(1)` space.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day233.cpp)
+[Solution](Day233.cpp)
 - - - -
 
 #### Problem 234
