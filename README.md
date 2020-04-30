@@ -2701,7 +2701,7 @@ This problem was asked by Amazon.
 ```
 Given a k-ary tree, determine whether it is symmetric.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day237.cpp)
+[Solution](/Day237.cpp)
 - - - -
 
 #### Problem 238
