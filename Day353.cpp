@@ -21,8 +21,8 @@ int largestRecArea(vector<int>& histogram){
     stack<int> s;
     int max_area=0, curr, curr_area;
     int i = 0;
-    while(i<histogram.size()){
-        if(s.empty() || histogram[s.top()]<=histogram[i])
+    while(i<histogram.size() || !s.empty()){
+        if((s.empty() || histogram[s.top()]<=histogram[i]) && i<histogram.size())
             s.push(i++);
         else{
             curr = s.top();
@@ -31,12 +31,6 @@ int largestRecArea(vector<int>& histogram){
             max_area = max(curr_area,max_area);
             
         }
-    }
-    while(!s.empty()){
-        curr = s.top();
-        s.pop();
-        curr_area = histogram[curr]*(s.empty()?i:i-s.top()-1);
-        max_area = max(max_area,curr_area);
     }
     return max_area;
 }
