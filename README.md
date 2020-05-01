@@ -2714,7 +2714,7 @@ This problem was asked by MIT.
 <br>For this problem, cards values are counted as follows: each card between 2 and 10 counts as their face value, face cards count as 10, and aces count as 1.
 <br>Given perfect knowledge of the sequence of cards in the deck, implement a blackjack solver that maximizes the player's score (that is, wins minus losses).
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day238.cpp)
+[Solution](Day238.cpp)
 - - - -
 
 #### Problem 239
