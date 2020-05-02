@@ -2725,7 +2725,7 @@ This problem was asked by Uber.
 * It must not connect two keys by jumping over a third key, unless that key has already been used.
 <br>For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not. Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
 
-[Solution](https://github.com/dhanendraverma/Daily-Coding-Problem/blob/master/Day239.cpp)
+[Solution](Day239.cpp)
 - - - -
 
 #### Problem 240
