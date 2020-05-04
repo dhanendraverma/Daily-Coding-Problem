@@ -2742,7 +2742,7 @@ This problem was asked by Palantir.
 <br>For example, suppose `N = 5`, and the respective citations of each paper are `[4, 3, 0, 1, 5]`. Then the h-index would be `3`, since the researcher has `3` papers with at least `3` citations.
 <br>Given a list of paper citations of a researcher, calculate their h-index.
 
-[Solution](solutions/problem_241.py)
+[Solution](Day241.cpp)
 - - - -
 
 #### Problem 242
@@ -2752,7 +2752,7 @@ This problem was asked by Twitter.
 * `query(start: int, end: int)`: Retrieve the number of subscribers that have signed up between start and end (inclusive).
 You can assume that all values get cleared at the end of the day, and that you will not be asked for start and end values that wrap around midnight.
 
-[Solution](solutions/problem_242.py)
+[Solution](Day242.cpp)
 - - - -
 
 #### Problem 243
@@ -2760,7 +2760,7 @@ This problem was asked by Etsy.
 <br>Given an array of numbers `N` and an integer `k`, your task is to split `N` into `k` partitions such that the maximum sum of any partition is minimized. Return this sum.
 <br>For example, given `N = [5, 1, 2, 7, 3, 4]` and `k = 3`, you should return `8`, since the optimal partition is `[5, 1, 2], [7], [3, 4]`.
 
-[Solution](solutions/problem_243.py)
+[Solution](Day243.cpp)
 - - - -
 
 #### Problem 244
