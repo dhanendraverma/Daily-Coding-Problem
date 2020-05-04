@@ -2792,21 +2792,21 @@ This problem was asked by Dropbox.
 This problem was asked by PayPal.
 <br>Given a binary tree, determine whether or not it is height-balanced. A height-balanced binary tree can be defined as one in which the heights of the two subtrees of any node never differ by more than one.
 
-[Solution](solutions/problem_247.py)
+[Solution](Day247.cpp)
 - - - -
 
 #### Problem 248
 This problem was asked by Nvidia.
 <br>Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
 
-[Solution](solutions/problem_248.py)
+[Solution](Day248.cpp)
 - - - -
 
 ### Problem 249
 This problem was asked by Salesforce.
 <br>Given an array of integers, find the maximum XOR of any two elements.
 
-[Solution](solutions/problem_249.py)
+[Solution](Day249.cpp)
 - - - -
 
 ### Problem 250
