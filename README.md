@@ -3875,7 +3875,7 @@ help figure out who this is, you have access to an `O(1)` method called `knows(a
 knows person `b`, else `False`.
 <br>Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 
-[Solution](Day333.cpp)
+[Solution](Day333.py)
 - - - -
 
 ### Problem 334
