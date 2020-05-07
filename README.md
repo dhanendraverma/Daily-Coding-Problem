@@ -2900,14 +2900,14 @@ The transitive closure of this graph would be:
 ```
 Given a graph, find its transitive closure.
 
-[Solution](solutions/problem_255.py)
+[Solution](Day255.cpp)
 - - - -
 
 ### Problem 256
 This problem was asked by Fitbit.
 <br>Given a linked list, rearrange the node values such that they appear in alternating `low -> high -> low -> high` ... form. For example, given `1 -> 2 -> 3 -> 4 -> 5`, you should return `1 -> 3 -> 2 -> 5 -> 4`.
 
-[Solution](solutions/problem_256.py)
+[Solution](Day256.cpp)
 - - - -
 
 ### Problem 257
