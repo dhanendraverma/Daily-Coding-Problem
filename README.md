@@ -2931,7 +2931,7 @@ This problem was asked by Morgan Stanley.
 ```
 You should return `[1, 3, 2, 4, 5, 6, 7]`.
 
-[Solution](solutions/problem_258.py)
+[Solution](Day258.cpp)
 - - - -
 
 ### Problem 259
