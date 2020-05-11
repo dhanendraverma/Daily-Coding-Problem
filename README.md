@@ -2954,7 +2954,7 @@ Player 1: t [loses]
 This problem was asked by Pinterest.
 <br>The sequence `[0, 1, ..., N]` has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given `[None, +, +, -, +]`, you could return `[1, 2, 3, 0, 4]`.
 
-[Solution](solutions/problem_260.py)
+[Solution](Day260.cpp)
 - - - -
 
 ### Problem 261
@@ -2973,7 +2973,7 @@ c               s
 With this encoding, cats would be represented as `0000110111`.
 <br>Given a dictionary of character frequencies, build a Huffman tree, and use it to determine a mapping between characters and their encoded binary strings.
 
-[Solution](solutions/problem_261.py)
+[Solution](Day261.cpp)
 - - - -
 
 ### Problem 262
