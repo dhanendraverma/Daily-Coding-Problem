@@ -2947,7 +2947,7 @@ Player 1: t [loses]
 <br>Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
 <br>For example, if the dictionary is `["cat", "calf", "dog", "bear"]`, the only winning start letter would be b.
 
-[Solution](solutions/problem_259.py)
+[Solution](Day259.cpp)
 - - - -
 
 ### Problem 260
