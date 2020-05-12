@@ -2992,7 +2992,7 @@ We can consider a sentence valid if it conforms to the following rules:
 * There must be a single space between each word.
 * The sentence must end with a terminal mark immediately following a word.
 
-[Solution](solutions/problem_263.py)
+[Solution](Day263.cpp)
 - - - -
 
 ### Problem 264
