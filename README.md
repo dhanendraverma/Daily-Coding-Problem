@@ -2980,7 +2980,7 @@ With this encoding, cats would be represented as `0000110111`.
 This problem was asked by Mozilla.
 <br>A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
-[Solution](solutions/problem_262.md)
+[Solution](Day262.cpp)
 - - - -
 
 ### Problem 263
