@@ -3974,7 +3974,7 @@ and matrix:
 
 Your function should return 3, since we can make the words 'eat', 'in', and 'rat' without them touching each other. We could have alternatively made 'eat' and 'rain', but that would be incorrect since that's only 2 words.
 
-[Solution](solutions/problem_341.py)
+[Solution](Day341.cpp)
 
 ---
 
