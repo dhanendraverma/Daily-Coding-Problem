@@ -4138,7 +4138,7 @@ Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
-[Solution](solutions/problem_349.py)
+[Solution](Day349.cpp)
 
 ---
 
