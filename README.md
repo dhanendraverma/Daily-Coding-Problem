@@ -4153,7 +4153,7 @@ Here are a few examples:
 - Given `N = 17`, return `2` `(16 + 1)`
 - Given `N = 18`, return `2` `(9 + 9)`
 
-[Solution](solutions/problem_350.py)
+[Solution](Day350.cpp)
 
 ---
 
