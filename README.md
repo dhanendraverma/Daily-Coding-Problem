@@ -4274,7 +4274,7 @@ Create a data structure that performs all the following operations in `O(1)` tim
 - `get_max`: Return a key with the highest value.
 - `get_min`: Return a key with the lowest value.
 
-[Solution](solutions/problem_358.py)
+[Solution](Day358.cpp)
 
 ---
 
