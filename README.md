@@ -4314,16 +4314,12 @@ However, it is impossible for any key to result in the following scores, so in t
 ---
 
 ### Problem 362
-
 This problem was asked by Twitter.
+<br>A strobogrammatic number is a positive number that appears the same after being rotated `180` degrees. For example, `16891` is strobogrammatic.
+<br>Create a program that finds all strobogrammatic numbers with N digits.
 
-A strobogrammatic number is a positive number that appears the same after being rotated `180` degrees. For example, `16891` is strobogrammatic.
-
-Create a program that finds all strobogrammatic numbers with N digits.
-
-[Solution](solutions/problem_362.py)
-
----
+[Solution](Day362.cpp)
+- - - -
 
 ### Problem 363
 
