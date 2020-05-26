@@ -4336,14 +4336,11 @@ add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ---
 
 ### Problem 364
-
 This problem was asked by Facebook.
-
-Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
+<br>Describe an algorithm to compute the longest increasing subsequence of an array of numbers in `O(n log n)` time.
 
 [Solution](Day364.cpp)
-
----
+- - - - 
 
 ### Problem 365
 
