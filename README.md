@@ -4331,7 +4331,7 @@ add_subtract(1)(2)(3) -> 1 + 2 - 3 -> 0
 add_subtract(-5)(10)(3)(9) -> -5 + 10 - 3 + 9 -> 11
 ```
 
-[Solution](solutions/problem_363.py)
+[Solution](Day363)
 
 ---
 
