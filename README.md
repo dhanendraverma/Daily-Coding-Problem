@@ -4309,7 +4309,7 @@ For example, for the following scores you should return `True`, since they corre
 However, it is impossible for any key to result in the following scores, so in this case you should return `False`:
 `{123456: 4, 345678: 4, 567890: 4}`
 
-[Solution](solutions/problem_361.py)
+[Solution](Day361.cpp)
 
 ---
 
