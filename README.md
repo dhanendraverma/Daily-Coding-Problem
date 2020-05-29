@@ -4353,6 +4353,6 @@ A quack is a data structure combining properties of both stacks and queues. It c
 
 Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
-[Solution](solutions/problem_365.py)
+[Solution](Day365.cpp)
 
 ---
