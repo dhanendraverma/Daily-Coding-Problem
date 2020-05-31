@@ -4351,5 +4351,13 @@ This problem was asked by Google.
 <br>Implement a quack using three stacks and `O(1)` additional memory, so that the amortized time for any push, pop, or pull operation is `O(1)`.
 
 [Solution](Day365.cpp)
+- - - -
 
----
+### Problem 366
+This problem was asked by Flexport.
+
+Given a string s, rearrange the characters so that any two adjacent characters are not the same. If this is not possible, return null.
+
+For example, if s = yyz then return yzy. If s = yyy then return null.
+[Solution](Day366.cpp)
+- - - -
