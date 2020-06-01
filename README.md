@@ -4361,3 +4361,28 @@ Given a string s, rearrange the characters so that any two adjacent characters a
 For example, if s = yyz then return yzy. If s = yyy then return null.
 [Solution](Day366.cpp)
 - - - -
+
+### Problem 367
+This problem was asked by Two Sigma.
+
+Given two sorted iterators, merge it into one iterator.
+
+For example, given these two iterators:
+`
+foo = iter([5, 10, 15])
+bar = iter([3, 8, 9])
+`
+You should be able to do:
+`
+for num in merge_iterators(foo, bar):
+    print(num)
+# 3
+# 5
+# 8
+# 9
+# 10
+# 15
+`
+Bonus: Make it work without pulling in the contents of the iterators in memory.
+[Solution](Day367.py)
+- - - -
