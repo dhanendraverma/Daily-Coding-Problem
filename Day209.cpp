@@ -5,11 +5,35 @@ Write a program that computes the length of the longest common subsequence of th
 subsequence is "eieio".
 ******************************************************************************************************************************/
 
+// ########################################## Top Down Approach #########################################
 #include <iostream>
 #include <vector>
 using namespace std;
-mnbb
-vim
+
+int LCS(string A,string B,string C,int l,int m,int n,vector<vector<vector<int>>>& T){
+    if(l==0 || m==0 || n==0)
+        return 0;
+    if(T[l][m][n] != -1)
+        return T[l][m][n];
+    if(A[l]==B[m] && A[l]==C[n])
+        return T[l][m][n] =  1 + LCS(A,B,C,l-1,m-1,n-1,T);
+    else
+        return T[l][m][n] = max(LCS(A,B,C,l-1,m,n,T),max(LCS(A,B,C,l,m-1,n,T),LCS(A,B,C,l,m,n-1,T)));
+}
+
+int main() {
+    string A = "epidemiologist", B = "refrigeration", C = "supercalifragilisticexpialodocious";
+    int l = A.length(), m = B.length(), n = C.length();
+    vector<vector<vector<int>>> T(l+1,vector<vector<int>>(m+1,vector<int>(n+1,-1)));
+    cout<<LCS(A,B,C,l,m,n,T)<<endl;
+	return 0;
+}
+
+
+// ########################################## Bottom up Approach #########################################
+#include <iostream>
+#include <vector>
+using namespace std;
 int longestCommonSub(string A, string B, string C){
 	int m = A.length();
 	int n = B.length();
@@ -29,7 +53,6 @@ int longestCommonSub(string A, string B, string C){
     } 
     return L[m][n][o];
 }
-
 
 int main() {
 	string A = "epidemiologist";
