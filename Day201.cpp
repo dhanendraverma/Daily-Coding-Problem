@@ -1,4 +1,4 @@
-/**************************************************************************************************************************************
+/******************************************************************************************************************************
 This problem was asked by Google.
 You are given an array of arrays of integers, where each array corresponds to a row in a triangle of numbers. For example,
 [[1], [2, 3], [1, 5, 1]] represents the triangle:
@@ -8,7 +8,10 @@ You are given an array of arrays of integers, where each array corresponds to a 
 We define a path in the triangle to start at the top and go down one row at a time to an adjacent value, eventually ending with an
 entry on the bottom row. For example, 1 -> 3 -> 5. The weight of the path is the sum of the entries.
 Write a program that returns the weight of the maximum weight path.
-***************************************************************************************************************************************/
+******************************************************************************************************************************/
+
+// ######################################## First approach #######################################################
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -49,3 +52,28 @@ int main() {
 		cout<<i<<" ";
 	return 0;
 }
+
+
+// ######################################## Second approach #######################################################
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int max_wt_path(vector<vector<int>>& arr){
+    int m = arr.size();
+    for(int i=m-2;i>=0;i--){
+        for(int j=0;j<=i;j++){
+            arr[i][j] += max(arr[i+1][j],arr[i+1][j+1]);
+        }
+    }
+    return arr[0][0];
+}
+
+
+int main() {
+    vector<vector<int>> arr ={  {1}, {2, 3}, {1, 5, 1}}; 
+    cout<<max_wt_path(arr)<<endl;
+	return 0;
+}
+
+
