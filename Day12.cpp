@@ -12,19 +12,36 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 *****************************************************************************************************************************************/
 
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include <vector>
 using namespace std;
 
+int no_of_ways(vector<int>& steps,int n){
+    vector<int> T(n+1,0);
+    T[0] = 1;
+    for(int i=1;i<=n;i++){
+        for(int j=0;j<steps.size();j++)
+            if(steps[j]<=i)
+                T[i] += T[i-steps[j]];
+    }
+    return T[n];
+}
+
+
+
 int main() {
-    int n;
-    cin>>n;
-    vector<int> dp(n+1);
-    dp[0] = 1;
-    dp[1] = 1;
-    for(int i=2; i<=n; i++)
-        dp[i] = dp[i-1]+dp[i-2];
-    cout<<dp[n];
+    vector<int> steps = {1,2};
+    int n = 4;
+    cout<<no_of_ways(steps,n)<<endl;
+	return 0;
+}
+
+
+
+
+
+
+
     /* When allowed to climb any number from a set of positive integers X
     vector<int> set;
     int set_size, temp;
