@@ -12,6 +12,9 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 *******************************************************************************************************************************************************************/
 
+
+// ######################################### Bottom up approach ######################################
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -37,26 +40,31 @@ int main() {
 }
 
 
+// ######################################### Top down approach ######################################
+#include <iostream>
+#include <vector>
+using namespace std;
 
-
-
-
-
-    /* When allowed to climb any number from a set of positive integers X
-    vector<int> set;
-    int set_size, temp;
-    for(int i=0;i<set_size;i++) {
-        cin>>temp;
-        set.push_back(temp);
+int no_of_ways(vector<int>& steps,int n,vector<int>& T){
+    if(n==0)
+        return 1;
+    if(n<0)
+        return 0;
+    if(T[n]!=-1)
+        return T[n];
+    int count = 0;
+    for(int i=0;i<steps.size();i++){
+        if(steps[i]<=n)
+            count += no_of_ways(steps,n-steps[i],T);
     }
-  
-    for(int i=2;i<=n;i++) {
-        dp[i] = 0;
-        for(int j=0;j<set_size && set[j]<=i;j++) {
-            dp[i] += dp[i-set[j]]
-        }
-    }
-    cout<<dp[n];
-    */
+    return T[n] = count;
 }
 
+
+int main() {
+    vector<int> steps = {1,2,3};
+    int n = 4;
+    vector<int> T(n+1,-1);
+    cout<<no_of_ways(steps,n,T)<<endl;
+	return 0;
+}
