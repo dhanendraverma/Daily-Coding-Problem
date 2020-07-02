@@ -28,6 +28,7 @@ int eggDrop(int e,int f,vector<vector<int>>& T){
         res = max(eggDrop(e-1,k-1,T),eggDrop(e,f-k,T));
         mn = min(res,mn);
     }
+    //considering +1 as current attempt has also to be counted
     return T[e][f] = mn+1;
 }
 
