@@ -7,6 +7,62 @@ you should return ['the', 'quick', 'brown', 'fox'].
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond",
 return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 ***************************************************************************************************************************************/
+
+
+#include <iostream>
+#include <vector>
+#include <set>
+#include <algorithm>
+using namespace std;
+
+vector<string> word_break(string str,set<string>& dict){
+    int n = str.length();
+    vector<int> T(n,-1);
+    vector<int> match_idx;
+    bool found = false;
+    match_idx.push_back(-1);
+    for(int i=0;i<n;i++){
+        int j;
+        for(j=match_idx.size();j>=0;j--){
+            string word = str.substr(match_idx[j]+1, i - match_idx[j]);
+            if(dict.find(word)!=dict.end()){
+                found = true;
+                break;
+            }
+        }
+        if(found){
+            T[i] = match_idx[j];
+            match_idx.push_back(i);
+        }
+    }
+    if(T[n-1]==-1)
+        return {};
+    int i=n-1;
+    vector<string> ans;
+    while(i>0){
+        ans.push_back(str.substr(T[i]+1,i-T[i]));
+        i = T[i];
+    }
+    reverse(ans.begin(),ans.end());
+    return ans;
+}
+
+
+int main() {
+    string str = "thequickbrownfox";
+    set<string> dict = {"the", "quick", "brown", "fox"};
+    vector<string> ans = word_break(str,dict);
+    for(auto word:ans)
+        cout<<word<<" ";
+	return 0;
+}
+
+
+
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
