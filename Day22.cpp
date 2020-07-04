@@ -9,6 +9,9 @@ return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 ***************************************************************************************************************************************/
 
 
+####################################### DP arroach Top Down #############################################
+// Time comlexity O(n*s) n = length of the string and s = length of the longest word in dictionary, space complexity O(2n) in the wrost case for each position
+// matched index would be required to store
 #include <iostream>
 #include <vector>
 #include <set>
@@ -47,7 +50,6 @@ vector<string> word_break(string str,set<string>& dict){
     return ans;
 }
 
-
 int main() {
     string str = "thequickbrownfox";
     set<string> dict = {"the", "quick", "brown", "fox"};
@@ -58,10 +60,8 @@ int main() {
 }
 
 
-
-
-
-
+####################################### DP arroach Top Down #############################################
+// Time complexity O(n^2)  n = string length, space complexity would be same
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -99,8 +99,6 @@ string breakWordDP(string word, set<string> dict){
 	}
     return ans;
 }
-
-
 
 int main() {
 	set<string> dictionary;
