@@ -6,6 +6,44 @@ and {20, 35}, which both add up to 55.
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
 **************************************************************************************************************************************/
 
+##################################################### Top bottom / memoization approach ############################################
+
+#include <iostream>
+#include <numeric> 
+#include <vector>
+using namespace std;
+
+int equal_sum_partition(vector<int>& mlt_set,int m, int s,vector<vector<int>>& T){
+    if(s==0)
+        return 1;
+    if(m==0)
+        return 0;
+    if(T[s][m]!=-1)
+        return T[s][m];
+    if(mlt_set[m-1]<=s)
+        return T[s][m] = equal_sum_partition(mlt_set,m-1,s,T)||equal_sum_partition(mlt_set,m-1,s-mlt_set[m-1],T);
+    return T[s][m] = equal_sum_partition(mlt_set,m-1,s,T);
+}
+
+int main() {
+    vector<int> mlt_set = {15, 5, 20, 10, 35, 15, 10};
+    int s = accumulate(mlt_set.begin(), mlt_set.end(), 0);
+    int m = mlt_set.size();
+    if(s%2)
+        cout<<"Not possible";
+    else{
+        vector<vector<int>> T(s/2+1,vector<int>(m+1,-1));
+        if(equal_sum_partition(mlt_set,mlt_set.size(),s/2,T))
+            cout<<"Possible"<<endl;
+        else
+            cout<<"Not possible"<<endl;
+
+    }
+	return 0;
+}
+
+
+##################################################### Bottom up / tabulation approach ############################################
 #include <iostream>
 #include <vector>
 #include <numeric> 
