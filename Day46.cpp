@@ -5,6 +5,58 @@ For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The long
 ***************************************************************************************************************************************/
 
 
+
+############################################### Space optimized approach ###########################################################
+#include <iostream>
+using namespace std;
+
+int longest_pal_substring(string A){
+	int n = A.length();
+	if(!n)
+		return n;
+	int start,end,max_len=0,len;
+	for(int i=0;i<n;i++){
+		int s = i-1;
+		int e = i+1;
+		len = 1;
+		while(s>=0 && e<n){
+			if(A[s]!=A[e])
+				break;
+			len += 2;
+			if(len>max_len){
+				max_len = len;
+				start = s;
+				end = e;
+			}
+			s--;
+			e++;
+		}
+		s = i;
+		e = i+1;
+		len = 0;
+		while(s>=0 && e<n){
+			if(A[s]!=A[e])
+				break;
+			len += 2;
+			if(len>max_len){
+				max_len = len;
+				start = s;
+				end = e;
+			}
+			s--;
+			e++;
+		}
+	}
+	return max_len;
+}
+
+int main() {
+	string A = "aabcdcb";
+	cout<<longest_pal_substring(A)<<endl;
+	return 0;
+}
+
+##################################################### DP approach similar to LP subsequence ###################################################### 
 #include <iostream>
 using namespace std;
 
