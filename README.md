@@ -4425,5 +4425,5 @@ For example, if the input is the following:
 `
 The total active time would be 1260 seconds.
 
-[Solution](Day70.cpp)
+[Solution](Day370.cpp)
 - - - -
