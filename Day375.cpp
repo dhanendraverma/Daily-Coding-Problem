@@ -10,6 +10,42 @@ This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respecti
 at least 2 citations and the remaining 3 papers have no more than 2 citations.
 *************************************************************************************************************************************************************/
 
+
+
+// ######################################## Time complexity O(n) and Space complexity O(n)  ########################################### 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int h_index2(vector<int>& arr){
+    int n = arr.size();
+    vector<int> cnt(n+1,0);
+    for(auto citation:arr){
+        if(citation>n)
+            cnt[n]++;
+        else
+            cnt[citation]++;
+    }
+    int sum = 0;
+    for(int i=n;i>=0;i--){
+        sum += cnt[i];
+        if(sum>=i)
+            return i;
+    }
+    return 0;
+}
+
+
+int main() {
+    vector<int> arr = {3,0,6,1,5};
+    cout<<h_index2(arr)<<endl;
+	return 0;
+}
+
+
+
+// ######################################## Time complexity O(nlogn) and Space complexity O(1)  ########################################### 
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
