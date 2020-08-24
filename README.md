@@ -4474,3 +4474,31 @@ For example, if the array was:
 This means the researcher has 5 papers with 4, 1, 0, 2, and 3 citations respectively. The h-index for this researcher is 2, since they have 2 papers with at least 2 citations and the remaining 3 papers have no more than 2 citations.
 [Solution](Day375.cpp)
 - - - -
+
+### Problem 376
+This problem was asked by Google.
+
+You are writing an AI for a 2D map game. You are somewhere in a 2D grid, and there are coins strewn about over the map.
+
+Given the position of all the coins and your current position, find the closest coin to you in terms of Manhattan distance. 
+That is, you can move around up, down, left, and right, but not diagonally. If there are multiple possible closest coins, return any of them.
+
+For example, given the following map, where you are x, coins are o, and empty spaces are . (top left is 0, 0):
+`
+---------------------
+| . | . | x | . | o |
+---------------------
+| o | . | . | . | . |
+---------------------
+| o | . | . | . | o |
+---------------------
+| . | . | o | . | . |
+---------------------
+`
+return `(0, 4)`, since that coin is closest. This map would be represented in our question as:
+`
+Our position: (0, 2)
+Coins: [(0, 4), (1, 0), (2, 0), (3, 2)]
+`
+[Solution](Day376.cpp)
+- - - -
