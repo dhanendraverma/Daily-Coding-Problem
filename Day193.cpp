@@ -9,6 +9,37 @@ and then buy it at 4 dollars and sell it at 10 dollars. Since we did two transac
 profit minus 4 dollars of fees.
 *****************************************************************************************************************************************/
 
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int maxProfitEase(vector<int> prices, int fee){
+	if(!prices.size()){
+            return 0;
+        } 
+        int buy = -prices[0], sell = 0;
+        for(int i=1;i<prices.size();i++){
+            // either sell today or do nothing/hold the stock
+            sell = max(sell,buy+prices[i]-fee);
+            // either buy today or do nothing/not hold any stock
+            buy = max(buy,sell-prices[i]);
+        }
+        return sell
+}
+
+int main() {
+	vector<int> prices = {1, 3, 2, 8, 4, 10};
+	int fee = 2;
+	cout<<maxProfitEase(prices,fee)<<endl;
+	return 0;
+}
+
+
+
+
+
+
 #include <iostream>
 #include <vector>
 using namespace std;
