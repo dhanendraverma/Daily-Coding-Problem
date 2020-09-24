@@ -9,7 +9,7 @@ return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 ***************************************************************************************************************************************/
 
 
-####################################### DP arroach Top Down #############################################
+####################################### DP arroach (Using LIS) #############################################
 // Time comlexity O(n*s) n = length of the string and s = length of the longest word in dictionary, space complexity O(2n) in the wrost case for each position
 // matched index would be required to store
 #include <iostream>
