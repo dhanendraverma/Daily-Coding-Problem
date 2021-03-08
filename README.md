@@ -875,7 +875,7 @@ Should return null, since we have an infinite loop.
 This problem was asked by Google.
 Given the head of a singly linked list, reverse it in-place.
 
-[Solution](Day73.cp)
+[Solution](Day73.cpp)
 - - - -
 
 #### Problem 74
