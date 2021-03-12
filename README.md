@@ -4524,10 +4524,28 @@ Do this in O(N) time.
 [Solution](Day524.cpp)
 - - - -
 
-### Problem 524
+### Problem 543
+This problem was asked by Google.
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive.
+
+Do this in constant space and in one pass.
+[Solution](Day543.cpp)
+- - - -
+
+### Problem 597
 This problem was asked by Netflix.
 
 Given an array of integers, determine whether it contains a Pythagorean triplet. Recall that a Pythogorean triplet (a, b, c) is defined by the equation:
 `a2+ b2= c2`.
 [Solution](Day597.cpp)
+- - - -
+
+### Problem 648
+This question was asked by Snapchat.
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+[Solution](Day648.cpp)
 - - - -
