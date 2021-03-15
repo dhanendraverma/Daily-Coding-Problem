@@ -10,6 +10,23 @@ Given the string "([)]" or "((()", you should return false.
 #include <stack>
 using namespace std;
 
+bool checkBalanceParantheses1(string s){
+	stack<char> st;
+	map<char,char> mp = {{'}','{'},{']','['},{')','('}};
+	for(char ch:s){
+		// cout<<ch<<endl;
+		if(ch=='(' || ch=='{' || ch=='[')
+			st.push(ch);
+		else if(st.top()==mp[ch]){
+			cout<<st.top()<<" "<<ch<<endl;
+			st.pop();
+		}
+		else
+			return false;
+	}
+	return st.empty();
+}
+
 bool checkBalanceParantheses(string s){
 	stack<int> st;
 	for(auto ch:s){
@@ -39,8 +56,9 @@ bool checkBalanceParantheses(string s){
 }
 
 int main() {
-	// your code goes here
 	cout<<checkBalanceParantheses("{()}[]")<<endl;
 	cout<<checkBalanceParantheses("{()[}]")<<endl;
+	cout<<checkBalanceParantheses("{()}[]")<<endl;
+	cout<<checkBalanceParantheses1("{()[}]")<<endl;
 	return 0;
 }
