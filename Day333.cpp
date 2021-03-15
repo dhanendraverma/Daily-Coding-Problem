@@ -29,7 +29,7 @@ void findCelebrity(){
             b--;
     }
     
-    for(int i=0;i<acq.size()-1;i++){
+    for(int i=0;i<acq.size();i++){
         if((i!=a) && (knows(a,i)||!knows(i,a))){
             cout<<"No celebrity"<<endl;
             break;
