@@ -5,7 +5,6 @@ The input list is not necessarily ordered in any way.
 For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], you should return [(1, 3), (4, 10), (20, 25)].
 *****************************************************************************************************************************************/
 
-
 #include <iostream>
 #include <vector>
 #include <utility>
@@ -18,10 +17,8 @@ void merged_intervals(vector<pair<int,int>> intervals){
 	pair<int,int> temp = intervals[0];
 	for(int i=1;i<intervals.size();i++){
 		cout<<temp.first<<" "<<temp.second<<endl;
-		if(temp.second>=intervals[i].first){
-			if(intervals[i].second>temp.second)
-				temp.second = intervals[i].second;
-		}
+		if(intervals[i].first <= temp.second && intervals[i].second > temp.second)
+			temp.second = intervals[i].second;
 		else
 		{
 			merged.push_back(temp);
