@@ -4583,6 +4583,24 @@ Given an array of integers, determine whether it contains a Pythagorean triplet.
 [Solution](Day597.cpp)
 - - - -
 
+### Problem 634
+This problem was asked by Square.
+
+You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list,
+such that `[1, 3, 2, 5]` corresponds to the following diagram:
+```
+      x
+      x  
+  x   x
+  x x x
+x x x x
+```
+determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six,
+representing the `2 x 3` area at the bottom right.
+
+[Solution](Day634.cpp)
+- - - -
+
 ### Problem 637
 This problem was asked by Snapchat.
 
