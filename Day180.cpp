@@ -16,20 +16,48 @@ Upgrade to premium and get in-depth solutions to every probl
 using namespace std;
 
 void revInterLeave(stack<int>& s){
-	int cnt = s.size();
-	queue<int> temp;
-	for(int i=1;i<cnt;i++){
-		while(s.size()>i){
-			temp.push(s.top());
-			s.pop();
-		}
-		while(!temp.empty()){
-			s.push(temp.front());
-			temp.pop();
-		}
+	int sz = s.size();
+	int mid = (sz+1)/2,i=1;
+	queue<int> q;
+	//next three while loops reverse the first half of stack
+	while(i<=mid){
+		q.push(s.top());
+		s.pop();
+		i++;
+	}
+	while(!q.empty()){
+		s.push(q.front());
+		q.pop();
+	}
+	i = 1;
+	while(i<=mid){
+		q.push(s.top());
+		s.pop();
+		i++;
+	}
+	
+	//merging the reverse first half stored in stack and normal second half stored in stack
+	i = 1;
+	if(sz%2){
+	    q.push(q.front());
+	    q.pop();
+	    mid--;
+	}
+	while(i<=mid){
+		q.push(s.top());
+		q.push(q.front());
+		q.pop();
+		s.pop();
+		i++;
+	}
+	
+	//at last queue stores the interleaved elements in reversed orderd get them in stack to it become normal interleaved as required
+	while(!q.empty()){
+		s.push(q.front());
+		q.pop();
+		
 	}
 }
-
 
 int main() {
 	stack<int> s;
