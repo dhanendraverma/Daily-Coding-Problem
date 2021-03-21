@@ -4484,7 +4484,7 @@ Given the position of all the coins and your current position, find the closest 
 That is, you can move around up, down, left, and right, but not diagonally. If there are multiple possible closest coins, return any of them.
 
 For example, given the following map, where you are x, coins are o, and empty spaces are . (top left is 0, 0):
-`
+```
 ---------------------
 | . | . | x | . | o |
 ---------------------
@@ -4494,7 +4494,7 @@ For example, given the following map, where you are x, coins are o, and empty sp
 ---------------------
 | . | . | o | . | . |
 ---------------------
-`
+```
 return `(0, 4)`, since that coin is closest. This map would be represented in our question as:
 `
 Our position: (0, 2)
@@ -4529,13 +4529,13 @@ Given the head of a singly linked list, reverse it in-place.
 This problem was asked by Amazon.
 
 A tree is symmetric if its data and shape remain unchanged when it is reflected about the root node. The following tree is an example:
-'''
+```
         4
       / | \
     3   5   3
   /           \
 9              9
-'''
+```
 Given a k-ary tree, determine whether it is symmetric.
 [Solution](Day466.cpp)
 - - - -
