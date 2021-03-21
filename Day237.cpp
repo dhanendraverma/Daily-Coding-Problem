@@ -33,8 +33,8 @@ bool isSymmetricTree(Node* node1, Node* node2){
 		return true;
 	if( !node1 || !node2 || (node1->data != node2->data))
 		return false;
-	for(int i=0,j=K-1;i<j;i++,j--){
-		if(!isSymmetricTree(node1->children[i], node2->children[j]))
+	for(int i=0;i<(K+1)/2;i++){
+		if(!isSymmetricTree(node1->children[i], node2->children[K-i-1]))
 			return false;
 	}
 	return true;
