@@ -16,34 +16,38 @@ Given a k-ary tree, determine whether it is symmetric.
 #include <vector>
 using namespace std;
 
+#define K 3
+
 class Node{
 	public:
 		int data;
 		vector<Node*> children;
 		Node(int data){
 			this->data = data;
+			this->children = vector<Node*>(K,NULL);
 		}
 };
 
-bool isSymmetricTree(Node* root1,Node* root2){
-	if(!root1 && !root2)
+bool isSymmetricTree(Node* node1, Node* node2){
+	if(!node1 && !node2)
 		return true;
-	else if(root1->data!=root2->data)
+	if( !node1 || !node2 || (node1->data != node2->data))
 		return false;
-	for(int i=0,j=root2->children.size()-1;i<root1->children.size(),j>=0;i++,j--){
-		if(!isSymmetricTree(root1->children[i],root2->children[j]))
+	for(int i=0,j=K-1;i<j;i++,j--){
+		if(!isSymmetricTree(node1->children[i], node2->children[j]))
 			return false;
 	}
 	return true;
 }
 
+
 int main() {
 	Node* root = new Node(4);
-	root->children.push_back(new Node(3));
-	root->children.push_back(new Node(5));
-	root->children.push_back(new Node(3));
-	root->children[0]->children.push_back(new Node(9));
-	root->children[2]->children.push_back(new Node(9));
+	root->children[0] = new Node(3);
+	root->children[1] = new Node(5);
+	root->children[2] = new Node(3);
+	root->children[0]->children[0] = new Node(9);
+	root->children[2]->children[2] = new Node(9);
 	cout<<isSymmetricTree(root,root);
 	return 0;
 }
