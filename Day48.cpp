@@ -12,63 +12,59 @@ You should return the following tree:
  / \ / \
 d  e f  g
 *****************************************************************************************************************************************/
-#include <bits/stdc++.h> 
-using namespace std; 
 
-class Node 
-{ 
-	public: 
-	char data; 
-	Node* left; 
-	Node* right; 
-}; 
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
 
-Node* newNode(char data) 
-{ 
-	Node* node = new Node(); 
-	node->data = data; 
-	node->left = NULL; 
-	node->right = NULL; 
-	return node; 
-} 
+class Node{
+	public:
+		char val;
+		Node *left, *right;
+		Node(char val){
+			this->val = val;
+			this->left = this->right = NULL;
+		}
+};
 
-int search(vector<char> arr, int strt, int end, char value) 
-{ 
-	for (int i = strt; i <= end; i++) 
-		if (arr[i] == value) 
-			return i; 
-	
+unordered_map<char, int> mp;
+
+void printTree(struct Node* node){
+    if (!node)
+        return;
+    printTree(node->left);
+    cout<<node->val<<" ";
+    printTree(node->right);
 }
 
-Node* buildTree(vector<char> inorder, vector<char> preorder, int inStrt, int inEnd) 
-{ 
-	static int preIndex = 0; 
 
-	if (inStrt > inEnd) 
-		return NULL; 
-	Node* curr_node = newNode(preorder[preIndex++]); 
-	if (inStrt == inEnd) 
-		return curr_node; 
-	int inIndex = search(inorder, inStrt, inEnd, curr_node->data); 
-	curr_node->left = buildTree(inorder, preorder, inStrt, inIndex - 1); 
-	curr_node->right = buildTree(inorder, preorder, inIndex + 1, inEnd); 
-	return curr_node; 
-} 
-
-void printInorder(Node* node) 
-{ 
-	if (node == NULL) 
-		return; 
-	printInorder(node->left); 
-	cout<<node->data<<" "; 
-	printInorder(node->right); 
-} 
+Node* constructTreeRec(vector<char>& pre, vector<char>& In, int start, int end, int& curr_pre){
+	if(start > end)
+		return NULL;
+	char curr = pre[curr_pre++];
+    Node* node = new Node(curr);
+	if(start == end)
+		return node;
+	int curr_in = mp[curr];
+	node->left = constructTreeRec(pre, In, start, curr_in-1, curr_pre);
+	node->right = constructTreeRec(pre, In, curr_in+1, end, curr_pre);
+	return node;
+}
 
 
-int main() 
-{ 
-	vector<char> inorder = { 'D', 'B', 'E', 'A', 'F', 'C' }; 
-	vector<char> preorder = { 'A', 'B', 'D', 'E', 'C', 'F' }; 
-	Node* root = buildTree(inorder, preorder, 0, inorder.size()-1); 
-	printInorder(root); 
-} 
+Node* constructTree(vector<char> pre, vector<char> In){
+	for(int i=0;i<In.size();i++)
+		mp[In[i]] = i;
+	int curr_in = 0;
+	return constructTreeRec(pre,In,0,pre.size()-1,curr_in);
+}
+
+
+int main() {
+	vector<char> preOrder = {'a', 'b', 'd', 'e', 'c', 'f', 'g'};
+	vector<char> inOrder = {'d', 'b', 'e', 'a', 'f', 'c', 'g'};
+	Node* root = constructTree(preOrder,inOrder);
+	printTree(root);
+	return 0;
+}
