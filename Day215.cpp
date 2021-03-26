@@ -33,18 +33,18 @@ class Node{
 	}
 };
 
-void bottomViewRecur(Node* node, int curr, int dist, map<int,pair<int,int>>& mp){
+void bottomViewRecur(Node* node, int curr_level, int dist, map<int,pair<int,int>>& mp){
 	if(!node)
 		return;
-	if(mp.find(dist)==mp.end() || mp[dist].second<=curr)
+	if(mp.find(dist)==mp.end() || mp[dist].second <= curr_level)
 		mp[dist] = {node->data,curr};
-	bottomViewRecur(node->left,curr+1,dist-1,mp);
-	bottomViewRecur(node->right,curr+1,dist+1,mp);
+	bottomViewRecur(node->left, curr_level+1, dist-1, mp);
+	bottomViewRecur(node->right, curr_level+1, dist+1, mp);
 }
 
 map<int,pair<int,int>> getBottomView1(Node* root){
 	map<int,pair<int,int>> mp;
-	bottomViewRecur(root,0,0,mp);
+	bottomViewRecur(root, 0, 0, mp);
 	return mp;
 }
 
