@@ -24,6 +24,33 @@ class Node{
 		}
 };
 
+Node* constructTreeItr(vector<int> postorder){
+	stack<Node*> st;
+	int n = postorder.size()-1;
+	Node* root = new Node(postorder[n]);
+	st.push(root);
+	Node* temp;
+	n--;
+	while(n>=0){
+		temp = NULL;
+		while( !st.empty() && st.top()->val > postorder[n]){
+			temp = st.top();
+			st.pop();
+		}
+		if(temp){
+			temp->left = new Node(postorder[n]);
+			st.push(temp->left);
+		}
+		else{
+			// cout<<'t'<<endl;
+			st.top()->right = new Node(postorder[n]);
+			st.push(st.top()->right);
+		}
+		n--;
+	}
+	return root;
+}
+
 Node* constructTreeRec(vector<int>& postorder, int& postIndex, int key, int min, int max){
 	if(postIndex<0)
 		return NULL;
@@ -56,6 +83,8 @@ void printInorder (Node* node){
 int main() {
 	vector<int> postorder = {1, 7, 5, 50, 40, 10};
 	Node* root = constructTree(postorder);
+	printInorder(root);
+	root = constructTreeItr(postorder);
 	printInorder(root);
 	return 0;
 }
