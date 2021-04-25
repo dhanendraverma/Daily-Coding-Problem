@@ -1,80 +1,39 @@
-/**************************************************************************************************************************************
+/***********************************************************************************************************************************************************
 This problem was asked by Airbnb.
 Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
 For example, given the list ["code", "edoc", "da", "d"], return [(0, 1), (1, 0), (2, 3)].
-***************************************************************************************************************************************/
+***********************************************************************************************************************************************************/
+
 #include <iostream>
 #include <vector>
-#include <set>
 using namespace std;
 
-#define MAX 256
-
-class TrieNode{
-	public:
-	vector<TrieNode*> children;
-	vector<int> pos;
-	int id;
-	bool isLeaf;
-	TrieNode(){
-		this->isLeaf = false;
-		this->children = vector<TrieNode*>(MAX,NULL);
-	}
-};
-
-bool isPalindrome(string str,int start,int end){
-	while(start<end){
-		if(str[start]!=str[end])
+bool isPalindrome(string a){
+	int l = 0, r = a.length()-1;
+	while(l<r){
+		if( a[l] != a[r])
 			return false;
-		start++;
-		end--;
+		l++;
+		r--;
 	}
 	return true;
 }
 
-void search(string word, set<pair<int,int>>& ret, TrieNode* root, int id){
-	for(int i=0;i<word.length();i++){
-		if(root->id>=0 && root->id!=id && isPalindrome(word,i,word.length()-1))
-			ret.insert({id,root->id});
-		if(!root->children[word[i]])
-			return;
-		root = root->children[word[i]];
+vector<pair<int,int>> palindromicPairs(vector<string> lst){
+	vector<pair<int,int>> ans;
+	for(int i=0;i<lst.size();i++){
+		for(int j=i+1;j<lst.size();j++){
+			if(isPalindrome(lst[i]+lst[j]))
+				ans.push_back({i,j});
+		}
 	}
-	for(auto i:root->pos){
-		if(i!=id)
-			ret.insert({id,i});
-	}
-}
-
-
-void insert(TrieNode* root,string word, int id){
-	for(int i=word.length()-1;i>=0;i--){
-		if(!root->children[word[i]])
-			root->children[word[i]] = new TrieNode();
-		if(isPalindrome(word,0,i))
-			(root->pos).push_back(id);
-		root = root->children[word[i]];
-	}
-	root->id = id;
-	(root->pos).push_back(id);
-	root->isLeaf = true;
-}
-
-set<pair<int,int>> findPalinPairs(vector<string> words){
-	TrieNode* root = new TrieNode();
-	for(int i=0;i<words.size();i++)
-		insert(root,words[i],i);
-	set<pair<int,int>> ret;
-	for(int i=0;i<words.size();i++)
-		search(words[i],ret,root,i);
-	return ret;
+	return ans;
 }
 
 int main() {
-	vector<string> words = {"code", "edoc", "da", "d"};
-	set<pair<int,int>> ans = findPalinPairs(words);
-	for(auto i:ans){
-		cout<<i.first<<" "<<i.second<<endl;
-	}
+	vector<string> lst = {"code", "edoc", "da", "d"};
+	vector<pair<int,int>> pairs = palindromicPairs(lst);
+	for(auto p: pairs)
+		cout<<p.first<<" "<<p.second<<endl;
 	return 0;
 }
