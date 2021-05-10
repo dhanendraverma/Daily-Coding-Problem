@@ -10,6 +10,27 @@ return the minimum cost which achieves this goal.
 #include <climits>
 using namespace std;
 
+int minCostRec(vector<vector<int>>& cost, int prev, int row, vector<vector<int>>& dp){
+	if(row >= cost.size())
+		return 0;
+	if(prev != -1 && dp[row][prev] != -1)
+		return dp[row][prev];
+	int curr_min = INT_MAX;
+	for(int color=0; color<cost[0].size(); color++){
+		if(color != prev)
+			curr_min = min(curr_min, cost[row][color] + minCostRec(cost, color, row+1, dp));
+			
+	}
+	if(prev != -1)
+		dp[row][prev] = curr_min;
+	return curr_min;
+}
+
+int minCostDp(vector<vector<int>>& cost){
+	vector<vector<int>> dp(cost.size(),vector<int>(cost[0].size(),-1));
+	return minCostRec(cost,-1,0,dp);
+}
+
 int minCost(vector<vector<int>>& cost){
 	int n =  cost.size(), k = cost[0].size();
 	int prev_color = -1, prev_min = 0, prev_second_min = 0;
@@ -35,13 +56,14 @@ int minCost(vector<vector<int>>& cost){
 
 int main() {
 	vector<vector<int>> cost = {{7, 3, 8, 6, 1, 2},
-								{5, 6, 7, 2, 4, 3},
-								{10, 1, 4, 9, 7, 6}};
+				   {5, 6, 7, 2, 4, 3},
+				   {10, 1, 4, 9, 7, 6}};
 	cout<<minCost(cost)<<endl;
      cost = {{7, 3, 8, 6, 1, 2},
     		{5, 6, 7, 2, 4, 3},
     		{10, 1, 4, 9, 7, 6},
     		{10, 1, 4, 9, 7, 6}};
-     cout<<minCost(cost);
+     cout<<minCost(cost)<<endl;
+     cout<<minCostDp(cost)<<endl;
      return 0;
 }
