@@ -7,8 +7,6 @@ Right, then down
 Down, then right
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 *****************************************************************************************************************************************/
-#include <iostream>
-using namespace std;
 
 #include <iostream>
 #include <vector>
@@ -32,15 +30,6 @@ int countWays(int n, int m){
 	// }
 	return dp[n][m];
 }
-
-int main() {
-	int n = 5;
-	int m = 5;
-	cout<<countWays(n,m)<<endl;
-	return 0;
-}
-
-
 
 long long find_ways(int m,int n){
 	if(m==1 || n==1)
