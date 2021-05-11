@@ -10,6 +10,38 @@ Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 #include <iostream>
 using namespace std;
 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int countWays(int n, int m){
+	vector<vector<int>> dp(n+1, vector<int>(m+1,0));
+	for(int i=0 ;i<=n; i++)
+		dp[i][1] = 1;
+	for(int j=0; j<=m; j++)
+		dp[1][j] = 1;
+	for(int i=2; i<=n; i++){
+		for(int j=2; j<=m; j++)
+			dp[i][j] = dp[i-1][j] + dp[i][j-1];
+	}
+	
+	// for(auto row:dp){
+	// 	for(auto ele:row)
+	// 		cout<<ele<<" ";
+	// 	cout<<endl;
+	// }
+	return dp[n][m];
+}
+
+int main() {
+	int n = 5;
+	int m = 5;
+	cout<<countWays(n,m)<<endl;
+	return 0;
+}
+
+
+
 long long find_ways(int m,int n){
 	if(m==1 || n==1)
 		return 1;
@@ -17,7 +49,8 @@ long long find_ways(int m,int n){
 }
 
 int main() {
-	int m=5,n=5;
-	cout<<find_ways(m,n);
+	int n=5,m=5;
+	cout<<find_ways(n,m)<<endl;
+	cout<<countWays(n,m)<<endl;
 	return 0;
 }
