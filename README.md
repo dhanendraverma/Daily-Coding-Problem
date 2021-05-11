@@ -4528,6 +4528,29 @@ Return `14`.
 [Solution](Day392.cpp)
 - - - -
 
+## Problem 423
+This problem was asked by Microsoft.
+<br>The transitive closure of a graph is a measure of which vertices are reachable from other vertices. It can be represented as a matrix `M`, where `M[i][j] == 1` if there is a path between vertices `i` and `j`, and otherwise `0`.
+<br>For example, suppose we are given the following graph in adjacency list form:
+```
+graph = [
+    [0, 1, 3],
+    [1, 2],
+    [2],
+    [3]
+]
+```
+The transitive closure of this graph would be:
+```
+[1, 1, 1, 1]
+[0, 1, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+```
+Given a graph, find its transitive closure.
+
+[Solution](Day423.cpp)
+- - - -
 
 #### Problem 435
 This problem was asked by Google.
