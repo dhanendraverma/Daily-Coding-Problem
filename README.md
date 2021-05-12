@@ -4738,7 +4738,7 @@ Do this in O(N) time.
 [Solution](Day524.cpp)
 - - - -
 
-#### Problem 65
+#### Problem 525
 This problem was asked by Amazon.
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
 For example, given the following matrix:
@@ -4753,7 +4753,7 @@ You should print out the following:
 1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12
 ```
 
-[Solution](Day65.cpp)
+[Solution](Day525.cpp)
 - - - -
 
 ### Problem 543
