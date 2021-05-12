@@ -4180,11 +4180,13 @@ Given a sentence, most of whose words are contained in the meaning list above, c
 
 ### Problem 352
 This problem was asked by Palantir.
-<br>A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
+
+A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
 * Every white square must be part of an "across" word and a "down" word.
 * No word can be fewer than three letters long.
 * Every white square must be reachable from every other white square.
-<br>The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
+* The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
+
 Write a program to determine whether a given matrix qualifies as a crossword grid.
 
 [Solution](Day352.cpp)
@@ -4689,6 +4691,21 @@ access to an `O(1)` method called `knows(a, b)`, which returns `True` if person 
 Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.
 [Solution](Day486.cpp)
 - - - -
+
+### Problem 499
+This problem was asked by Palantir.
+
+A typical American-style crossword puzzle grid is an `N x N` matrix with black and white squares, which obeys the following rules:
+* Every white square must be part of an "across" word and a "down" word.
+* No word can be fewer than three letters long.
+* Every white square must be reachable from every other white square.
+* The grid is rotationally symmetric (for example, the colors of the top left and bottom right squares must match).
+
+Write a program to determine whether a given matrix qualifies as a crossword grid.
+
+[Solution](Day499.cpp)
+- - - -
+
 
 ### Problem 524
 This problem was asked by Amazon.
