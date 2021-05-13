@@ -4908,6 +4908,26 @@ This problem was asked by Google.
 [Solution](Day650.cpp)
 - - - -
 
+#### Problem 656
+<br>Given a 2-D matrix representing an image, a location of a pixel in the screen and a color C, replace the color of the given pixel and all adjacent same colored pixels with C.
+<br>For example, given the following matrix, and location pixel of `(2, 2)`, and `'G'` for green:
+```
+B B W
+W W W
+W W W
+B B B
+```
+Becomes
+```
+B B G
+G G G
+G G G
+B B B
+```
+
+[Solution](Day656.cpp)
+- - - -
+
 #### Problem 717
 This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while
