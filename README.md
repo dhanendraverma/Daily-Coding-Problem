@@ -4900,6 +4900,14 @@ Given the head to a singly linked list, where each node also has a “random” 
 [Solution](Day648.cpp)
 - - - -
 
+#### Problem 650
+This problem was asked by Google.
+<br>Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
+<br>Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
+
+[Solution](Day650.cpp)
+- - - -
+
 #### Problem 717
 This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while
