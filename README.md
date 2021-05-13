@@ -4928,6 +4928,21 @@ B B B
 [Solution](Day656.cpp)
 - - - -
 
+### Problem 668
+This problem was asked by Google.
+<br>In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+Here is an example:
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+Write a program to determine whether a given input is a Toeplitz matrix.
+
+[Solution](Day668.cpp)
+- - - -
+
 #### Problem 717
 This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while
