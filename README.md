@@ -4807,6 +4807,21 @@ Your function should return 3, since we would need to remove all the columns to 
 [Solution](Day553.cpp)
 - - - -
 
+#### Problem 585
+This question was asked by Google.
+<br>Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+<br>For example, given the following matrix:
+```
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+```
+Return 4.
+
+[Solution](Day585.cpp)
+- - - -
+
 ### Problem 597
 This problem was asked by Netflix.
 
