@@ -4943,6 +4943,20 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 [Solution](Day668.cpp)
 - - - -
 
+### Problem 698
+This problem was asked by Uber.
+<br>You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+<br>For example, suppose the input for a three-by-six grid is the following:
+```
+\    /
+ \  /
+  \/
+```
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+
+[Solution](Day698.cpp)
+- - - -
+
 #### Problem 717
 This problem was asked by Facebook.
 A builder is looking to build a row of N houses that can be of K different colors. He has a goal of minimizing cost while
