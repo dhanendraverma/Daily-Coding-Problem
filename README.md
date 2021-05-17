@@ -3197,7 +3197,8 @@ the example above, the friend groups would be `{0, 1, 2, 5}, {3, 6}, {4}`.
 
 ### Problem 280
 This problem was asked by Pandora.
-<br>Given an undirected graph, determine if it contains a cycle.
+
+Given an undirected graph, determine if it contains a cycle.
 
 [Solution](Day280.cpp)
 - - - -
@@ -4758,6 +4759,14 @@ You should print out the following:
 ```
 
 [Solution](Day525.cpp)
+- - - -
+
+### Problem 539
+This problem was asked by Pandora.
+
+Given an undirected graph, determine if it contains a cycle.
+
+[Solution](Day539.cpp)
 - - - -
 
 #### Problem 542
