@@ -2413,7 +2413,8 @@ This problem was asked by Twitter.
 
 #### Problem 207
 This problem was asked by Dropbox.
-<br>Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+
+Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
 
 [Solution](Day207.cpp)
 - - - -
@@ -4757,6 +4758,14 @@ You should print out the following:
 ```
 
 [Solution](Day525.cpp)
+- - - -
+
+#### Problem 542
+This problem was asked by Dropbox.
+
+Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+
+[Solution](Day542.cpp)
 - - - -
 
 ### Problem 543
