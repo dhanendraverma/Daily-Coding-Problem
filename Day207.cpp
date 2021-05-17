@@ -23,26 +23,26 @@ class Graph{
 		adj[v].push_back(u);
 	}
 	
-	bool DFS(int v,vector<bool>& visited, vector<int>& color){
+	bool DFS(int v, vector<int>& color, clr){
+		color[i] = clr;
 		for(auto i:adj[v]){
-			if(!visited[i]){
-				visited[v] = true;
-				color[i] = !color[v];
-				if(!DFS(i,visited,color))
+			if(color[i] == -1){
+				if(!DFS(i, color, !clr))
 					return false;
 			}
-			else if(color[i]==color[v])
+			else if(color[i] == color[v])
 				return false;
 		}
 		return true;
 	}
 	
 	bool isBipertite(){
-		vector<int> color(V+1,0);
-		vector<bool> visited(V+1,false);
-		if(DFS(1,visited,color))
-			return true;
-		return false;
+		vector<int> color(V+1,-1);
+		for(int i=1; i<=V; i++){
+			if(color[i] == -1 && !DFS(i, color, 0))
+				return false;
+		}
+		return true;
 	}
 };
 
