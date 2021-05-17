@@ -23,14 +23,14 @@ class Graph{
 		adj[v].push_back(u);
 	}
 	
-	bool DFS(int v, vector<int>& color, clr){
-		color[i] = clr;
-		for(auto i:adj[v]){
-			if(color[i] == -1){
-				if(!DFS(i, color, !clr))
+	bool DFS(int u, vector<int>& color, int clr){
+		color[u] = clr;
+		for(auto v:adj[u]){
+			if(color[v] == -1){
+				if(!DFS(v, color, !clr))
 					return false;
 			}
-			else if(color[i] == color[v])
+			else if(color[u] == color[v])
 				return false;
 		}
 		return true;
