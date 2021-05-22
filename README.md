@@ -2673,14 +2673,16 @@ This problem was asked by Apple.
 
 #### Problem 234
 This problem was asked by Microsoft.
-<br>Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
 
 [Solution](Day234.cpp)
 - - - -
 
 #### Problem 235
 This problem was asked by Facebook.
-<br>Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+
+Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
 [Solution](Day235.cpp)
 - - - -
@@ -4986,6 +4988,14 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 minimum cost which achieves this goal.
 
 [Solution](Day717.cpp)
+- - - -
+
+#### Problem 721
+This problem was asked by Microsoft.
+
+Recall that the minimum spanning tree is the subset of edges of a tree that connect all its vertices with the smallest possible total edge weight. Given an undirected graph with weighted edges, compute the maximum weight spanning tree.
+
+[Solution](Day721.cpp)
 - - - -
 
 ### Problem 729
