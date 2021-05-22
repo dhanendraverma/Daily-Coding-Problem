@@ -2982,7 +2982,8 @@ With this encoding, cats would be represented as `0000110111`.
 
 ### Problem 262
 This problem was asked by Mozilla.
-<br>A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
+A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
 
 [Solution](Day262.cpp)
 - - - -
@@ -5006,4 +5007,11 @@ An imminent hurricane threatens the coastal town of Codeville. If at most two pe
 For example, given a population with weights `[100, 200, 150, 80]` and a boat limit of `200`, the smallest number of boats required will be three. 
 
 [Solution](Day732.cpp)
+- - - -
+
+### Problem 743
+This problem was asked by Mozilla.
+<br>A bridge in a connected (undirected) graph is an edge that, if removed, causes the graph to become disconnected. Find all the bridges in a graph.
+
+[Solution](Day743.cpp)
 - - - -
