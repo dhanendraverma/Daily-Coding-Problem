@@ -23,6 +23,58 @@ pipes = {
 #include <climits>
 using namespace std;
 
+class UnionFind{
+	public:
+		map<char, pair<char,int>> subset;
+		UnionFind(map<char, vector<pair<char, int>>> adj_list){
+			for(auto p:adj_list)
+				subset[p.first] = {p.first,0};
+		}
+		
+		char find(char a){
+			if(subset[a].first != a)
+				subset[a].first = find(subset[a].first);
+			return subset[a].first;
+		}
+		
+		void Union(char a, char b){
+			char aparent = find(a);
+			char bparent = find(b);
+			
+			if(subset[aparent].second < subset[bparent].second)
+				subset[aparent].first = bparent;
+			else if(subset[aparent].second > subset[bparent].second)
+				subset[bparent].first = aparent;
+			else{
+				subset[bparent].first = aparent;
+				subset[aparent].second++;
+			}
+		}
+};
+
+
+int lowestCostConfig( map<char, vector<pair<char,int>>> adj_list){
+	vector<pair<int, pair<char,char>>> edges;
+	for(auto edge:adj_list){
+		for(auto child:edge.second)
+			edges.push_back({child.second, {edge.first, child.first}});
+	}
+	sort(edges.begin(), edges.end());
+	UnionFind uf(adj_list);
+	int total = 0;
+	for(int i=0; i<adj_list.size(); i++){
+		char x = uf.find(edges[i].second.first);
+		char y = uf.find(edges[i].second.second);
+		
+		if(x!=y){
+			cout<<edges[i].second.first<<" "<<edges[i].second.second<<" "<<edges[i].first<<endl;
+			uf.Union(x,y);
+			total += edges[i].first;
+		}
+	}
+	return total;
+}
+
 int lowestCostConf(map<char,vector<pair<char,int>>> graph){
     priority_queue<pair<int,char>, vector<pair<int,char>>, greater<pair<int,char>>> pq;
     map<char,int> keys, parent, inMST;
@@ -62,5 +114,6 @@ int main() {
     graph['B'] = {{'C',10}};
     graph['C'] = {};
     cout<<lowestCostConf(graph)<<endl;
-	return 0;
+    cout<<lowestCostConfig(graph)<<endl;
+    return 0;
 }
