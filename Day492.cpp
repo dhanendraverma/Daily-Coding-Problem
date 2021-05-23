@@ -6,44 +6,78 @@ such that no two adjacent vertices share the same color using at most k colors.
 
 #include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
 
-bool canUseClr(vector<vector<int>>& graph, int clr, vector<int>& color, int v){
-	for(int i=0; i<graph.size(); i++){
-		if(graph[v][i] && color[i]==clr)
-			return false;
+bool canColorGraph(vector<vector<int>>& graph, int k){
+	int V = graph.size();
+	vector<bool> visited(V+1, false);
+	vector<int> color(V,1);
+	int max_colors = 0;
+	for(int u=0; u<V; u++){
+		
+		if(visited[u])
+			continue;
+		
+		visited[u] = true;
+		queue<int> q;
+		q.push(u);
+		while(!q.empty()){
+			int v = q.front();
+			q.pop();
+			for(int i=0; i<V; i++){
+				if(graph[v][i] && color[v] == color[i]){
+					color[i]++;
+					max_colors = max(max_colors,max(color[v], color[i]));
+					if(max_colors > k)
+						return false;
+					if(!visited[i]){
+						visited[i] = true;
+						q.push(i);
+					}
+				}
+			}
+		}
+		
 	}
 	return true;
 }
 
-bool colorGraphRec(vector<vector<int>>& graph, int k, vector<int>& color, int v){
-	if(v >= graph.size())
+
+bool isSafe(vector<vector<int>>& graph, int v, vector<int>& color, int c){
+	for(int i=0; i<graph[v].size(); i++)
+		if(graph[v][i] && color[i] == c)
+			return false;
+	return true;
+}
+
+bool colorGraphRec(vector<vector<int>>& graph, int v, vector<int>& color, int k){
+	if(v == graph.size())
 		return true;
-	for(int clr=0; clr<k; clr++){
-		if(canUseClr(graph, clr, color, v)){
-			color[v] = clr;
-			if(colorGraphRec(graph, k, color, v+1))
+	for(int c=1; c<=k; c++){
+		if(isSafe(graph, v, color, c)){
+			color[v] = c;
+			if(colorGraphRec(graph, v+1, color, k))
 				return true;
-			color[v] = -1;
+			color[v] = 0;
 		}
 	}
 	return false;
 }
 
-bool canColoredWithK(vector<vector<int>>& graph, int k){
-	int V = graph.size();
-	vector<int> color(V, -1);
-	if(colorGraphRec(graph, k, color, 0));
-		return true;
-	return false;
+bool isPossibleKcolor(vector<vector<int>>& graph, int k){
+	vector<int> color(graph.size(),0);
+	return colorGraphRec(graph, 0, color, k);
 }
 
+
 int main() {
-	vector<vector<int>> graph = {{0, 1, 1, 1}, 
+	vector<vector<int>> adj_mat = {{0, 1, 1, 1}, 
 						        {1, 0, 1, 0}, 
 						        {1, 1, 0, 1}, 
 						        {1, 0, 1, 0}} ;
-	int k=3;
-	cout<<canColoredWithK(graph, k)<<endl;
+	int k = 3;
+	cout<<isPossibleKcolor(adj_mat, k)<<endl;
+	cout<<canColorGraph(adj_mat, k)<<endl;
 	return 0;
 }
