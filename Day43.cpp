@@ -9,7 +9,9 @@ max(), which returns the maximum value in the stack currently. If there are no e
 return null.
 Each method should run in constant time.
 ***************************************************************************************************************************************/
-#include <bits/stdc++.h>
+#include <iostream>
+#include <stack>
+#include <climits>
 using namespace std;
 
 class Stack{
@@ -62,7 +64,6 @@ class Stack{
 };
 
 int main() {
-	// your code goes here
 	Stack s;
 	s.push(2);
 	s.push(10);
@@ -75,6 +76,5 @@ int main() {
 	cout<<s.pop()<<endl;
 	cout<<s.Max()<<endl;
 	cout<<s.pop()<<endl;
-	
 	return 0;
 }
