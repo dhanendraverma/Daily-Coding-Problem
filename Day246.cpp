@@ -5,89 +5,88 @@ word Y in a circle if the last character of X is same as the first character of 
 For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form the following circle:
 chair --> racket --> touch --> height --> tunic --> chair
 *****************************************************************************************************************************/
-#include<iostream> 
-#include <list> 
-#include <vector>
-using namespace std; 
 
-class Graph 
-{ 
+#include <iostream>
+#include <vector>
+#include <list>
+using namespace std;
+
+class Graph{
 	int V;
-	list<int> *adj;
-	vector<int> in; 
-	public: 
-	Graph(int V){
-		this->V = V; 
-		adj = new list<int>[V]; 
-		in = vector<int>(V,0);
-	} 
-	
-	void addEdge(int u, int v) {
-		adj[u].push_back(v); 
-		in[v]++; 
-	} 
-	bool isEulerianCycle(); 
-	bool isSC(); 
-	void dfs(int v, vector<bool>& visited); 
-	Graph getTranspose(); 
+	list<int> *adj_list;
+	vector<int> in;
+	public:
+		Graph(int V){
+			this->V = V;
+			this->adj_list = new list<int>[V];
+			this->in = vector<int>(V,0);
+		}
+		
+		void addEdge(int u, int v){
+			adj_list[u].push_back(v);
+			in[v]++;
+		}
+		
+		bool isEulerianCycle();
+		bool isSC();
+		void dfs(int u, vector<bool>& visited);
+		Graph getTranspose();
 };
 
-// Eulerian cycle exits if grapg is strongly connected and in degree and out degree of each non-zero vertex should be equal
-bool Graph::isEulerianCycle() 
-{ 
-	if (!isSC()) 
-		return false; 
-	for (int i = 0; i < V; i++) 
-		if (adj[i].size()!=in[i]) 
-			return false; 
-	return true; 
-} 
+Graph Graph::getTranspose(){
+	Graph gr(V);
+	for(int u=0; u<V; u++){
+		for(auto v:adj_list[u]){
+			gr.addEdge(v,u);
+		}
+	}
+	return gr;
+}
 
-void Graph::dfs(int v, vector<bool>& visited) 
-{ 
-	visited[v] = true; 
-	list<int>::iterator i; 
-	for (auto i:adj[v]) 
-		if (!visited[i]) 
-			dfs(i, visited); 
-} 
+void Graph::dfs(int u, vector<bool>& visited){
+	visited[u] = true;
+	for(auto v:adj_list[u]){
+		if(!visited[v])
+			dfs(v, visited);
+	}
+}
 
-Graph Graph::getTranspose() 
-{ 
-	Graph g(V); 
-	for (int v = 0; v < V; v++) 
-	{ 
-		for(auto i:adj[v]) 
-		{ 
-			g.adj[i].push_back(v); 
-			g.in[v]++; 
-		} 
-	} 
-	return g; 
-} 
+bool Graph::isSC(){
+	int u;
+	for(u=0; u<V; u++){
+		if(adj_list[u].size() != 0)
+			break;
+	}
+	
+	vector<bool> visited(V, false);
+	dfs(u, visited);
+	for(int i=0; i<V; i++){
+		if(adj_list[i].size() != 0 && !visited[i])
+			return false;
+	}
+	
+	Graph gr = getTranspose();
+	visited.assign(V, false);
+	gr.dfs(u, visited);
+	
+	for(int i=0; i<V; i++){
+		if(gr.adj_list[i].size() != 0 && !visited[i])
+			return false;
+	}
+	
+	return true;
+}
 
-//graph should be strongly connected for eulerian cycle to exist
-bool Graph::isSC() 
-{ 
-	vector<bool> visited(V,false); 
-	int n; 
-	for (n = 0; n < V; n++) 
-		if(adj[n].size()) 
-			break; 
-	dfs(n, visited); 
-	for (int i = 0; i < V; i++) 
-		if (adj[i].size() > 0 && visited[i] == false) 
-			return false; 
-	Graph gr = getTranspose(); 
-	visited.assign(V,false);
-	gr.dfs(n, visited); 
-	for (int i = 0; i < V; i++) 
-		if (adj[i].size() > 0 && visited[i] == false) 
-			return false; 
-	return true; 
-} 
+bool Graph::isEulerianCycle(){
+	if(!isSC())
+		return false;
+	for(int i=0; i<V; i++){
+		if(adj_list[i].size() != in[i])
+			return false;
+	}
+	return true;
+}
 
-//check if there can be cycle visting each edge once 
 bool canFormCycle(vector<string> words) 
 { 
 	Graph g(26); 
