@@ -32,6 +32,7 @@ class Graph
 	Graph getTranspose(); 
 };
 
+// Eulerian cycle exits if grapg is strongly connected and in degree and out degree of each non-zero vertex should be equal
 bool Graph::isEulerianCycle() 
 { 
 	if (!isSC()) 
@@ -65,6 +66,7 @@ Graph Graph::getTranspose()
 	return g; 
 } 
 
+//graph should be strongly connected for eulerian cycle to exist
 bool Graph::isSC() 
 { 
 	vector<bool> visited(V,false); 
@@ -85,7 +87,7 @@ bool Graph::isSC()
 	return true; 
 } 
 
-
+//check if there can be cycle visting each edge once 
 bool canFormCycle(vector<string> words) 
 { 
 	Graph g(26); 
