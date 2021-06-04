@@ -12,51 +12,68 @@ Given this string, return the original integers in sorted order. In the example 
 #include <algorithm>
 using namespace std;
 
-bool backTrack(map<char,int>& cnt,vector<string>& nums,string& ans){
-    bool done = true;
-    for(auto c:cnt){
-        if(c.second){
-            done = false;
-            break;
-        }
-    }
-    if(done)
-        return true;
-    for(int i=0;i<10;i++){
-        bool valid = true;
-        for(auto c:nums[i]){
-            if(!cnt[c])
-                valid = false;
-        }
-        if(valid){
-            for(auto c:nums[i])
-                cnt[c]--;
-            ans += to_string(i);
-            if(backTrack(cnt,nums,ans))
-                return true;
-            ans.pop_back();
-            for(auto c:nums[i])
-                cnt[c]++;
-        }
-    }
-    return false;
+bool getIntRec(map<char, int>& count, map<int, vector<pair<char,int>>>nums, string& ans){
+	bool done  = true;
+	for(auto char_cnt:count){
+		if(char_cnt.second){
+			done = false;
+			break;
+		}
+	}
+	
+	if(done)
+		return true;
+		
+	for(auto num:nums){
+		
+		bool can_use = true;
+		
+		for(auto ch_cnt:num.second){
+			if(count[ch_cnt.first]<ch_cnt.second){
+				can_use = false;
+				break;
+			}
+		}
+		
+		if(can_use){
+			ans += to_string(num.first);
+			for(auto ch_cnt:num.second)
+				count[ch_cnt.first] -= ch_cnt.second;
+			if(getIntRec(count, nums, ans))
+				return true;
+			ans.pop_back();
+			for(auto ch_cnt:num.second)
+				count[ch_cnt.first] += ch_cnt.second;
+		}
+		
+	}
+	return false;
 }
 
 int anagramToInt(string str){
-    vector<string> nums = {"zero","one","tow","three","four","five", "six", "seven", "eight", "nine"};
-    map<char,int> numCnt;
-    map<char,int> cnt;
+    map<int , vector<pair<char, int>>> nums;
+    nums[0] = {{'z',1}, {'e',1}, {'r',1}, {'o',1}};
+    nums[1] = {{'o',1}, {'n',1}, {'e',1}};
+    nums[2] = {{'t',1}, {'o',1}, {'w',1}};
+    nums[3] = {{'t',1}, {'h',1}, {'r',1}, {'e',2}};
+    nums[4] = {{'f',1}, {'o',1}, {'u',1}, {'r',1}};
+    nums[5] = {{'f',1}, {'i',1}, {'v',1}, {'e',1}};
+    nums[6] = {{'s',1}, {'i',1}, {'x',1}};
+    nums[7] = {{'s',1}, {'e',2}, {'v',1}, {'n',1}};
+    nums[8] = {{'e',1}, {'i',1}, {'g',1}, {'h',1}, {'t',1}};
+    nums[9] = {{'n',2}, {'i',1}, {'e',1}};
+    map<char,int> count;
     for(auto c:str)
-        cnt[c]++;
+        count[c]++;
     string ans = "";
-    if(backTrack(cnt,nums,ans));
-        sort(ans.begin(),ans.end());
+    if(getIntRec(count, nums, ans));
+        sort(ans.begin(), ans.end());
         return stoi(ans);
     return -1;
 }
 
 int main() {
-    string str = "niesevehrtfeev";
+	string str = "niesevehrtfeev";
     cout<<anagramToInt(str)<<endl;
 	return 0;
 }
