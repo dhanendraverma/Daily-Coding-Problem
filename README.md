@@ -628,7 +628,7 @@ also remove the least recently used item.
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 
-[Solution](Day52.py)
+[Solution](Day52.cpp)
 - - - -
 
 #### Problem 53
@@ -4987,6 +4987,18 @@ Here is an example:
 Write a program to determine whether a given input is a Toeplitz matrix.
 
 [Solution](Day668.cpp)
+- - - -
+
+#### Problem 697
+This problem was asked by Google.
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the
+following methods:
+set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should
+also remove the least recently used item.
+get(key): gets the value at key. If no such key exists, return null.
+Each operation should run in O(1) time.
+
+[Solution](Day697.cpp)
 - - - -
 
 ### Problem 698
