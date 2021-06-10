@@ -23,4 +23,4 @@ int main(){
     int x = 156; 
     cout<<snoob(x); 
     return 0; 
-} 
+}
