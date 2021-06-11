@@ -10,9 +10,9 @@ number k. For example, given [20, 303, 3, 4, 25] and k = 49, return true as 20 +
 using namespace std;
 
 bool TripletsWithSum(vector<int>& arr,int k){
-    unordered_set<int> mp;
     for(int i=0;i<arr.size()-2;i++){
         int twoSum = k - arr[i];
+	unordered_set<int> mp;
         for(int j=i+1;j<arr.size();j++){
             if(mp.find(twoSum-arr[j]) != mp.end())
                 return true;
