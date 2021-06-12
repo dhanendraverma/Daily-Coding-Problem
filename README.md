@@ -1820,14 +1820,16 @@ You can generate random numbers between 0 and 1 uniformly.
 
 #### Problem 153
 Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
-<br>For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
 [Solution](Day153.cpp)
 - - - -
 
 #### Problem 154
 This problem was asked by Amazon.
-<br>Implement a stack API using only a heap. A stack implements the following methods:
+
+Implement a stack API using only a heap. A stack implements the following methods:
 * `push(item)`, which adds an element to the stack
 * `pop()`, which removes and returns the most recently added element (or throws an error if there is nothing on the stack)
 Recall that a heap has the following operations:
@@ -5097,4 +5099,12 @@ Using a function rand5() that returns an integer from 1 to 5 (inclusive) with un
 1 to 7 (inclusive).
 
 [Solution](Day761.cpp)
+- - - -
+
+#### Problem 762
+Find an efficient algorithm to find the smallest distance (measured in number of words) between any two given words in a string.
+
+For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
+
+[Solution](Day762.cpp)
 - - - -
