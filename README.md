@@ -5090,3 +5090,11 @@ For example, given "2542540123", you should return `['254.25.40.123', '254.254.0
 [Solution](Day759.cpp)
 - - - -
 
+#### Problem 761
+This problem was asked by Two Sigma.
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 
+1 to 7 (inclusive).
+
+[Solution](Day761.cpp)
+- - - -
