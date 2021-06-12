@@ -5,36 +5,34 @@ there's only one word "cat" in between the two words.
 ***************************************************************************************************************************************/
 
 #include <iostream>
+#include <climits>
 #include <sstream>
 
 using namespace std;
 
-int countDist(string text, string start, string end){
-	int count = 0, mn_cnt=text.length();
-	bool flag = false;
-	stringstream ss(text);
-	string word;
-	while(ss>>word){
-		if(word==start){
-			flag = true;
-			count = 0;
-		}
-		else if(word==end){
-			mn_cnt = min(mn_cnt,count);
-			count=0;
-			flag = false;
-		}
-		else if(flag){
-			count++;
-		}
-	}
-	return mn_cnt;
+int smallestDist(string str, string word1, string word2){
+  int curr_dist = 0, min_dist = INT_MAX;
+  stringstream ss(str);
+  string curr_word, last_word = "";
+  while(ss>>curr_word){
+    if((curr_word == word1 && last_word == word2) || (curr_word == word2 && last_word == word1)){
+      min_dist = min(min_dist, curr_dist);
+      last_word = curr_word;
+      curr_dist = 0;
+    }
+    else if(curr_word==word1 || curr_word==word2){
+      last_word = curr_word;
+      curr_dist = 0;
+    }
+    else
+      curr_dist++;
+  }
+  return min_dist;
 }
 
 int main() {
-	string str = "dog cat hello cat dog dog hello cat world";
+  string str = "dog cat hello cat dog dog hello aadn cat world namo world hello";
 	string word1 = "hello";
 	string word2 = "world";
-	cout<<countDist(str,word1,word2)<<endl;
-	return 0;
+	cout<<smallestDist(str,word1,word2)<<endl;
 }
