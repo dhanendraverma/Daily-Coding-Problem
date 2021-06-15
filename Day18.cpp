@@ -9,31 +9,39 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 You can simply print them out as you compute them.
 ******************************************************************************************************************************************/
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <deque>
 
 using namespace std;
 
-void printMaxk(vector<int> A, int n, int k) {
-    int maxk = INT_MIN;
-    int i = 0;
-    while(i<n) {
-        while(i<k) {
-            maxk = max(maxk,A[i]);
-            i++;
-        }
-        cout<<maxk<<" ";
-        maxk = max(maxk,A[i]);
-        i++;
+vector<int> maxOfEachKSubArr(vector<int>& arr, int k){
+  deque<int> dq;
+  vector<int> ans;
+  int i = 0;
+  while(i<arr.size()){
+    while(!dq.empty() && dq.back()<arr[i])
+      dq.pop_back();
+    dq.push_back(arr[i]);
+    if(i>=k){
+      while(!dq.empty() && dq.front()==arr[i-k])
+        dq.pop_front();
     }
-    cout<<maxk<<endl;
+    if(i>=k-1)
+      ans.push_back(dq.front());
+    i++;
+  }
+  return ans;
 }
 
-int main()
-{
-    int n,k;
-    cin>>n>>k;
-    vector<int> A(n,0);
-    for(int i=0; i<n; i++)
+
+int main() {
+  vector<int> arr  = {10, 5, 2, 7, 8, 7};
+  int k = 3;
+  vector<int> maxKArr = maxOfEachKSubArr(arr, k);
+  for(auto mx:maxKArr)
+    cout<<mx<<" ";
+}++)
         cin>>A[i];
     printMaxk(A,n,k);
     return 0;
