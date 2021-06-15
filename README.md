@@ -2620,7 +2620,9 @@ This problem was asked by Facebook.
 
 #### Problem 228
 This problem was asked by Twitter.
-<br>Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, you should return `77641510`.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, 
+you should return `77641510`.
 
 [Solution](Day228.cpp)
 - - - -
@@ -5107,4 +5109,13 @@ Find an efficient algorithm to find the smallest distance (measured in number of
 For example, given words "hello", and "world" and a text content of "dog cat hello cat dog dog hello cat world", return 1 because there's only one word "cat" in between the two words.
 
 [Solution](Day762.cpp)
+- - - -
+
+#### Problem 764
+This problem was asked by Twitter.
+
+Given a list of numbers, create an algorithm that arranges them in order to form the largest possible integer. For example, given `[10, 7, 76, 415]`, 
+you should return `77641510`.
+
+[Solution](Day764.cpp)
 - - - -
