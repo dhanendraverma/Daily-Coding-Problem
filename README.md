@@ -2615,7 +2615,9 @@ This problem was asked by Airbnb.
 
 #### Problem 227
 This problem was asked by Facebook.
-<br>Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters
+in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
 [Solution](Day227.cpp)
 - - - -
@@ -5180,4 +5182,13 @@ This problem was asked by Facebook.
 Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
 
 [Solution](Day768.cpp)
+- - - -
+
+#### Problem 772
+This problem was asked by Facebook.
+
+Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as many words as possible that can be formed by a sequence of adjacent letters
+in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
+
+[Solution](Day772.cpp)
 - - - -
