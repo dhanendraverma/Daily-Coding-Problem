@@ -522,6 +522,7 @@ Each method should run in constant time.
 
 #### Problem 44
 This problem was asked by Google.
+
 We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j]
 form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
 Given an array, count the number of inversions it has. Do this faster than O(N^2) time.You may assume each element in the array is distinct.
@@ -1719,10 +1720,12 @@ Ordering within a part can be arbitrary.
 
 #### Problem 144
 This problem was asked by Google.
-<br>Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
-<br>For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
+
+Given an array of numbers and an index `i`, return the index of the nearest larger number of the number at index `i`, where distance is measured in array indices.
+
+For example, given `[4, 1, 3, 5, 6]` and index `0`, you should return `3`.
 If two distances to larger numbers are equal, then return any one of them. If the array at `i` doesn't have a nearest larger integer, then return `null`.
-<br>Follow-up: If you can preprocess the array, can you do this in constant time?
+Follow-up: If you can preprocess the array, can you do this in constant time?
 
 [Solution](Day144.cpp)
 - - - -
@@ -5202,4 +5205,16 @@ Boggle is a game played on a `4 x 4` grid of letters. The goal is to find as man
 in the grid, using each cell at most once. Given a game board and a dictionary of valid words, implement a Boggle solver.
 
 [Solution](Day772.cpp)
+- - - -
+
+#### Problem 773
+This problem was asked by Google.
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j]
+form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.You may assume each element in the array is distinct.
+For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3).
+The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+[Solution](Day773.cpp)
 - - - -
