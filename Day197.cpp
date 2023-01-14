@@ -8,10 +8,10 @@ Given an array and a number k that's smaller than the length of the array, rotat
 using namespace std;
 
 void rotateKright(vector<int>& arr, int k){
-	int n=arr.size()-1;
-	reverse(arr.begin()+k,arr.end());
-	reverse(arr.begin(),arr.begin()+k);
-	reverse(arr.begin(),arr.end());
+        int n = arr.size();
+        reverse(arr.begin(), arr.begin()+(n-k));
+        reverse(arr.begin(), arr.end());
+        reverse(arr.begin(), arr.begin()+k);
 }
 
 
